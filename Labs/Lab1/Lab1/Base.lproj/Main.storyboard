@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tyrant Flycatchers!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDA-kS-UWh">
+                                <rect key="frame" x="606" y="28" width="154" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2An-sR-KmP">
+                                <rect key="frame" x="1232" y="57" width="114" height="30"/>
+                                <state key="normal" title="Eastern Kingbird"/>
+                                <connections>
+                                    <action selector="WesternButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YW8-N7-lex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNQ-Ne-FTt">
+                                <rect key="frame" x="20" y="57" width="119" height="30"/>
+                                <state key="normal" title="Western Kingbird"/>
+                                <connections>
+                                    <action selector="WesternButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k6w-im-ZhC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TyrantFlycatcher" translatesAutoresizingMaskIntoConstraints="NO" id="JQS-KA-N8n">
+                                <rect key="frame" x="583" y="95" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="bGq-C0-m73"/>
+                                    <constraint firstAttribute="height" constant="200" id="jGI-ba-S77"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="empidonax flavescens" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TH1-FH-Aro">
+                                <rect key="frame" x="620" y="303" width="126" height="15"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos from Wikimedia Commons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXm-Xl-YZU">
+                                <rect key="frame" x="553" y="995" width="260" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="HIk-BS-N6o"/>
+                                    <constraint firstAttribute="height" constant="21" id="HXx-Za-4ye"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TH1-FH-Aro" firstAttribute="top" secondItem="JQS-KA-N8n" secondAttribute="bottom" constant="8" id="5Dl-32-dzH"/>
+                            <constraint firstItem="CXm-Xl-YZU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9wz-py-Jpb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CXm-Xl-YZU" secondAttribute="bottom" constant="8" id="EdK-D9-vhK"/>
+                            <constraint firstItem="TH1-FH-Aro" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LpA-0M-qhM"/>
+                            <constraint firstItem="2An-sR-KmP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="V1k-Oj-lnz"/>
+                            <constraint firstItem="2An-sR-KmP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="Yi7-zV-tNy"/>
+                            <constraint firstItem="JQS-KA-N8n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c6T-8E-5rY"/>
+                            <constraint firstItem="mNQ-Ne-FTt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="fPj-NF-Fd4"/>
+                            <constraint firstItem="mNQ-Ne-FTt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gKn-WY-Phv"/>
+                            <constraint firstItem="JQS-KA-N8n" firstAttribute="top" secondItem="mNQ-Ne-FTt" secondAttribute="bottom" constant="8" id="h7u-pU-flr"/>
+                            <constraint firstItem="EDA-kS-UWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hTQ-sZ-YVD"/>
+                            <constraint firstItem="EDA-kS-UWh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ul6-LO-HlO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BinomialName" destination="TH1-FH-Aro" id="Fd1-Ud-G62"/>
+                        <outlet property="BirdPhoto" destination="JQS-KA-N8n" id="bM6-cV-sJC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="136.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TyrantFlycatcher" width="1251" height="1188"/>
+    </resources>
+</document>

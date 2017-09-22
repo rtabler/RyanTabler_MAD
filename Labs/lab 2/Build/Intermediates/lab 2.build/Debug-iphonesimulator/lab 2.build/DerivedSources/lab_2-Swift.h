@@ -155,6 +155,7 @@ SWIFT_CLASS("_TtC5lab_211AppDelegate")
 @class UIImageView;
 @class UILabel;
 @class UISlider;
+@class UISwitch;
 @class NSLayoutConstraint;
 @class UISegmentedControl;
 @class NSBundle;
@@ -165,12 +166,14 @@ SWIFT_CLASS("_TtC5lab_214ViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified BirbImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified BirbCaptionLabel;
 @property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified BirbSizeSliderOutlet;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified CapsSwitch;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified BirbHeightConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified BirbLeadingConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified BirbTrailingConstraint;
 - (void)resizeBirb;
 - (IBAction)BirbBarButton:(UISegmentedControl * _Nonnull)sender;
 - (IBAction)BirbSizeSlider:(UISlider * _Nonnull)sender;
+- (IBAction)Capsify:(UISwitch * _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;

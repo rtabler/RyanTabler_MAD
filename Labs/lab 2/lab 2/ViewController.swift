@@ -14,6 +14,7 @@ class ViewController: UIViewController {
    @IBOutlet weak var BirbCaptionLabel: UILabel!
    var originalImageRect : CGRect? = nil
    @IBOutlet weak var BirbSizeSliderOutlet: UISlider!
+   @IBOutlet weak var CapsSwitch: UISwitch!
    
    @IBOutlet weak var BirbHeightConstraint: NSLayoutConstraint!
    @IBOutlet weak var BirbLeadingConstraint: NSLayoutConstraint!
@@ -56,6 +57,9 @@ class ViewController: UIViewController {
          caption = "a mysterious bird"
       }
       filename += ".png"
+      if CapsSwitch.isOn {
+         caption = caption.uppercased()
+      }
 //      print(filename)
 
       BirbImage.image = UIImage(named: filename)
@@ -66,6 +70,19 @@ class ViewController: UIViewController {
    @IBAction func BirbSizeSlider(_ sender: UISlider) {
       resizeBirb()
    }
+   
+   @IBAction func Capsify(_ sender: UISwitch) {
+      if sender.isOn {
+         BirbCaptionLabel.text = BirbCaptionLabel.text?.uppercased()
+         BirbCaptionLabel.textColor = UIColor(red: 1.0, green: 0.0, blue: 0.5, alpha: 1.0)
+         BirbCaptionLabel.font = UIFont(name: BirbCaptionLabel.font.fontName, size: 18.0)
+      } else {
+         BirbCaptionLabel.text = BirbCaptionLabel.text?.lowercased()
+         BirbCaptionLabel.textColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
+         BirbCaptionLabel.font = UIFont(name: BirbCaptionLabel.font.fontName, size: 16.0)
+      }
+   }
+   
 
    override func viewDidLoad() {
       super.viewDidLoad()

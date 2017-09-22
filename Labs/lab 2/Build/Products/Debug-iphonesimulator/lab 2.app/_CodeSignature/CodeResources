@@ -4,13 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		QsC6f44BSb+iJ8ag7UOU9cPodL0=
+		</data>
+		<key>AppIcon60x60@2x~car.png</key>
+		<data>
+		QsC6f44BSb+iJ8ag7UOU9cPodL0=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		/boqef9g3EUPjdIxM7U6BARLk9Y=
+		</data>
+		<key>AppIcon60x60@3x~car.png</key>
+		<data>
+		/boqef9g3EUPjdIxM7U6BARLk9Y=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		8BGlftCxLpdCTDkWAJeD5/c0cCk=
+		cKMV7+xiGvEJtw4Bpu68hXWAE6E=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		amZ85RvaYqZIU8gGmvyESDtWiHs=
+		93HR3FmyJmI1vX4jIn4ii1CN3Ow=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +34,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		1xAGMg3QIJ89RHQmo0Ja5FqxTf8=
+		w/lIaP53xWgzJYaIj0Yz1Yu3RIs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		nNiW777RpD1aW68u9RJPFuJkcPo=
+		xS6TgXncus7RB/IlFZNlJacjBWk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,7 +46,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		XvgmVfts9J0l+O1JMkWAMZScliQ=
+		quAYKeRjGeu7pIow/uIe5Zh+1qM=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -74,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Wumk4dyTJqdNS64RQnNbOREMh9U=
+		yO/oQKrIoUawL58xl9alAhVDN34=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -87,26 +103,70 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QsC6f44BSb+iJ8ag7UOU9cPodL0=
+			</data>
+			<key>hash2</key>
+			<data>
+			yb6T5s98E1Zu4oJleX8mWuSPz2J9rv+8vqzbYK0tgzw=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x~car.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QsC6f44BSb+iJ8ag7UOU9cPodL0=
+			</data>
+			<key>hash2</key>
+			<data>
+			yb6T5s98E1Zu4oJleX8mWuSPz2J9rv+8vqzbYK0tgzw=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/boqef9g3EUPjdIxM7U6BARLk9Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			66Gui+gQVZf19oyxEeZnm3Q8Zcc9V8isjGqOKmvGhT0=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x~car.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/boqef9g3EUPjdIxM7U6BARLk9Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			66Gui+gQVZf19oyxEeZnm3Q8Zcc9V8isjGqOKmvGhT0=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8BGlftCxLpdCTDkWAJeD5/c0cCk=
+			cKMV7+xiGvEJtw4Bpu68hXWAE6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			I2dLPa2UKsj0oBU9PjsxBeRAj6Mr97ngzOvZ2ID4C7A=
+			7Wy4W5xYPM8pwsWq9IAZ7GtdGm8xDiB36PCYmdGiXkY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			amZ85RvaYqZIU8gGmvyESDtWiHs=
+			93HR3FmyJmI1vX4jIn4ii1CN3Ow=
 			</data>
 			<key>hash2</key>
 			<data>
-			GiU0PDwbkKdWrh81RrHDkHgzLGP0ZM3J9hmjla2JAbg=
+			TnZKzGmBCg/+SGzuDNn8JtjopDwrL2J76uTeNuW36Kk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -124,22 +184,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1xAGMg3QIJ89RHQmo0Ja5FqxTf8=
+			w/lIaP53xWgzJYaIj0Yz1Yu3RIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMf1k7JbSh2tnQ4wNKDeeOu0R42x/zbI06XGQ2O7zCw=
+			DBLiqhBxAmv/SnR0wtGuwzlceKYlWMbsLL39ML8rQmg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nNiW777RpD1aW68u9RJPFuJkcPo=
+			xS6TgXncus7RB/IlFZNlJacjBWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			xFh9W9kpeRG8FwrXZM1T6FWwMbUSsFY1cl9Uxn4s7EQ=
+			QYXdvvBBKrDU7UrE4Huq6tLYT+Dv4IJ4xaEE86jy09o=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -157,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XvgmVfts9J0l+O1JMkWAMZScliQ=
+			quAYKeRjGeu7pIow/uIe5Zh+1qM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xwsE5o/cnMdutPOyllJ8dtz9/4j7hN4X2gN7sKih7Pc=
+			xFx/GI6ZaEBsf7diVfSECy+Kkz5OoYtFqdqfMQjR0AA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

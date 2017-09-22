@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,78 +18,102 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRD PSA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAz-Gi-3H5">
-                                <rect key="frame" x="123" y="28" width="74" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="QEo-LB-71i">
-                                <rect key="frame" x="24" y="57" width="272" height="29"/>
-                                <segments>
-                                    <segment title="barb"/>
-                                    <segment title="berb"/>
-                                    <segment title="birb"/>
-                                    <segment title="borb"/>
-                                    <segment title="burb"/>
-                                    <segment title="byrb"/>
-                                </segments>
-                                <connections>
-                                    <action selector="BirbBarButton:" destination="BYZ-38-t0r" eventType="valueChanged" id="rZT-jU-wwF"/>
-                                </connections>
-                            </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="applies to any bird" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GME-6L-ALv">
-                                <rect key="frame" x="90" y="93" width="140" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="birb" translatesAutoresizingMaskIntoConstraints="NO" id="P0J-LZ-TiX">
-                                <rect key="frame" x="0.0" y="122" width="320" height="333"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AO2-LK-uqM">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCX-Um-ncd">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="404"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRD PSA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAz-Gi-3H5">
+                                                <rect key="frame" x="123" y="8" width="74" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="applies to any bird" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GME-6L-ALv">
+                                                <rect key="frame" x="90" y="73" width="140" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="QEo-LB-71i">
+                                                <rect key="frame" x="8" y="37" width="304" height="29"/>
+                                                <segments>
+                                                    <segment title="barb"/>
+                                                    <segment title="berb"/>
+                                                    <segment title="birb"/>
+                                                    <segment title="borb"/>
+                                                    <segment title="burb"/>
+                                                    <segment title="byrb"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="BirbBarButton:" destination="BYZ-38-t0r" eventType="valueChanged" id="rZT-jU-wwF"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5my-PE-h5D">
+                                                <rect key="frame" x="6" y="366" width="308" height="31"/>
+                                                <connections>
+                                                    <action selector="BirbSizeSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="v0v-EW-4hz"/>
+                                                </connections>
+                                            </slider>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="birb" translatesAutoresizingMaskIntoConstraints="NO" id="yQz-3M-935">
+                                                <rect key="frame" x="0.0" y="102" width="320" height="256"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="256" id="sNZ-zN-FXN"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="5my-PE-h5D" secondAttribute="trailing" constant="8" id="1k0-sc-GzW"/>
+                                            <constraint firstItem="QEo-LB-71i" firstAttribute="top" secondItem="yAz-Gi-3H5" secondAttribute="bottom" constant="8" id="2rm-pJ-1La"/>
+                                            <constraint firstItem="5my-PE-h5D" firstAttribute="leading" secondItem="rCX-Um-ncd" secondAttribute="leading" constant="8" id="4eU-qy-J3i"/>
+                                            <constraint firstAttribute="trailing" secondItem="QEo-LB-71i" secondAttribute="trailing" constant="8" id="4sS-Rw-SR6"/>
+                                            <constraint firstItem="yAz-Gi-3H5" firstAttribute="top" secondItem="rCX-Um-ncd" secondAttribute="top" constant="8" id="8i8-7C-2BT"/>
+                                            <constraint firstItem="yQz-3M-935" firstAttribute="leading" secondItem="rCX-Um-ncd" secondAttribute="leading" id="AI1-1I-1nK"/>
+                                            <constraint firstItem="yQz-3M-935" firstAttribute="top" secondItem="GME-6L-ALv" secondAttribute="bottom" constant="8" id="DF8-ov-FKG"/>
+                                            <constraint firstItem="GME-6L-ALv" firstAttribute="top" secondItem="QEo-LB-71i" secondAttribute="bottom" constant="8" id="EkJ-PJ-0TV"/>
+                                            <constraint firstAttribute="bottom" secondItem="5my-PE-h5D" secondAttribute="bottom" constant="8" id="Jkf-aV-JNU"/>
+                                            <constraint firstItem="yAz-Gi-3H5" firstAttribute="centerX" secondItem="rCX-Um-ncd" secondAttribute="centerX" id="L9w-8X-TYY"/>
+                                            <constraint firstItem="5my-PE-h5D" firstAttribute="top" secondItem="yQz-3M-935" secondAttribute="bottom" constant="8" id="PoM-V6-F42"/>
+                                            <constraint firstAttribute="trailing" secondItem="yQz-3M-935" secondAttribute="trailing" id="UBL-yC-n80"/>
+                                            <constraint firstItem="QEo-LB-71i" firstAttribute="leading" secondItem="rCX-Um-ncd" secondAttribute="leading" constant="8" id="cpw-xo-HNd"/>
+                                            <constraint firstItem="GME-6L-ALv" firstAttribute="centerX" secondItem="rCX-Um-ncd" secondAttribute="centerX" id="rpB-ZY-zNn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="333" id="e1A-yf-Gkk"/>
+                                    <constraint firstAttribute="bottom" secondItem="rCX-Um-ncd" secondAttribute="bottom" id="Njz-is-7W5"/>
+                                    <constraint firstAttribute="trailing" secondItem="rCX-Um-ncd" secondAttribute="trailing" id="i78-20-Ds3"/>
+                                    <constraint firstItem="rCX-Um-ncd" firstAttribute="leading" secondItem="AO2-LK-uqM" secondAttribute="leading" id="iCQ-o4-Oe7"/>
+                                    <constraint firstItem="rCX-Um-ncd" firstAttribute="width" secondItem="AO2-LK-uqM" secondAttribute="width" id="pD3-gK-ebu"/>
+                                    <constraint firstItem="rCX-Um-ncd" firstAttribute="top" secondItem="AO2-LK-uqM" secondAttribute="top" id="tfj-xR-n1B"/>
                                 </constraints>
-                            </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5my-PE-h5D">
-                                <rect key="frame" x="14" y="463" width="292" height="31"/>
-                                <connections>
-                                    <action selector="BirbSizeSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="v0v-EW-4hz"/>
-                                </connections>
-                            </slider>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yAz-Gi-3H5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5A5-yt-qXr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="QEo-LB-71i" secondAttribute="trailing" constant="8" id="8EY-TM-Erx"/>
-                            <constraint firstItem="QEo-LB-71i" firstAttribute="top" secondItem="yAz-Gi-3H5" secondAttribute="bottom" constant="8" id="Bk2-MX-fm3"/>
-                            <constraint firstItem="QEo-LB-71i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gmy-61-jdg"/>
-                            <constraint firstAttribute="trailing" secondItem="P0J-LZ-TiX" secondAttribute="trailing" id="Lje-Uo-dL2"/>
-                            <constraint firstItem="P0J-LZ-TiX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Se7-la-Vbh"/>
-                            <constraint firstItem="GME-6L-ALv" firstAttribute="top" secondItem="QEo-LB-71i" secondAttribute="bottom" constant="8" id="eDe-pn-IIV"/>
-                            <constraint firstItem="P0J-LZ-TiX" firstAttribute="top" secondItem="GME-6L-ALv" secondAttribute="bottom" constant="8" id="err-4N-5Nw"/>
-                            <constraint firstItem="5my-PE-h5D" firstAttribute="top" secondItem="P0J-LZ-TiX" secondAttribute="bottom" constant="8" id="f6l-0y-Dxh"/>
-                            <constraint firstItem="5my-PE-h5D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fhH-aA-RYY"/>
-                            <constraint firstItem="yAz-Gi-3H5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="g6y-yH-ev5"/>
-                            <constraint firstItem="GME-6L-ALv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lSt-bM-T6U"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5my-PE-h5D" secondAttribute="trailing" id="ypH-yK-Pn1"/>
-                            <constraint firstItem="QEo-LB-71i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="zWW-Nd-lFQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AO2-LK-uqM" secondAttribute="bottom" id="3Ae-rn-978"/>
+                            <constraint firstAttribute="trailing" secondItem="AO2-LK-uqM" secondAttribute="trailing" id="8mB-kf-k9F"/>
+                            <constraint firstItem="AO2-LK-uqM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="a3N-Xd-hwR"/>
+                            <constraint firstItem="AO2-LK-uqM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="x3f-bE-196"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="BirbCaptionLabel" destination="GME-6L-ALv" id="mhE-0f-mrE"/>
-                        <outlet property="BirbHeightConstraint" destination="e1A-yf-Gkk" id="NzB-1m-R75"/>
-                        <outlet property="BirbImage" destination="P0J-LZ-TiX" id="yqL-RY-S7g"/>
-                        <outlet property="BirbLeadingConstraint" destination="Se7-la-Vbh" id="g1a-8c-Wmj"/>
+                        <outlet property="BirbHeightConstraint" destination="sNZ-zN-FXN" id="AJL-J8-0zg"/>
+                        <outlet property="BirbImage" destination="yQz-3M-935" id="CRJ-R1-V4A"/>
+                        <outlet property="BirbLeadingConstraint" destination="AI1-1I-1nK" id="iH2-as-fO4"/>
                         <outlet property="BirbSizeSliderOutlet" destination="5my-PE-h5D" id="FYn-mF-QhT"/>
-                        <outlet property="BirbTrailingConstraint" destination="Lje-Uo-dL2" id="Yg8-w5-t4I"/>
+                        <outlet property="BirbTrailingConstraint" destination="UBL-yC-n80" id="ECL-QX-zpd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="134.48275862068968"/>
+            <point key="canvasLocation" x="131.25" y="133.75"/>
         </scene>
     </scenes>
     <resources>

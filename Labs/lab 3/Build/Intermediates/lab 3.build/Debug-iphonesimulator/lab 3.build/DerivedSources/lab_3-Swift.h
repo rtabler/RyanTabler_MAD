@@ -154,6 +154,7 @@ SWIFT_CLASS("_TtC5lab_311AppDelegate")
 
 @class UITextField;
 @class UILabel;
+@class UITapGestureRecognizer;
 @class NSBundle;
 @class NSCoder;
 
@@ -164,11 +165,12 @@ SWIFT_CLASS("_TtC5lab_314ViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified text_outlet_c;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified x1_label;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified x2_label;
+- (IBAction)textFieldDidEndEditing:(UITextField * _Nonnull)sender;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 - (void)recalculate;
-- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)onTapGestureRecognized:(UITapGestureRecognizer * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

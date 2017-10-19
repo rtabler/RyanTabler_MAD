@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					9B8D32691F95B121001893C8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9VN7FCURZX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VN7FCURZX;
 				INFOPLIST_FILE = project1take2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ryantabler.project1take2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VN7FCURZX;
 				INFOPLIST_FILE = project1take2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ryantabler.project1take2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +308,7 @@
 				9B8D327E1F95B121001893C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,9 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<data>
+		lfadowwUr7vCaiVtzHazOXALG8E=
+		</data>
+		<key>AppIcon20x20@3x.png</key>
+		<data>
+		wahzCnR5iy31QZdJ0WATLXU29xI=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		l01nrCTqXw5PbscYSgzQcYhb+4g=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		domSBzgBlwFiVydJtJXQmI4hmJg=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		SpqC1Z9lbWECNKVheDFjfICdiSA=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		Krn54zZF7M+5MDH/IbkrYlJGsug=
+		i7ZZ5KCwLwwDFctPGzkbueYcXTE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +34,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		P+codVgNgt1KoQkCJ4p/UcBwiss=
+		NeR6vpwd7IIcVgNZTGqe19lI97E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		GiaeBOTiJg8WID7vC1MQvCa0/K0=
+		f2aTIiQBvugRA0PZ6cN1WVomYG4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +46,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		7QvlrP8Yu9C0xHgPAvVG/T8TqqI=
+		kBAAHWujRE5xwEFLII9O1pjoQpk=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -70,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hHymVw8GCwhgjYlbUteTy7Eh6rI=
+		1GC8WQsuEWG9OYOvgFoMl0lXfY0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -83,15 +103,70 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon20x20@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lfadowwUr7vCaiVtzHazOXALG8E=
+			</data>
+			<key>hash2</key>
+			<data>
+			vYvibxm8GEA3n2GwnuI6YSBz18Gaid0PXxSlogVADMI=
+			</data>
+		</dict>
+		<key>AppIcon20x20@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wahzCnR5iy31QZdJ0WATLXU29xI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cKx8vIfm0hpqLLoXws6h+2I60mvfIXHNgXju1MtP/bI=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l01nrCTqXw5PbscYSgzQcYhb+4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			TeuSy2UDYZ9l6dekTobK7SAQqJ8k9EFrnAiqRCKNIeI=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			domSBzgBlwFiVydJtJXQmI4hmJg=
+			</data>
+			<key>hash2</key>
+			<data>
+			YRUD7dlLCAYXdEh1LGjFNTxcs//dlskiJF8ZAlZgBTg=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SpqC1Z9lbWECNKVheDFjfICdiSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Gu38+h5+jP6/SFU0Sa8Op1FSldpR4vCHRt6Jgcjkx0g=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Krn54zZF7M+5MDH/IbkrYlJGsug=
+			i7ZZ5KCwLwwDFctPGzkbueYcXTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMa0PeEnCGgiFb/4cI2ZqkAV/D/H5kZgKvOQkR6AJO8=
+			K9TooFm/28fNKHiali93rOpgXRupOt565UC7aGmRLE0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -109,22 +184,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P+codVgNgt1KoQkCJ4p/UcBwiss=
+			NeR6vpwd7IIcVgNZTGqe19lI97E=
 			</data>
 			<key>hash2</key>
 			<data>
-			CUub1eMJFqQlm12P0ggqbZ/HeRqiE/PcnWlUy4a1oc0=
+			a+/ww6+RGnnueADyUqnlkAUpJR7L4c/7aV6HE38n08o=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GiaeBOTiJg8WID7vC1MQvCa0/K0=
+			f2aTIiQBvugRA0PZ6cN1WVomYG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Muv3uTi6Timx42kXfrh7decQkX/1MdnkH5oeV7CPvrg=
+			icgfB5RhhKvtkIwXD/CDHH7ZXNI6Kd3DNxY4We/f/0k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -142,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7QvlrP8Yu9C0xHgPAvVG/T8TqqI=
+			kBAAHWujRE5xwEFLII9O1pjoQpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			08auyrsnBRGHToLfIrBMogPIlb5+aPfU0/ypugLRZx4=
+			pJm0TFY4gjMJ8SzKu/Pishb60FrRaQpzUh7kpFXsnHg=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

@@ -161,17 +161,38 @@ SWIFT_CLASS("_TtC13project1take29ShapeView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CAShapeLayer;
 @class UIStackView;
+@class UILabel;
 @class NSLayoutConstraint;
 @class UISlider;
 @class UITextField;
-@class UILabel;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC13project1take214ViewController")
 @interface ViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, strong) CAShapeLayer * _Nullable color1ShapeLayer;
+@property (nonatomic, strong) CAShapeLayer * _Nullable color2ShapeLayer;
+@property (nonatomic, strong) CAShapeLayer * _Nullable colorResultShapeLayer;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified MainView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified CanvasView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified Color1StackView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified Color2StackView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Color1Label;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified Color1CanvasView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color1CanvasViewWidth;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color1CanvasViewHeight;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Color2Label;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified Color2CanvasView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color2CanvasViewWidth;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color2CanvasViewHeight;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified ColorResultLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified ColorResultCanvasView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified ColorResultCanvasViewWidth;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified ColorResultCanvasViewHeight;
 @property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified TwoColorsStackView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified ResultStackView;
+@property (nonatomic, weak) IBOutlet UIStackView * _Null_unspecified ResultDataStackView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color1RSliderWidthConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color1GSliderWidthConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified Color1BSliderWidthConstraint;
@@ -192,8 +213,9 @@ SWIFT_CLASS("_TtC13project1take214ViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Color2RTextOutlet;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Color2GTextOutlet;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Color2BTextOutlet;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified RGBResultLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified HexResultLabel;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified MixerPercentageText;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified RGBResultText;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified HexResultText;
 - (void)recalculate;
 - (IBAction)Color1RSliderAction:(UISlider * _Nonnull)sender;
 - (IBAction)Color1GSliderAction:(UISlider * _Nonnull)sender;
@@ -202,13 +224,14 @@ SWIFT_CLASS("_TtC13project1take214ViewController")
 - (IBAction)Color2GSliderAction:(UISlider * _Nonnull)sender;
 - (IBAction)Color2BSliderAction:(UISlider * _Nonnull)sender;
 - (IBAction)MixerSliderAction:(UISlider * _Nonnull)sender;
-- (void)updateFromTextboxWithSender:(UITextField * _Nonnull)sender settee:(UISlider * _Nonnull)settee;
+- (void)updateFromTextboxWithSender:(UITextField * _Nonnull)sender settee:(UISlider * _Nonnull)settee maxVal:(NSInteger)maxVal;
 - (IBAction)Color1RTextAction:(UITextField * _Nonnull)sender;
 - (IBAction)Color1GTextAction:(UITextField * _Nonnull)sender;
 - (IBAction)Color1BTextAction:(UITextField * _Nonnull)sender;
 - (IBAction)Color2RTextAction:(UITextField * _Nonnull)sender;
 - (IBAction)Color2GTextAction:(UITextField * _Nonnull)sender;
 - (IBAction)Color2BTextAction:(UITextField * _Nonnull)sender;
+- (IBAction)MixerPercentageTextAction:(UITextField * _Nonnull)sender;
 - (void)setLayoutWithMode:(NSInteger)mode;
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation;
 - (void)viewDidLoad;

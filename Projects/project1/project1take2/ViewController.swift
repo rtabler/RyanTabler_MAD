@@ -10,11 +10,38 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
+   // Color canvas shape objects
+   var color1ShapeLayer:CAShapeLayer?
+   var color2ShapeLayer:CAShapeLayer?
+   var colorResultShapeLayer:CAShapeLayer?
+
    @IBOutlet var MainView: UIView!
+   @IBOutlet weak var CanvasView: UIView!
+   
+   @IBOutlet weak var Color1StackView: UIStackView!
+   @IBOutlet weak var Color2StackView: UIStackView!
+   
+   @IBOutlet weak var Color1Label: UILabel!
+   @IBOutlet weak var Color1CanvasView: UIView!
+   @IBOutlet weak var Color1CanvasViewWidth: NSLayoutConstraint!
+   @IBOutlet weak var Color1CanvasViewHeight: NSLayoutConstraint!
+   @IBOutlet weak var Color2Label: UILabel!
+   @IBOutlet weak var Color2CanvasView: UIView!
+   @IBOutlet weak var Color2CanvasViewWidth: NSLayoutConstraint!
+   @IBOutlet weak var Color2CanvasViewHeight: NSLayoutConstraint!
+   @IBOutlet weak var ColorResultLabel: UILabel!
+   @IBOutlet weak var ColorResultCanvasView: UIView!
+   @IBOutlet weak var ColorResultCanvasViewWidth: NSLayoutConstraint!
+   @IBOutlet weak var ColorResultCanvasViewHeight: NSLayoutConstraint!
+   
+   
    
    
    // stack views
    @IBOutlet weak var TwoColorsStackView: UIStackView!
+   @IBOutlet weak var ResultStackView: UIStackView!
+   @IBOutlet weak var ResultDataStackView: UIStackView!
+   
    
    // slider constraints
    @IBOutlet weak var Color1RSliderWidthConstraint: NSLayoutConstraint!
@@ -42,9 +69,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
    @IBOutlet weak var Color2GTextOutlet: UITextField!
    @IBOutlet weak var Color2BTextOutlet: UITextField!
    
+   // mixer
+   @IBOutlet weak var MixerPercentageText: UITextField!
+   
    // results outlets
-   @IBOutlet weak var RGBResultLabel: UILabel!
-   @IBOutlet weak var HexResultLabel: UILabel!
+   @IBOutlet weak var RGBResultText: UITextField!
+   @IBOutlet weak var HexResultText: UITextField!
+   
    
    // BIG CALCULATION FUNCTION
    func recalculate() {
@@ -66,8 +97,51 @@ class ViewController: UIViewController, UITextFieldDelegate {
       let resGint:Int = Int(resGfloat*255.0)
       let resBint:Int = Int(resBfloat*255.0)
       
-      RGBResultLabel.text = "rgb("+String(resRint)+","+String(resGint)+","+String(resBint)+")"
-      HexResultLabel.text = ""
+      RGBResultText.text = "rgb("+String(resRint)+","+String(resGint)+","+String(resBint)+")"
+      HexResultText.text = ""
+      
+      
+      if color1ShapeLayer == nil {
+         print("Drawing rectangles")
+         // Drawing the rectangles for the first time
+         // Drawing code from http://www.seemuapps.com/swift-introduction-core-graphics-for-beginners
+         let x1:Int = 0
+         let y1:Int = 0
+         let x2:Int = Int(Color1CanvasViewWidth.constant) //only using color1 label because both labels are set to the same width
+         let y2:Int = Int(Color1CanvasViewHeight.constant)
+         let squarePath = UIBezierPath()
+         squarePath.lineWidth = CGFloat(5.0)
+         squarePath.stroke()
+         squarePath.move(to: CGPoint(x: x1, y: y1))
+         squarePath.addLine(to: CGPoint(x: x2, y: y1))
+         squarePath.addLine(to: CGPoint(x: x2, y: y2))
+         squarePath.addLine(to: CGPoint(x: x1, y: y2))
+         squarePath.close()
+         
+         // Make color1 canvas
+         color1ShapeLayer = CAShapeLayer()
+//         color1ShapeLayer!.borderWidth = CGFloat(5.0)
+//         color1ShapeLayer!.borderColor = UIColor.black.cgColor
+         color1ShapeLayer!.path = squarePath.cgPath
+         Color1CanvasView.layer.addSublayer(color1ShapeLayer!)
+         
+         // Make color2 canvas
+         color2ShapeLayer = CAShapeLayer()
+//         color2ShapeLayer!.borderWidth = CGFloat(5.0)
+//         color2ShapeLayer!.borderColor = UIColor.black.cgColor
+         color2ShapeLayer!.path = squarePath.cgPath
+         Color2CanvasView.layer.addSublayer(color2ShapeLayer!)
+         
+         // Make color result canvas
+         colorResultShapeLayer = CAShapeLayer()
+         colorResultShapeLayer!.path = squarePath.cgPath
+         ColorResultCanvasView.layer.addSublayer(colorResultShapeLayer!)
+      }
+      
+      // Set the color
+      color1ShapeLayer!.fillColor = UIColor.init(red: CGFloat(c1r), green: CGFloat(c1g), blue: CGFloat(c1b), alpha: 1.0).cgColor
+      color2ShapeLayer!.fillColor = UIColor.init(red: CGFloat(c2r), green: CGFloat(c2g), blue: CGFloat(c2b), alpha: 1.0).cgColor
+      colorResultShapeLayer!.fillColor = UIColor.init(red: CGFloat(resRfloat), green: CGFloat(resGfloat), blue: CGFloat(resBfloat), alpha: 1.0).cgColor
    }
    
    // slider actions
@@ -96,51 +170,59 @@ class ViewController: UIViewController, UITextFieldDelegate {
       recalculate()
    }
    @IBAction func MixerSliderAction(_ sender: UISlider) {
+      MixerPercentageText.text = String(Int(sender.value*100))
       recalculate()
    }
    
    
    // textbox actions
-   func updateFromTextbox(sender:UITextField, settee:UISlider) {
-      let numOpt:Int? = Int(sender.text!)
+   func updateFromTextbox(sender:UITextField, settee:UISlider, maxVal:Int) {
+      var numOpt:Int? = Int(sender.text!)
+      // Set text to "0" if it's invalid for any reason
       if numOpt == nil {
-         return
+         sender.text = "0"
+         numOpt = 0
       }
       var num = numOpt!
-      if num > 255 {
-         num = 255
-         sender.text = "255"
+      if num > maxVal {
+         num = maxVal
+         sender.text = String(maxVal)
       } else if num < 0 {
          num = 0
          sender.text = "0"
       }
-      settee.value = Float(num) / 255.0
+      settee.value = Float(num) / Float(maxVal)
       
    }
    @IBAction func Color1RTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color1RSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color1RSliderOutlet, maxVal: 255)
       recalculate()
    }
    @IBAction func Color1GTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color1GSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color1GSliderOutlet, maxVal: 255)
       recalculate()
    }
    @IBAction func Color1BTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color1BSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color1BSliderOutlet, maxVal: 255)
       recalculate()
    }
    @IBAction func Color2RTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color2RSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color2RSliderOutlet, maxVal: 255)
       recalculate()
    }
    @IBAction func Color2GTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color2GSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color2GSliderOutlet, maxVal: 255)
       recalculate()
    }
    @IBAction func Color2BTextAction(_ sender: UITextField) {
-      updateFromTextbox(sender: sender, settee: Color2BSliderOutlet)
+      updateFromTextbox(sender: sender, settee: Color2BSliderOutlet, maxVal: 255)
       recalculate()
    }
+   @IBAction func MixerPercentageTextAction(_ sender: UITextField) {
+      updateFromTextbox(sender: sender, settee: MixerSliderOutlet, maxVal: 100)
+      recalculate()
+   }
+   
    
    
    // layout and orientation calculations
@@ -152,31 +234,60 @@ class ViewController: UIViewController, UITextFieldDelegate {
       print(screenHeight)
       let marginWidth:CGFloat = 16.0
       
+      // Things to tear apart
+      color1ShapeLayer?.removeFromSuperlayer()
+      color1ShapeLayer = nil
+      color2ShapeLayer?.removeFromSuperlayer()
+      color2ShapeLayer = nil
+      colorResultShapeLayer?.removeFromSuperlayer()
+      colorResultShapeLayer = nil
+      
+      // Vars to set directly, that are the same between orientations
+      // canvas view heights
+      Color1CanvasViewHeight.constant = Color1Label.bounds.height
+      Color2CanvasViewHeight.constant = Color2Label.bounds.height
+      ColorResultCanvasViewHeight.constant = ColorResultLabel.bounds.height
+      
       // Vars we will set
+      var colorCanvasWidth:CGFloat = 50.0
       var sliderWidth:CGFloat = 100.0
       var mixerSliderWidth:CGFloat = 100.0
       
       if mode == 0 {
          // Portrait
          
+         // Set canvas width
+         colorCanvasWidth = CGFloat(screenWidth - marginWidth - 16 - Color1Label.bounds.width - 8 - 16 - marginWidth)
+         
          // Set slider widths
-         sliderWidth = CGFloat(screenWidth - marginWidth - 16 - (25 + 8 + 8 + 40) - 16 - marginWidth)
+         sliderWidth = CGFloat(screenWidth - marginWidth - 16 - (25 + 8 + 8 + 50) - 16 - marginWidth)
          mixerSliderWidth = CGFloat(screenWidth - marginWidth - 16 - (20 + 8 + 8 + 20) - 16 - marginWidth)
          
          // Set stackview layout
          TwoColorsStackView.axis = UILayoutConstraintAxis(rawValue: 1)! // 0 for horizontal, 1 for vertical
+         ResultStackView.axis = UILayoutConstraintAxis(rawValue: 1)!
+         ResultDataStackView.axis = UILayoutConstraintAxis(rawValue: 1)!
       } else {
          // Landscape
          
+         // Set canvas width
+         colorCanvasWidth = CGFloat(screenWidth - marginWidth - 16 - (Color1Label.bounds.width+8) - 16 - (Color1Label.bounds.width+8) - 16 - marginWidth) / 2.0
+         
          // Set slider widths
          // (screenWidth will be width in this orientation)
-         sliderWidth = CGFloat(screenWidth - marginWidth - (25+8+8+40) - marginWidth - (25+8+8+40) - marginWidth) / 2.0
-         mixerSliderWidth = CGFloat(screenWidth - marginWidth - 20 - 8 - 20 - 8 - marginWidth)
+         sliderWidth = CGFloat(screenWidth - marginWidth - 16 - (25+8+8+50) - 16 - (25+8+8+50) - 16 - marginWidth) / 2.0
+         mixerSliderWidth = CGFloat(screenWidth - marginWidth - 16 - 20 - 8 - 8 - 20 - 16 - marginWidth)
          
          // Set stackview layout
          TwoColorsStackView.axis = UILayoutConstraintAxis(rawValue: 0)! // 0 for horizontal, 1 for vertical
+         ResultStackView.axis = UILayoutConstraintAxis(rawValue: 0)!
+         ResultDataStackView.axis = UILayoutConstraintAxis(rawValue: 0)!
       }
       
+      // Set canvas widths
+      Color1CanvasViewWidth.constant = colorCanvasWidth
+      Color2CanvasViewWidth.constant = colorCanvasWidth
+      ColorResultCanvasViewWidth.constant = colorCanvasWidth
       // Set slider widths
       Color1RSliderWidthConstraint.constant = sliderWidth
       Color1GSliderWidthConstraint.constant = sliderWidth
@@ -194,36 +305,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
       } else {
          setLayout(mode: 1)
       }
+      recalculate()
    }
    
    override func viewDidLoad() {
       super.viewDidLoad()
       setLayout(mode: 0) // portrait by default, will switch after loading if it's in landscape
-      
-      // Drawing code from http://www.seemuapps.com/swift-introduction-core-graphics-for-beginners
-      let x1:Int = 100
-      let y1:Int = 100
-      let x2:Int = 200
-      let y2:Int = 200
-      let squarePath = UIBezierPath()
-      squarePath.move(to: CGPoint(x: x1, y: y1))
-      squarePath.addLine(to: CGPoint(x: x2, y: y1))
-      squarePath.addLine(to: CGPoint(x: x2, y: y2))
-      squarePath.addLine(to: CGPoint(x: x1, y: y2))
-      squarePath.close()
-      
-//      let components: [CGFloat] = [1.0, 1.0, 0.0]
-//      UIColor(cgColor: CGColor(colorSpace: <#T##CGColorSpace#>, components: <#T##UnsafePointer<CGFloat>#>))
-//      UIColor(cgColor: CGColor(colorsp), components: components))
-      
-//      let square = CAShapeLayer() // 6
-//      square.path = squarePath.cgPath // 7 Apply the squarePath to our layer
-//      square.fillColor = UIColor.red.cgColor // 8 Fill it with red
-//      self.view.layer.addSublayer(square) // 9 Add it to our view
-      //
-            //      let myrect = CGRect(x: 100, y: 100, width: 20, height: 30)
-      //      myrect.
-
+      recalculate()
    }
 
    override func didReceiveMemoryWarning() {
@@ -239,6 +327,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
       Color2RTextOutlet.resignFirstResponder()
       Color2GTextOutlet.resignFirstResponder()
       Color2BTextOutlet.resignFirstResponder()
+      MixerPercentageText.resignFirstResponder()
       recalculate()
    }
 }

@@ -12,6 +12,7 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -83,5 +84,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         resultText.setText(Float.toString(ans));
+        Toast.makeText(getApplicationContext(), "The result is "+Float.toString(ans), Toast.LENGTH_SHORT).show();
     }
 }

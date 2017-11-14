@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:onClick="update"
         android:text="Update"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/negateSwitch" />
@@ -75,6 +76,7 @@
         android:layout_height="17dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:max="99"
         app:layout_constraintBottom_toBottomOf="@+id/factorLabel"
         app:layout_constraintStart_toEndOf="@+id/factorLabel"
         app:layout_constraintTop_toTopOf="@+id/factorLabel"
@@ -99,6 +101,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="number"
+        android:text="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/enterLabel"
         app:layout_constraintTop_toTopOf="parent" />

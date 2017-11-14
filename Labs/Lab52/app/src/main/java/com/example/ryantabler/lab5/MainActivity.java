@@ -2,6 +2,7 @@ package com.example.ryantabler.lab5;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -38,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void update(View view) {
+
+
+//        Log.d("myTag",Integer.toString(ans));
+
 //        TextView booText = findViewById(R.id.message);
         EditText enterText = findViewById(R.id.enterText);
         Spinner chooseSpinner = findViewById(R.id.chooseSpinner);
@@ -50,6 +55,33 @@ public class MainActivity extends AppCompatActivity {
         Button updateButton = findViewById(R.id.updateButton);
         TextView resultText = findViewById(R.id.resultText);
 
-        resultText.setText(Integer.toString(factorSlider.getProgress()));
+//        String result = Integer.toString(factorSlider.getProgress());
+        Integer inputInteger = Integer.parseInt(enterText.getText().toString());
+        float ans = (float)inputInteger;
+
+        if (chooseSpinner.getSelectedItem().toString().equals("Multiply")) {
+            ans *= factorSlider.getProgress()+1;
+        } else {
+            ans /= factorSlider.getProgress()+1;
+        }
+
+        if (optionsAdd1.isChecked()) {
+            ans += 1;
+        }
+        if (optionsAdd10.isChecked()) {
+            ans += 10;
+        }
+        if (optionsAdd100.isChecked()) {
+            ans += 100;
+        }
+        if (optionsSquare.isChecked()) {
+            ans *= ans;
+        }
+
+        if (negateSwitch.isChecked()) {
+            ans *= -1;
+        }
+
+        resultText.setText(Float.toString(ans));
     }
 }

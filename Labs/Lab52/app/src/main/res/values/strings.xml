@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string-array name="operations">
+        <item>Multiply</item>
+        <item>Divide</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ryantabler.project2.MainActivity">
+
+    <TextView
+        android:id="@+id/bpmNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="288.8"
+        android:textSize="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/tapButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/tapButton"
+        android:layout_width="352dp"
+        android:layout_height="323dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="[ tap here ]"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hzNumberText" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Reset"
+        android:textSize="20dp"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bpmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="BPM"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/bpmNumberText"
+        app:layout_constraintStart_toEndOf="@+id/bpmNumberText" />
+
+    <TextView
+        android:id="@+id/hzNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="( 5.88 "
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bpmNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/bpmNumberText" />
+
+    <TextView
+        android:id="@+id/hzText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hz )"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/hzNumberText"
+        app:layout_constraintTop_toTopOf="@+id/hzNumberText" />
+
+    <TextView
+        android:id="@+id/waitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(or wait 3s)"
+        android:textSize="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/resetButton"
+        app:layout_constraintRight_toRightOf="@+id/resetButton"
+        app:layout_constraintTop_toBottomOf="@+id/resetButton" />
+
+</android.support.constraint.ConstraintLayout>

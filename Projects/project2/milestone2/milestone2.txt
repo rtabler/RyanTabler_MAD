@@ -1,0 +1,8 @@
+So far I have just created all of the UI elements of my app.
+
+Planned algorithm:
+
+I will have an queue of five timestamps. Every time the user taps the button, it first checks how long ago the last tap was. If it was more than 3 seconds, then calls the reset() function, where it empties the queue and displays "---.- BPM" and "--.- Hz" or something similar.
+
+If it has been less than 3 seconds since the last tap, it pushes a new timestamp into the queue, and calculates the average BPM among those timestamps. It will also update the display with the appropriate BPM and Hz numbers.
+

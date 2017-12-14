@@ -11,40 +11,34 @@
         android:id="@+id/bpmNumberText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:text="Inf"
         android:textSize="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/tapButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/tapButton"
-        android:layout_width="0dp"
-        android:layout_height="323dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="298dp"
+        android:layout_height="298dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:text="[ tap here ]"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/resetButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
         android:text="Reset"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/bpmText"
@@ -60,7 +54,7 @@
         android:id="@+id/hzNumberText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="( Inf "
+        android:text="(Inf "
         android:textSize="20dp"
         app:layout_constraintLeft_toLeftOf="@+id/bpmNumberText"
         app:layout_constraintTop_toBottomOf="@+id/bpmNumberText" />

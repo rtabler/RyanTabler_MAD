@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TablerFinal</string>
+    <string name="header">Burrito Builder</string>
+    <string name="filling_text_off">Meat</string>
+    <string name="filling_text_on">Veggie</string>
+    <string name="type1">burrito</string>
+    <string name="type2">taco</string>
+    <string name="generate_burrito_button">Build</string>
+    <string name="burritoNameHint">burrito name</string>
+    <string name="checkboxCheese">cheese</string>
+    <string name="checkboxSalsa">salsa</string>
+    <string name="checkboxSourcream">sour cream</string>
+    <string name="checkboxGuacamole">guacamole</string>
+    <string-array name="locationSpinnerItems">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+    <string name="gluten_switch_off">Gluten-free</string>
+    <string name="gluten_switch_on">Gluten-free</string>
+</resources>

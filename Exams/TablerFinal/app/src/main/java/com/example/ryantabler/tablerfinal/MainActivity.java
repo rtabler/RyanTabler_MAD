@@ -1,5 +1,6 @@
 package com.example.ryantabler.tablerfinal;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -104,4 +105,10 @@ public class MainActivity extends AppCompatActivity {
         TextView burritoDetailText = findViewById(R.id.burritoDetails);
         burritoDetailText.setText(results+bonusResults);
     }
+
+//    public void findBurrito(View view) {
+//        Intent myIntent = new Intent(CurrentActivity.this, NextActivity.class);
+//        myIntent.putExtra("key", value); //Optional parameters
+//        CurrentActivity.this.startActivity(myIntent);
+//    }
 }

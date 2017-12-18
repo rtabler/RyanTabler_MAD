@@ -18,4 +18,5 @@
     </string-array>
     <string name="gluten_switch_off">Gluten-free</string>
     <string name="gluten_switch_on">Gluten-free</string>
+    <string name="find_burrito">Find burrito</string>
 </resources>

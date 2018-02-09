@@ -111,7 +111,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="38g-wH-Pk0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Player" id="Ujh-gb-D5p"/>
+                    <tabBarItem key="tabBarItem" title="Player" image="sound" id="Ujh-gb-D5p"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="chordPicker" destination="Ik4-jH-Glf" id="Ocl-0t-rMo"/>
@@ -122,7 +122,7 @@
             </objects>
             <point key="canvasLocation" x="-2.3999999999999999" y="791.15442278860576"/>
         </scene>
-        <!--Tuner-->
+        <!--Not a Tuner-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="lab_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -153,8 +153,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tuner" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Not a Tuner" image="second" id="cPa-gy-q4n"/>
                     <connections>
+                        <outlet property="loadingLabel" destination="NDk-cv-Gan" id="LEi-oX-Ffa"/>
                         <outlet property="reloadButton" destination="Y1D-94-RMY" id="27X-my-vhD"/>
                     </connections>
                 </viewController>
@@ -185,5 +186,6 @@
     <resources>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
+        <image name="sound" width="24" height="24"/>
     </resources>
 </document>

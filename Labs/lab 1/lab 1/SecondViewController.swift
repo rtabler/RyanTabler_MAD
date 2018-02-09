@@ -10,6 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+   @IBOutlet weak var reloadButton: UIButton!
+   @IBAction func reopenApp(_ sender: UIButton) {
+   }
+   
    override func viewDidLoad() {
       super.viewDidLoad()
       // Do any additional setup after loading the view, typically from a nib.
@@ -18,7 +22,9 @@ class SecondViewController: UIViewController {
    
    override func viewDidAppear(_ animated: Bool) {
       super.viewDidAppear(animated)
-      UIApplication.shared.open(URL(string: "https://creative.colorado.edu")!)
+//      UIApplication.shared.open(URL(string: "https://creative.colorado.edu")!)
+      print("hi")
+      UIApplication.shared.open(URL(string: "https://youtu.be/dQw4w9WgXcQ")!)
    }
 
    override func didReceiveMemoryWarning() {

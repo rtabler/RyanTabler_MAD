@@ -34,8 +34,11 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="SzX-Uf-2Cw"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSu-XL-vXM">
-                                <rect key="frame" x="16" y="345" width="343" height="255"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSu-XL-vXM">
+                                <rect key="frame" x="16" y="345" width="343" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="M03-tx-ZqM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -86,9 +89,8 @@
                                     <outlet property="delegate" destination="imF-cY-LQZ" id="RmO-Gr-9ov"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lw2-u3-0Ir">
-                                <rect key="frame" x="120" y="318" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lw2-u3-0Ir">
+                                <rect key="frame" x="139.5" y="331.5" width="95" height="36"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <state key="normal" title="Play Chord"/>
                                 <connections>
@@ -100,10 +102,12 @@
                         <constraints>
                             <constraint firstItem="Ik4-jH-Glf" firstAttribute="trailing" secondItem="38g-wH-Pk0" secondAttribute="trailing" id="EP1-6A-ymr"/>
                             <constraint firstItem="Ik4-jH-Glf" firstAttribute="leading" secondItem="38g-wH-Pk0" secondAttribute="leading" id="JNv-Ue-6b4"/>
+                            <constraint firstItem="lw2-u3-0Ir" firstAttribute="top" secondItem="Ik4-jH-Glf" secondAttribute="bottom" constant="32" id="Qkb-LV-Js7"/>
                             <constraint firstItem="38g-wH-Pk0" firstAttribute="trailing" secondItem="Znp-Hr-Vbr" secondAttribute="trailing" constant="16" id="YUV-r9-77w"/>
                             <constraint firstItem="Ik4-jH-Glf" firstAttribute="top" secondItem="Znp-Hr-Vbr" secondAttribute="bottom" constant="16" id="b3q-0F-suQ"/>
                             <constraint firstItem="Znp-Hr-Vbr" firstAttribute="leading" secondItem="38g-wH-Pk0" secondAttribute="leading" constant="16" id="jhJ-DY-ZFa"/>
                             <constraint firstItem="Znp-Hr-Vbr" firstAttribute="top" secondItem="38g-wH-Pk0" secondAttribute="top" constant="16" id="mMi-HL-2IJ"/>
+                            <constraint firstItem="lw2-u3-0Ir" firstAttribute="centerX" secondItem="WYP-VO-EOj" secondAttribute="centerX" id="r3f-Bx-aiI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="38g-wH-Pk0"/>
                     </view>
@@ -126,30 +130,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="87" y="312" width="201.5" height="43"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="363" width="215" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opening creative.colorado.edu..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="82" y="325" width="211" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1D-94-RMY">
+                                <rect key="frame" x="137" y="366" width="101" height="30"/>
+                                <state key="normal" title="Go there again"/>
+                                <connections>
+                                    <action selector="reopenApp:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="pk9-KF-mle"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="Y1D-94-RMY" firstAttribute="top" secondItem="NDk-cv-Gan" secondAttribute="bottom" constant="24" id="42d-7i-Bhh"/>
+                            <constraint firstItem="Y1D-94-RMY" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="ATW-sH-M3L"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="IEq-XK-36S"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="wRW-Hf-PFl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tuner" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="reloadButton" destination="Y1D-94-RMY" id="27X-my-vhD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>

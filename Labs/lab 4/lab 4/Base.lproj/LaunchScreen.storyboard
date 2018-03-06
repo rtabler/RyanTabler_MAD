@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ryv-Bo-sjf">
+            <objects>
+                <viewController id="Rs5-vW-2lJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Md-RG-MHH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DataIsBeautifulBanner" translatesAutoresizingMaskIntoConstraints="NO" id="XyB-Hn-yxV">
+                                <rect key="frame" x="37" y="183" width="300" height="300"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reddit /r/DataIsBeautiful browser" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZN8-We-Dez">
+                                <rect key="frame" x="16" y="63" width="343" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="Axo-3J-jR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry I can't figure out navigation controllers..." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loI-Fc-335">
+                                <rect key="frame" x="16" y="491" width="343" height="112"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="trailing" secondItem="2Md-RG-MHH" secondAttribute="trailingMargin" id="4oV-Sl-Vl6"/>
+                            <constraint firstItem="XyB-Hn-yxV" firstAttribute="top" secondItem="ZN8-We-Dez" secondAttribute="bottom" constant="8" symbolic="YES" id="Igg-Pd-x8A"/>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="centerX" secondItem="XyB-Hn-yxV" secondAttribute="centerX" id="MF9-hn-UeY"/>
+                            <constraint firstItem="XyB-Hn-yxV" firstAttribute="centerY" secondItem="2Md-RG-MHH" secondAttribute="centerY" id="NXH-zA-uRs"/>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="trailing" secondItem="loI-Fc-335" secondAttribute="trailing" id="Tuu-cA-OS2"/>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="top" secondItem="EPa-Ah-aJf" secondAttribute="top" constant="43" id="XoD-io-xjd"/>
+                            <constraint firstItem="loI-Fc-335" firstAttribute="top" secondItem="XyB-Hn-yxV" secondAttribute="bottom" constant="8" symbolic="YES" id="bYo-aw-3MA"/>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="leading" secondItem="loI-Fc-335" secondAttribute="leading" id="m3i-Nz-mKJ"/>
+                            <constraint firstItem="EPa-Ah-aJf" firstAttribute="bottom" secondItem="loI-Fc-335" secondAttribute="bottom" constant="64" id="ndQ-tZ-j51"/>
+                            <constraint firstItem="ZN8-We-Dez" firstAttribute="leading" secondItem="2Md-RG-MHH" secondAttribute="leadingMargin" id="qCX-I3-jgK"/>
+                            <constraint firstItem="XyB-Hn-yxV" firstAttribute="leading" secondItem="EPa-Ah-aJf" secondAttribute="leading" constant="37" id="ycn-E7-XRF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EPa-Ah-aJf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atj-n3-tfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-847.20000000000005" y="-402.54872563718146"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DataIsBeautifulBanner" width="256" height="256"/>
+    </resources>
+</document>

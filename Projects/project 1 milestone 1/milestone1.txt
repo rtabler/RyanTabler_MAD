@@ -1,0 +1,18 @@
+For my first project, I will develop an app to browse the Chinese classic text "Tao Te Ching."
+
+My app will have three tabs. The first tab will let the user browse the book. It will show a collection view with 81 squares, for the 81 short chapters in the book. Once you select a chapter, it will show the user the text.
+
+Since "Tao Te Ching" is a book translated from Chinese, many people translate it in very different ways. In the past, I have found that reading multiple translations simultaneously is very helpful to understanding the text. Hence, once the user is reading a particular chapter, there will be a button in the top right corner to cycle between multiple translations. For the longer chapters, I will maintain the vertical location of the scroll view between different translations.
+
+There will be one more button in the chapter text view: a share button. This will open a menu to allow the user to do a few things. The user will be able to "favorite" a chapter. The user will be able to browse "favorited" chapters in the second tab of the app. The user will also be able to "share" a chapter. Through the "share" menu, you will be able to copy the chapter's text to your clipboard, email the chapter to yourself, or tweet the chapter.
+
+From the chapter selection tab, I would also like to implement a search feature, that allows the user to search for text within the book. The search results will show the chapters that contain the text entered in the search bar. However, I will not consider this feature as part of the MVP.
+
+The last tab of my app will be for settings. Here, the user will be able to choose a few different things:
+  * color themes, changing the color of the text and background
+  * font family and font size of the text
+  * available translations to include in the translation-switching cycle
+
+The bulk of the data needed for my app is the text of the different translations of "Tao Te Ching. To store these, I will first see if it is possible to store and read from simple text files. If that is not possible, I will use Realm. For the user settings and list of "favorited" chapters, I will attempt to use plists first, before switching to Realm.
+
+

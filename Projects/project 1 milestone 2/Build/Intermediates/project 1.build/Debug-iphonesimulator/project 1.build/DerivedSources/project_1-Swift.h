@@ -237,11 +237,13 @@ SWIFT_CLASS("_TtC9project_131ChapterCollectionViewController")
 
 @class UIScrollView;
 @class UILabel;
+@class UITextView;
 
 SWIFT_CLASS("_TtC9project_118TextViewController")
 @interface TextViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chapterNumberLabel;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified bodyText;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

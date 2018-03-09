@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "482f7f30007b8529b78b400154dbdaee"
-build_time: [1520565939, 26433000]
+build_time: [1520575633, 367379000]
 inputs:
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520565937, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520563398, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520575629, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520570281, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ViewController.swift": [1519746192, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/AppDelegate.swift": [1520552201, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCell.swift": [1520565717, 0]

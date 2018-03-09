@@ -17,6 +17,9 @@ class TextViewController: UIViewController {
     
     @IBOutlet weak var chapterNumberLabel: UILabel!
     
+    @IBOutlet weak var bodyText: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,6 +29,19 @@ class TextViewController: UIViewController {
         scrollView.contentSize = CGSize(width: CGFloat(1000.0), height: CGFloat(100.0))
         print(scrollView.isScrollEnabled)
         print(scrollView.showsVerticalScrollIndicator)
+        
+        if let path = Bundle.main.path(forResource: "Mitchell-\(chapterNumber!)", ofType: "txt") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+//                print()
+                bodyText.text = myStrings.joined(separator: "\n")
+            } catch {
+                print(error)
+            }
+        } else {
+            print("Couldn't find that")
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,6 +12,87 @@
 		9B6EB97C2045B4100060365B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EB97A2045B4100060365B /* Main.storyboard */; };
 		9B6EB97E2045B4100060365B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EB97D2045B4100060365B /* Assets.xcassets */; };
 		9B6EB9812045B4100060365B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EB97F2045B4100060365B /* LaunchScreen.storyboard */; };
+		9BC6F1F520525B4500B8BD83 /* Mitchell-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A420525B3C00B8BD83 /* Mitchell-1.txt */; };
+		9BC6F1F620525B4500B8BD83 /* Mitchell-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A520525B3C00B8BD83 /* Mitchell-11.txt */; };
+		9BC6F1F720525B4500B8BD83 /* Mitchell-45.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A620525B3C00B8BD83 /* Mitchell-45.txt */; };
+		9BC6F1F820525B4500B8BD83 /* Mitchell-58.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A720525B3C00B8BD83 /* Mitchell-58.txt */; };
+		9BC6F1F920525B4500B8BD83 /* Mitchell-68.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A820525B3C00B8BD83 /* Mitchell-68.txt */; };
+		9BC6F1FA20525B4500B8BD83 /* Mitchell-3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1A920525B3C00B8BD83 /* Mitchell-3.txt */; };
+		9BC6F1FB20525B4500B8BD83 /* Mitchell-69.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AA20525B3C00B8BD83 /* Mitchell-69.txt */; };
+		9BC6F1FC20525B4500B8BD83 /* Mitchell-79.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AB20525B3C00B8BD83 /* Mitchell-79.txt */; };
+		9BC6F1FD20525B4500B8BD83 /* Mitchell-5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AC20525B3C00B8BD83 /* Mitchell-5.txt */; };
+		9BC6F1FE20525B4500B8BD83 /* Mitchell-34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AD20525B3C00B8BD83 /* Mitchell-34.txt */; };
+		9BC6F1FF20525B4500B8BD83 /* Mitchell-66.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AE20525B3D00B8BD83 /* Mitchell-66.txt */; };
+		9BC6F20020525B4500B8BD83 /* Mitchell-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1AF20525B3D00B8BD83 /* Mitchell-10.txt */; };
+		9BC6F20120525B4500B8BD83 /* Mitchell-72.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B020525B3D00B8BD83 /* Mitchell-72.txt */; };
+		9BC6F20220525B4500B8BD83 /* Mitchell-33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B120525B3D00B8BD83 /* Mitchell-33.txt */; };
+		9BC6F20320525B4500B8BD83 /* Mitchell-56.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B220525B3D00B8BD83 /* Mitchell-56.txt */; };
+		9BC6F20420525B4500B8BD83 /* Mitchell-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B320525B3D00B8BD83 /* Mitchell-22.txt */; };
+		9BC6F20520525B4500B8BD83 /* Mitchell-75.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B420525B3D00B8BD83 /* Mitchell-75.txt */; };
+		9BC6F20620525B4500B8BD83 /* Mitchell-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B520525B3D00B8BD83 /* Mitchell-21.txt */; };
+		9BC6F20720525B4500B8BD83 /* Mitchell-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B620525B3D00B8BD83 /* Mitchell-14.txt */; };
+		9BC6F20820525B4500B8BD83 /* Mitchell-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B720525B3D00B8BD83 /* Mitchell-18.txt */; };
+		9BC6F20920525B4500B8BD83 /* Mitchell-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B820525B3D00B8BD83 /* Mitchell-20.txt */; };
+		9BC6F20A20525B4500B8BD83 /* Mitchell-23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1B920525B3D00B8BD83 /* Mitchell-23.txt */; };
+		9BC6F20B20525B4500B8BD83 /* Mitchell-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BA20525B3D00B8BD83 /* Mitchell-16.txt */; };
+		9BC6F20C20525B4500B8BD83 /* Mitchell-62.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BB20525B3E00B8BD83 /* Mitchell-62.txt */; };
+		9BC6F20D20525B4500B8BD83 /* Mitchell-71.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BC20525B3E00B8BD83 /* Mitchell-71.txt */; };
+		9BC6F20E20525B4500B8BD83 /* Mitchell-77.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BD20525B3E00B8BD83 /* Mitchell-77.txt */; };
+		9BC6F20F20525B4500B8BD83 /* Mitchell-78.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BE20525B3E00B8BD83 /* Mitchell-78.txt */; };
+		9BC6F21020525B4500B8BD83 /* Mitchell-4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1BF20525B3E00B8BD83 /* Mitchell-4.txt */; };
+		9BC6F21120525B4500B8BD83 /* Mitchell-57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C020525B3E00B8BD83 /* Mitchell-57.txt */; };
+		9BC6F21220525B4500B8BD83 /* Mitchell-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C120525B3E00B8BD83 /* Mitchell-13.txt */; };
+		9BC6F21320525B4500B8BD83 /* Mitchell-29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C220525B3E00B8BD83 /* Mitchell-29.txt */; };
+		9BC6F21420525B4500B8BD83 /* Mitchell-40.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C320525B3F00B8BD83 /* Mitchell-40.txt */; };
+		9BC6F21520525B4500B8BD83 /* Mitchell-49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C420525B3F00B8BD83 /* Mitchell-49.txt */; };
+		9BC6F21620525B4500B8BD83 /* Mitchell-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C520525B3F00B8BD83 /* Mitchell-15.txt */; };
+		9BC6F21720525B4500B8BD83 /* Mitchell-55.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C620525B3F00B8BD83 /* Mitchell-55.txt */; };
+		9BC6F21820525B4500B8BD83 /* Mitchell-65.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C720525B3F00B8BD83 /* Mitchell-65.txt */; };
+		9BC6F21920525B4500B8BD83 /* Mitchell-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C820525B3F00B8BD83 /* Mitchell-19.txt */; };
+		9BC6F21A20525B4500B8BD83 /* Mitchell-7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1C920525B3F00B8BD83 /* Mitchell-7.txt */; };
+		9BC6F21B20525B4500B8BD83 /* Mitchell-48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CA20525B3F00B8BD83 /* Mitchell-48.txt */; };
+		9BC6F21C20525B4500B8BD83 /* Mitchell-60.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CB20525B4000B8BD83 /* Mitchell-60.txt */; };
+		9BC6F21D20525B4500B8BD83 /* Mitchell-8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CC20525B4000B8BD83 /* Mitchell-8.txt */; };
+		9BC6F21E20525B4500B8BD83 /* Mitchell-67.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CD20525B4000B8BD83 /* Mitchell-67.txt */; };
+		9BC6F21F20525B4500B8BD83 /* Mitchell-73.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CE20525B4000B8BD83 /* Mitchell-73.txt */; };
+		9BC6F22020525B4500B8BD83 /* Mitchell-70.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1CF20525B4000B8BD83 /* Mitchell-70.txt */; };
+		9BC6F22120525B4500B8BD83 /* Mitchell-80.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D020525B4000B8BD83 /* Mitchell-80.txt */; };
+		9BC6F22220525B4500B8BD83 /* Mitchell-81.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D120525B4000B8BD83 /* Mitchell-81.txt */; };
+		9BC6F22320525B4500B8BD83 /* Mitchell-6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D220525B4000B8BD83 /* Mitchell-6.txt */; };
+		9BC6F22420525B4500B8BD83 /* Mitchell-64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D320525B4100B8BD83 /* Mitchell-64.txt */; };
+		9BC6F22520525B4500B8BD83 /* Mitchell-51.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D420525B4100B8BD83 /* Mitchell-51.txt */; };
+		9BC6F22620525B4500B8BD83 /* Mitchell-26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D520525B4100B8BD83 /* Mitchell-26.txt */; };
+		9BC6F22720525B4500B8BD83 /* Mitchell-32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D620525B4100B8BD83 /* Mitchell-32.txt */; };
+		9BC6F22820525B4500B8BD83 /* Mitchell-27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D720525B4100B8BD83 /* Mitchell-27.txt */; };
+		9BC6F22920525B4500B8BD83 /* Mitchell-28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D820525B4100B8BD83 /* Mitchell-28.txt */; };
+		9BC6F22A20525B4500B8BD83 /* Mitchell-74.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1D920525B4100B8BD83 /* Mitchell-74.txt */; };
+		9BC6F22B20525B4500B8BD83 /* Mitchell-38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DA20525B4200B8BD83 /* Mitchell-38.txt */; };
+		9BC6F22C20525B4500B8BD83 /* Mitchell-59.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DB20525B4200B8BD83 /* Mitchell-59.txt */; };
+		9BC6F22D20525B4500B8BD83 /* Mitchell-31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DC20525B4200B8BD83 /* Mitchell-31.txt */; };
+		9BC6F22E20525B4500B8BD83 /* Mitchell-52.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DD20525B4200B8BD83 /* Mitchell-52.txt */; };
+		9BC6F22F20525B4500B8BD83 /* Mitchell-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DE20525B4200B8BD83 /* Mitchell-17.txt */; };
+		9BC6F23020525B4500B8BD83 /* Mitchell-44.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1DF20525B4200B8BD83 /* Mitchell-44.txt */; };
+		9BC6F23120525B4500B8BD83 /* Mitchell-54.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E020525B4200B8BD83 /* Mitchell-54.txt */; };
+		9BC6F23220525B4500B8BD83 /* Mitchell-41.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E120525B4300B8BD83 /* Mitchell-41.txt */; };
+		9BC6F23320525B4500B8BD83 /* Mitchell-50.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E220525B4300B8BD83 /* Mitchell-50.txt */; };
+		9BC6F23420525B4500B8BD83 /* Mitchell-76.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E320525B4300B8BD83 /* Mitchell-76.txt */; };
+		9BC6F23520525B4500B8BD83 /* Mitchell-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E420525B4300B8BD83 /* Mitchell-12.txt */; };
+		9BC6F23620525B4500B8BD83 /* Mitchell-53.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E520525B4300B8BD83 /* Mitchell-53.txt */; };
+		9BC6F23720525B4500B8BD83 /* Mitchell-46.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E620525B4300B8BD83 /* Mitchell-46.txt */; };
+		9BC6F23820525B4500B8BD83 /* Mitchell-47.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E720525B4300B8BD83 /* Mitchell-47.txt */; };
+		9BC6F23920525B4500B8BD83 /* Mitchell-36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E820525B4400B8BD83 /* Mitchell-36.txt */; };
+		9BC6F23A20525B4500B8BD83 /* Mitchell-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1E920525B4400B8BD83 /* Mitchell-2.txt */; };
+		9BC6F23B20525B4500B8BD83 /* Mitchell-35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1EA20525B4400B8BD83 /* Mitchell-35.txt */; };
+		9BC6F23C20525B4500B8BD83 /* Mitchell-63.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1EB20525B4400B8BD83 /* Mitchell-63.txt */; };
+		9BC6F23D20525B4500B8BD83 /* Mitchell-25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1EC20525B4400B8BD83 /* Mitchell-25.txt */; };
+		9BC6F23E20525B4500B8BD83 /* Mitchell-39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1ED20525B4400B8BD83 /* Mitchell-39.txt */; };
+		9BC6F23F20525B4500B8BD83 /* Mitchell-42.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1EE20525B4400B8BD83 /* Mitchell-42.txt */; };
+		9BC6F24020525B4500B8BD83 /* Mitchell-43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1EF20525B4500B8BD83 /* Mitchell-43.txt */; };
+		9BC6F24120525B4500B8BD83 /* Mitchell-37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F020525B4500B8BD83 /* Mitchell-37.txt */; };
+		9BC6F24220525B4500B8BD83 /* Mitchell-24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F120525B4500B8BD83 /* Mitchell-24.txt */; };
+		9BC6F24320525B4500B8BD83 /* Mitchell-61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */; };
+		9BC6F24420525B4500B8BD83 /* Mitchell-30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */; };
+		9BC6F24520525B4500B8BD83 /* Mitchell-9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */; };
 		9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */; };
 		9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8932051CDDA00792AEA /* ChapterCell.swift */; };
 		9BEFF89620520FDD00792AEA /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF89520520FDD00792AEA /* TextViewController.swift */; };
@@ -25,6 +106,87 @@
 		9B6EB97D2045B4100060365B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6EB9802045B4100060365B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B6EB9822045B4100060365B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC6F1A420525B3C00B8BD83 /* Mitchell-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-1.txt"; sourceTree = "<group>"; };
+		9BC6F1A520525B3C00B8BD83 /* Mitchell-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-11.txt"; sourceTree = "<group>"; };
+		9BC6F1A620525B3C00B8BD83 /* Mitchell-45.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-45.txt"; sourceTree = "<group>"; };
+		9BC6F1A720525B3C00B8BD83 /* Mitchell-58.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-58.txt"; sourceTree = "<group>"; };
+		9BC6F1A820525B3C00B8BD83 /* Mitchell-68.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-68.txt"; sourceTree = "<group>"; };
+		9BC6F1A920525B3C00B8BD83 /* Mitchell-3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-3.txt"; sourceTree = "<group>"; };
+		9BC6F1AA20525B3C00B8BD83 /* Mitchell-69.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-69.txt"; sourceTree = "<group>"; };
+		9BC6F1AB20525B3C00B8BD83 /* Mitchell-79.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-79.txt"; sourceTree = "<group>"; };
+		9BC6F1AC20525B3C00B8BD83 /* Mitchell-5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-5.txt"; sourceTree = "<group>"; };
+		9BC6F1AD20525B3C00B8BD83 /* Mitchell-34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-34.txt"; sourceTree = "<group>"; };
+		9BC6F1AE20525B3D00B8BD83 /* Mitchell-66.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-66.txt"; sourceTree = "<group>"; };
+		9BC6F1AF20525B3D00B8BD83 /* Mitchell-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-10.txt"; sourceTree = "<group>"; };
+		9BC6F1B020525B3D00B8BD83 /* Mitchell-72.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-72.txt"; sourceTree = "<group>"; };
+		9BC6F1B120525B3D00B8BD83 /* Mitchell-33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-33.txt"; sourceTree = "<group>"; };
+		9BC6F1B220525B3D00B8BD83 /* Mitchell-56.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-56.txt"; sourceTree = "<group>"; };
+		9BC6F1B320525B3D00B8BD83 /* Mitchell-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-22.txt"; sourceTree = "<group>"; };
+		9BC6F1B420525B3D00B8BD83 /* Mitchell-75.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-75.txt"; sourceTree = "<group>"; };
+		9BC6F1B520525B3D00B8BD83 /* Mitchell-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-21.txt"; sourceTree = "<group>"; };
+		9BC6F1B620525B3D00B8BD83 /* Mitchell-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-14.txt"; sourceTree = "<group>"; };
+		9BC6F1B720525B3D00B8BD83 /* Mitchell-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-18.txt"; sourceTree = "<group>"; };
+		9BC6F1B820525B3D00B8BD83 /* Mitchell-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-20.txt"; sourceTree = "<group>"; };
+		9BC6F1B920525B3D00B8BD83 /* Mitchell-23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-23.txt"; sourceTree = "<group>"; };
+		9BC6F1BA20525B3D00B8BD83 /* Mitchell-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-16.txt"; sourceTree = "<group>"; };
+		9BC6F1BB20525B3E00B8BD83 /* Mitchell-62.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-62.txt"; sourceTree = "<group>"; };
+		9BC6F1BC20525B3E00B8BD83 /* Mitchell-71.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-71.txt"; sourceTree = "<group>"; };
+		9BC6F1BD20525B3E00B8BD83 /* Mitchell-77.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-77.txt"; sourceTree = "<group>"; };
+		9BC6F1BE20525B3E00B8BD83 /* Mitchell-78.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-78.txt"; sourceTree = "<group>"; };
+		9BC6F1BF20525B3E00B8BD83 /* Mitchell-4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-4.txt"; sourceTree = "<group>"; };
+		9BC6F1C020525B3E00B8BD83 /* Mitchell-57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-57.txt"; sourceTree = "<group>"; };
+		9BC6F1C120525B3E00B8BD83 /* Mitchell-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-13.txt"; sourceTree = "<group>"; };
+		9BC6F1C220525B3E00B8BD83 /* Mitchell-29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-29.txt"; sourceTree = "<group>"; };
+		9BC6F1C320525B3F00B8BD83 /* Mitchell-40.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-40.txt"; sourceTree = "<group>"; };
+		9BC6F1C420525B3F00B8BD83 /* Mitchell-49.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-49.txt"; sourceTree = "<group>"; };
+		9BC6F1C520525B3F00B8BD83 /* Mitchell-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-15.txt"; sourceTree = "<group>"; };
+		9BC6F1C620525B3F00B8BD83 /* Mitchell-55.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-55.txt"; sourceTree = "<group>"; };
+		9BC6F1C720525B3F00B8BD83 /* Mitchell-65.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-65.txt"; sourceTree = "<group>"; };
+		9BC6F1C820525B3F00B8BD83 /* Mitchell-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-19.txt"; sourceTree = "<group>"; };
+		9BC6F1C920525B3F00B8BD83 /* Mitchell-7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-7.txt"; sourceTree = "<group>"; };
+		9BC6F1CA20525B3F00B8BD83 /* Mitchell-48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-48.txt"; sourceTree = "<group>"; };
+		9BC6F1CB20525B4000B8BD83 /* Mitchell-60.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-60.txt"; sourceTree = "<group>"; };
+		9BC6F1CC20525B4000B8BD83 /* Mitchell-8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-8.txt"; sourceTree = "<group>"; };
+		9BC6F1CD20525B4000B8BD83 /* Mitchell-67.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-67.txt"; sourceTree = "<group>"; };
+		9BC6F1CE20525B4000B8BD83 /* Mitchell-73.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-73.txt"; sourceTree = "<group>"; };
+		9BC6F1CF20525B4000B8BD83 /* Mitchell-70.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-70.txt"; sourceTree = "<group>"; };
+		9BC6F1D020525B4000B8BD83 /* Mitchell-80.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-80.txt"; sourceTree = "<group>"; };
+		9BC6F1D120525B4000B8BD83 /* Mitchell-81.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-81.txt"; sourceTree = "<group>"; };
+		9BC6F1D220525B4000B8BD83 /* Mitchell-6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-6.txt"; sourceTree = "<group>"; };
+		9BC6F1D320525B4100B8BD83 /* Mitchell-64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-64.txt"; sourceTree = "<group>"; };
+		9BC6F1D420525B4100B8BD83 /* Mitchell-51.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-51.txt"; sourceTree = "<group>"; };
+		9BC6F1D520525B4100B8BD83 /* Mitchell-26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-26.txt"; sourceTree = "<group>"; };
+		9BC6F1D620525B4100B8BD83 /* Mitchell-32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-32.txt"; sourceTree = "<group>"; };
+		9BC6F1D720525B4100B8BD83 /* Mitchell-27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-27.txt"; sourceTree = "<group>"; };
+		9BC6F1D820525B4100B8BD83 /* Mitchell-28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-28.txt"; sourceTree = "<group>"; };
+		9BC6F1D920525B4100B8BD83 /* Mitchell-74.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-74.txt"; sourceTree = "<group>"; };
+		9BC6F1DA20525B4200B8BD83 /* Mitchell-38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-38.txt"; sourceTree = "<group>"; };
+		9BC6F1DB20525B4200B8BD83 /* Mitchell-59.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-59.txt"; sourceTree = "<group>"; };
+		9BC6F1DC20525B4200B8BD83 /* Mitchell-31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-31.txt"; sourceTree = "<group>"; };
+		9BC6F1DD20525B4200B8BD83 /* Mitchell-52.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-52.txt"; sourceTree = "<group>"; };
+		9BC6F1DE20525B4200B8BD83 /* Mitchell-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-17.txt"; sourceTree = "<group>"; };
+		9BC6F1DF20525B4200B8BD83 /* Mitchell-44.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-44.txt"; sourceTree = "<group>"; };
+		9BC6F1E020525B4200B8BD83 /* Mitchell-54.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-54.txt"; sourceTree = "<group>"; };
+		9BC6F1E120525B4300B8BD83 /* Mitchell-41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-41.txt"; sourceTree = "<group>"; };
+		9BC6F1E220525B4300B8BD83 /* Mitchell-50.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-50.txt"; sourceTree = "<group>"; };
+		9BC6F1E320525B4300B8BD83 /* Mitchell-76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-76.txt"; sourceTree = "<group>"; };
+		9BC6F1E420525B4300B8BD83 /* Mitchell-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-12.txt"; sourceTree = "<group>"; };
+		9BC6F1E520525B4300B8BD83 /* Mitchell-53.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-53.txt"; sourceTree = "<group>"; };
+		9BC6F1E620525B4300B8BD83 /* Mitchell-46.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-46.txt"; sourceTree = "<group>"; };
+		9BC6F1E720525B4300B8BD83 /* Mitchell-47.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-47.txt"; sourceTree = "<group>"; };
+		9BC6F1E820525B4400B8BD83 /* Mitchell-36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-36.txt"; sourceTree = "<group>"; };
+		9BC6F1E920525B4400B8BD83 /* Mitchell-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-2.txt"; sourceTree = "<group>"; };
+		9BC6F1EA20525B4400B8BD83 /* Mitchell-35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-35.txt"; sourceTree = "<group>"; };
+		9BC6F1EB20525B4400B8BD83 /* Mitchell-63.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-63.txt"; sourceTree = "<group>"; };
+		9BC6F1EC20525B4400B8BD83 /* Mitchell-25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-25.txt"; sourceTree = "<group>"; };
+		9BC6F1ED20525B4400B8BD83 /* Mitchell-39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-39.txt"; sourceTree = "<group>"; };
+		9BC6F1EE20525B4400B8BD83 /* Mitchell-42.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-42.txt"; sourceTree = "<group>"; };
+		9BC6F1EF20525B4500B8BD83 /* Mitchell-43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-43.txt"; sourceTree = "<group>"; };
+		9BC6F1F020525B4500B8BD83 /* Mitchell-37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-37.txt"; sourceTree = "<group>"; };
+		9BC6F1F120525B4500B8BD83 /* Mitchell-24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-24.txt"; sourceTree = "<group>"; };
+		9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-61.txt"; sourceTree = "<group>"; };
+		9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-30.txt"; sourceTree = "<group>"; };
+		9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-9.txt"; sourceTree = "<group>"; };
 		9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewController.swift; sourceTree = "<group>"; };
 		9BEFF8932051CDDA00792AEA /* ChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
 		9BEFF89520520FDD00792AEA /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +222,7 @@
 		9B6EB9752045B4100060365B /* project 1 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC6EFC2205257B700B8BD83 /* TTC-Texts */,
 				9B6EB9762045B4100060365B /* AppDelegate.swift */,
 				9B6EB9782045B4100060365B /* ViewController.swift */,
 				9B6EB97A2045B4100060365B /* Main.storyboard */,
@@ -71,6 +234,102 @@
 				9B6EB9822045B4100060365B /* Info.plist */,
 			);
 			path = "project 1";
+			sourceTree = "<group>";
+		};
+		9BC6EFC2205257B700B8BD83 /* TTC-Texts */ = {
+			isa = PBXGroup;
+			children = (
+				9BC6EFC3205257D200B8BD83 /* Mitchell */,
+			);
+			path = "TTC-Texts";
+			sourceTree = "<group>";
+		};
+		9BC6EFC3205257D200B8BD83 /* Mitchell */ = {
+			isa = PBXGroup;
+			children = (
+				9BC6F1A420525B3C00B8BD83 /* Mitchell-1.txt */,
+				9BC6F1E920525B4400B8BD83 /* Mitchell-2.txt */,
+				9BC6F1A920525B3C00B8BD83 /* Mitchell-3.txt */,
+				9BC6F1BF20525B3E00B8BD83 /* Mitchell-4.txt */,
+				9BC6F1AC20525B3C00B8BD83 /* Mitchell-5.txt */,
+				9BC6F1D220525B4000B8BD83 /* Mitchell-6.txt */,
+				9BC6F1C920525B3F00B8BD83 /* Mitchell-7.txt */,
+				9BC6F1CC20525B4000B8BD83 /* Mitchell-8.txt */,
+				9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */,
+				9BC6F1AF20525B3D00B8BD83 /* Mitchell-10.txt */,
+				9BC6F1A520525B3C00B8BD83 /* Mitchell-11.txt */,
+				9BC6F1E420525B4300B8BD83 /* Mitchell-12.txt */,
+				9BC6F1C120525B3E00B8BD83 /* Mitchell-13.txt */,
+				9BC6F1B620525B3D00B8BD83 /* Mitchell-14.txt */,
+				9BC6F1C520525B3F00B8BD83 /* Mitchell-15.txt */,
+				9BC6F1BA20525B3D00B8BD83 /* Mitchell-16.txt */,
+				9BC6F1DE20525B4200B8BD83 /* Mitchell-17.txt */,
+				9BC6F1B720525B3D00B8BD83 /* Mitchell-18.txt */,
+				9BC6F1C820525B3F00B8BD83 /* Mitchell-19.txt */,
+				9BC6F1B820525B3D00B8BD83 /* Mitchell-20.txt */,
+				9BC6F1B520525B3D00B8BD83 /* Mitchell-21.txt */,
+				9BC6F1B320525B3D00B8BD83 /* Mitchell-22.txt */,
+				9BC6F1B920525B3D00B8BD83 /* Mitchell-23.txt */,
+				9BC6F1F120525B4500B8BD83 /* Mitchell-24.txt */,
+				9BC6F1EC20525B4400B8BD83 /* Mitchell-25.txt */,
+				9BC6F1D520525B4100B8BD83 /* Mitchell-26.txt */,
+				9BC6F1D720525B4100B8BD83 /* Mitchell-27.txt */,
+				9BC6F1D820525B4100B8BD83 /* Mitchell-28.txt */,
+				9BC6F1C220525B3E00B8BD83 /* Mitchell-29.txt */,
+				9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */,
+				9BC6F1DC20525B4200B8BD83 /* Mitchell-31.txt */,
+				9BC6F1D620525B4100B8BD83 /* Mitchell-32.txt */,
+				9BC6F1B120525B3D00B8BD83 /* Mitchell-33.txt */,
+				9BC6F1AD20525B3C00B8BD83 /* Mitchell-34.txt */,
+				9BC6F1EA20525B4400B8BD83 /* Mitchell-35.txt */,
+				9BC6F1E820525B4400B8BD83 /* Mitchell-36.txt */,
+				9BC6F1F020525B4500B8BD83 /* Mitchell-37.txt */,
+				9BC6F1DA20525B4200B8BD83 /* Mitchell-38.txt */,
+				9BC6F1ED20525B4400B8BD83 /* Mitchell-39.txt */,
+				9BC6F1C320525B3F00B8BD83 /* Mitchell-40.txt */,
+				9BC6F1E120525B4300B8BD83 /* Mitchell-41.txt */,
+				9BC6F1EE20525B4400B8BD83 /* Mitchell-42.txt */,
+				9BC6F1EF20525B4500B8BD83 /* Mitchell-43.txt */,
+				9BC6F1DF20525B4200B8BD83 /* Mitchell-44.txt */,
+				9BC6F1A620525B3C00B8BD83 /* Mitchell-45.txt */,
+				9BC6F1E620525B4300B8BD83 /* Mitchell-46.txt */,
+				9BC6F1E720525B4300B8BD83 /* Mitchell-47.txt */,
+				9BC6F1CA20525B3F00B8BD83 /* Mitchell-48.txt */,
+				9BC6F1C420525B3F00B8BD83 /* Mitchell-49.txt */,
+				9BC6F1E220525B4300B8BD83 /* Mitchell-50.txt */,
+				9BC6F1D420525B4100B8BD83 /* Mitchell-51.txt */,
+				9BC6F1DD20525B4200B8BD83 /* Mitchell-52.txt */,
+				9BC6F1E520525B4300B8BD83 /* Mitchell-53.txt */,
+				9BC6F1E020525B4200B8BD83 /* Mitchell-54.txt */,
+				9BC6F1C620525B3F00B8BD83 /* Mitchell-55.txt */,
+				9BC6F1B220525B3D00B8BD83 /* Mitchell-56.txt */,
+				9BC6F1C020525B3E00B8BD83 /* Mitchell-57.txt */,
+				9BC6F1A720525B3C00B8BD83 /* Mitchell-58.txt */,
+				9BC6F1DB20525B4200B8BD83 /* Mitchell-59.txt */,
+				9BC6F1CB20525B4000B8BD83 /* Mitchell-60.txt */,
+				9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */,
+				9BC6F1BB20525B3E00B8BD83 /* Mitchell-62.txt */,
+				9BC6F1EB20525B4400B8BD83 /* Mitchell-63.txt */,
+				9BC6F1D320525B4100B8BD83 /* Mitchell-64.txt */,
+				9BC6F1C720525B3F00B8BD83 /* Mitchell-65.txt */,
+				9BC6F1AE20525B3D00B8BD83 /* Mitchell-66.txt */,
+				9BC6F1CD20525B4000B8BD83 /* Mitchell-67.txt */,
+				9BC6F1A820525B3C00B8BD83 /* Mitchell-68.txt */,
+				9BC6F1AA20525B3C00B8BD83 /* Mitchell-69.txt */,
+				9BC6F1CF20525B4000B8BD83 /* Mitchell-70.txt */,
+				9BC6F1BC20525B3E00B8BD83 /* Mitchell-71.txt */,
+				9BC6F1B020525B3D00B8BD83 /* Mitchell-72.txt */,
+				9BC6F1CE20525B4000B8BD83 /* Mitchell-73.txt */,
+				9BC6F1D920525B4100B8BD83 /* Mitchell-74.txt */,
+				9BC6F1B420525B3D00B8BD83 /* Mitchell-75.txt */,
+				9BC6F1E320525B4300B8BD83 /* Mitchell-76.txt */,
+				9BC6F1BD20525B3E00B8BD83 /* Mitchell-77.txt */,
+				9BC6F1BE20525B3E00B8BD83 /* Mitchell-78.txt */,
+				9BC6F1AB20525B3C00B8BD83 /* Mitchell-79.txt */,
+				9BC6F1D020525B4000B8BD83 /* Mitchell-80.txt */,
+				9BC6F1D120525B4000B8BD83 /* Mitchell-81.txt */,
+			);
+			path = Mitchell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +391,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC6F20D20525B4500B8BD83 /* Mitchell-71.txt in Resources */,
+				9BC6F23E20525B4500B8BD83 /* Mitchell-39.txt in Resources */,
+				9BC6F1FF20525B4500B8BD83 /* Mitchell-66.txt in Resources */,
+				9BC6F23720525B4500B8BD83 /* Mitchell-46.txt in Resources */,
+				9BC6F22C20525B4500B8BD83 /* Mitchell-59.txt in Resources */,
+				9BC6F21E20525B4500B8BD83 /* Mitchell-67.txt in Resources */,
+				9BC6F20720525B4500B8BD83 /* Mitchell-14.txt in Resources */,
+				9BC6F23B20525B4500B8BD83 /* Mitchell-35.txt in Resources */,
+				9BC6F1FD20525B4500B8BD83 /* Mitchell-5.txt in Resources */,
+				9BC6F20820525B4500B8BD83 /* Mitchell-18.txt in Resources */,
+				9BC6F23420525B4500B8BD83 /* Mitchell-76.txt in Resources */,
+				9BC6F22220525B4500B8BD83 /* Mitchell-81.txt in Resources */,
+				9BC6F23C20525B4500B8BD83 /* Mitchell-63.txt in Resources */,
+				9BC6F21F20525B4500B8BD83 /* Mitchell-73.txt in Resources */,
+				9BC6F22A20525B4500B8BD83 /* Mitchell-74.txt in Resources */,
+				9BC6F20A20525B4500B8BD83 /* Mitchell-23.txt in Resources */,
+				9BC6F21020525B4500B8BD83 /* Mitchell-4.txt in Resources */,
+				9BC6F23220525B4500B8BD83 /* Mitchell-41.txt in Resources */,
+				9BC6F21D20525B4500B8BD83 /* Mitchell-8.txt in Resources */,
+				9BC6F1F520525B4500B8BD83 /* Mitchell-1.txt in Resources */,
+				9BC6F21720525B4500B8BD83 /* Mitchell-55.txt in Resources */,
+				9BC6F21120525B4500B8BD83 /* Mitchell-57.txt in Resources */,
+				9BC6F1FC20525B4500B8BD83 /* Mitchell-79.txt in Resources */,
+				9BC6F21A20525B4500B8BD83 /* Mitchell-7.txt in Resources */,
+				9BC6F23820525B4500B8BD83 /* Mitchell-47.txt in Resources */,
 				9B6EB9812045B4100060365B /* LaunchScreen.storyboard in Resources */,
+				9BC6F23F20525B4500B8BD83 /* Mitchell-42.txt in Resources */,
+				9BC6F20620525B4500B8BD83 /* Mitchell-21.txt in Resources */,
+				9BC6F20220525B4500B8BD83 /* Mitchell-33.txt in Resources */,
+				9BC6F21420525B4500B8BD83 /* Mitchell-40.txt in Resources */,
+				9BC6F23320525B4500B8BD83 /* Mitchell-50.txt in Resources */,
+				9BC6F22420525B4500B8BD83 /* Mitchell-64.txt in Resources */,
+				9BC6F20120525B4500B8BD83 /* Mitchell-72.txt in Resources */,
+				9BC6F23920525B4500B8BD83 /* Mitchell-36.txt in Resources */,
+				9BC6F24020525B4500B8BD83 /* Mitchell-43.txt in Resources */,
+				9BC6F22520525B4500B8BD83 /* Mitchell-51.txt in Resources */,
+				9BC6F22120525B4500B8BD83 /* Mitchell-80.txt in Resources */,
+				9BC6F22F20525B4500B8BD83 /* Mitchell-17.txt in Resources */,
+				9BC6F24120525B4500B8BD83 /* Mitchell-37.txt in Resources */,
+				9BC6F1F920525B4500B8BD83 /* Mitchell-68.txt in Resources */,
+				9BC6F1FE20525B4500B8BD83 /* Mitchell-34.txt in Resources */,
+				9BC6F23020525B4500B8BD83 /* Mitchell-44.txt in Resources */,
+				9BC6F20B20525B4500B8BD83 /* Mitchell-16.txt in Resources */,
+				9BC6F1F820525B4500B8BD83 /* Mitchell-58.txt in Resources */,
+				9BC6F23620525B4500B8BD83 /* Mitchell-53.txt in Resources */,
+				9BC6F22020525B4500B8BD83 /* Mitchell-70.txt in Resources */,
 				9B6EB97E2045B4100060365B /* Assets.xcassets in Resources */,
+				9BC6F23D20525B4500B8BD83 /* Mitchell-25.txt in Resources */,
+				9BC6F20920525B4500B8BD83 /* Mitchell-20.txt in Resources */,
+				9BC6F20320525B4500B8BD83 /* Mitchell-56.txt in Resources */,
+				9BC6F21820525B4500B8BD83 /* Mitchell-65.txt in Resources */,
+				9BC6F23120525B4500B8BD83 /* Mitchell-54.txt in Resources */,
+				9BC6F22620525B4500B8BD83 /* Mitchell-26.txt in Resources */,
+				9BC6F21C20525B4500B8BD83 /* Mitchell-60.txt in Resources */,
+				9BC6F20520525B4500B8BD83 /* Mitchell-75.txt in Resources */,
+				9BC6F1FB20525B4500B8BD83 /* Mitchell-69.txt in Resources */,
+				9BC6F21220525B4500B8BD83 /* Mitchell-13.txt in Resources */,
+				9BC6F22320525B4500B8BD83 /* Mitchell-6.txt in Resources */,
+				9BC6F21620525B4500B8BD83 /* Mitchell-15.txt in Resources */,
+				9BC6F22E20525B4500B8BD83 /* Mitchell-52.txt in Resources */,
+				9BC6F20C20525B4500B8BD83 /* Mitchell-62.txt in Resources */,
+				9BC6F20E20525B4500B8BD83 /* Mitchell-77.txt in Resources */,
+				9BC6F24420525B4500B8BD83 /* Mitchell-30.txt in Resources */,
+				9BC6F22D20525B4500B8BD83 /* Mitchell-31.txt in Resources */,
+				9BC6F21920525B4500B8BD83 /* Mitchell-19.txt in Resources */,
+				9BC6F1F620525B4500B8BD83 /* Mitchell-11.txt in Resources */,
 				9B6EB97C2045B4100060365B /* Main.storyboard in Resources */,
+				9BC6F23520525B4500B8BD83 /* Mitchell-12.txt in Resources */,
+				9BC6F22820525B4500B8BD83 /* Mitchell-27.txt in Resources */,
+				9BC6F21520525B4500B8BD83 /* Mitchell-49.txt in Resources */,
+				9BC6F1F720525B4500B8BD83 /* Mitchell-45.txt in Resources */,
+				9BC6F22B20525B4500B8BD83 /* Mitchell-38.txt in Resources */,
+				9BC6F22720525B4500B8BD83 /* Mitchell-32.txt in Resources */,
+				9BC6F1FA20525B4500B8BD83 /* Mitchell-3.txt in Resources */,
+				9BC6F24320525B4500B8BD83 /* Mitchell-61.txt in Resources */,
+				9BC6F20020525B4500B8BD83 /* Mitchell-10.txt in Resources */,
+				9BC6F24220525B4500B8BD83 /* Mitchell-24.txt in Resources */,
+				9BC6F21B20525B4500B8BD83 /* Mitchell-48.txt in Resources */,
+				9BC6F20420525B4500B8BD83 /* Mitchell-22.txt in Resources */,
+				9BC6F20F20525B4500B8BD83 /* Mitchell-78.txt in Resources */,
+				9BC6F24520525B4500B8BD83 /* Mitchell-9.txt in Resources */,
+				9BC6F22920525B4500B8BD83 /* Mitchell-28.txt in Resources */,
+				9BC6F21320525B4500B8BD83 /* Mitchell-29.txt in Resources */,
+				9BC6F23A20525B4500B8BD83 /* Mitchell-2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "project 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryantabler.project-1";
@@ -301,6 +642,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "project 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryantabler.project-1";

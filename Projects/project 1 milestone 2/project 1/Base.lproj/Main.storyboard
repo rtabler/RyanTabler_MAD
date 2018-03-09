@@ -18,26 +18,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trO-ce-vA7">
-                                <rect key="frame" x="16" y="80" width="80" height="80"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BU5-8h-TGE">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0G-c2-iaT">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="628"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trO-ce-vA7">
+                                                <rect key="frame" x="16" y="16" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="1q5-LK-OWC"/>
+                                                    <constraint firstAttribute="height" constant="80" id="BbF-aj-XmS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usw-mu-H4r">
+                                                <rect key="frame" x="16" y="112" width="288" height="500"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="500" id="S22-Wu-Odf"/>
+                                                </constraints>
+                                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Usw-mu-H4r" secondAttribute="bottom" constant="16" id="CuU-xc-JzB"/>
+                                            <constraint firstAttribute="trailing" secondItem="Usw-mu-H4r" secondAttribute="trailing" constant="16" id="Fqb-GE-ajQ"/>
+                                            <constraint firstItem="trO-ce-vA7" firstAttribute="leading" secondItem="X0G-c2-iaT" secondAttribute="leading" constant="16" id="IWR-tW-eyA"/>
+                                            <constraint firstItem="Usw-mu-H4r" firstAttribute="leading" secondItem="X0G-c2-iaT" secondAttribute="leading" constant="16" id="c5I-ee-gcc"/>
+                                            <constraint firstItem="trO-ce-vA7" firstAttribute="top" secondItem="X0G-c2-iaT" secondAttribute="top" constant="16" id="caf-di-dhg"/>
+                                            <constraint firstItem="Usw-mu-H4r" firstAttribute="top" secondItem="trO-ce-vA7" secondAttribute="bottom" constant="16" id="vqB-2w-ceN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="BbF-aj-XmS"/>
-                                    <constraint firstAttribute="width" constant="80" id="n5j-Yf-PFf"/>
+                                    <constraint firstAttribute="bottom" secondItem="X0G-c2-iaT" secondAttribute="bottom" id="4mx-iU-8cR"/>
+                                    <constraint firstAttribute="trailing" secondItem="X0G-c2-iaT" secondAttribute="trailing" id="Gvr-lh-jIK"/>
+                                    <constraint firstItem="X0G-c2-iaT" firstAttribute="top" secondItem="BU5-8h-TGE" secondAttribute="top" id="WFH-vA-gbL"/>
+                                    <constraint firstItem="X0G-c2-iaT" firstAttribute="leading" secondItem="BU5-8h-TGE" secondAttribute="leading" id="cVQ-El-heV"/>
+                                    <constraint firstItem="X0G-c2-iaT" firstAttribute="width" secondItem="BU5-8h-TGE" secondAttribute="width" id="fji-gm-K8J"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="trO-ce-vA7" firstAttribute="top" secondItem="p9m-6N-Gag" secondAttribute="top" constant="16" id="55U-TO-p5F"/>
-                            <constraint firstItem="trO-ce-vA7" firstAttribute="leading" secondItem="p9m-6N-Gag" secondAttribute="leading" constant="16" id="jTe-7s-bhH"/>
+                            <constraint firstItem="BU5-8h-TGE" firstAttribute="trailing" secondItem="p9m-6N-Gag" secondAttribute="trailing" id="FJF-6q-IP0"/>
+                            <constraint firstItem="BU5-8h-TGE" firstAttribute="top" secondItem="p9m-6N-Gag" secondAttribute="top" id="bg1-lR-CpE"/>
+                            <constraint firstItem="BU5-8h-TGE" firstAttribute="leading" secondItem="p9m-6N-Gag" secondAttribute="leading" id="gj2-RE-M8w"/>
+                            <constraint firstItem="BU5-8h-TGE" firstAttribute="bottom" secondItem="p9m-6N-Gag" secondAttribute="bottom" id="tMj-J6-SOi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p9m-6N-Gag"/>
                     </view>
                     <connections>
                         <outlet property="chapterNumberLabel" destination="trO-ce-vA7" id="2Og-JK-9r7"/>
+                        <outlet property="scrollView" destination="BU5-8h-TGE" id="HIk-Na-r02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeE-sv-QBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

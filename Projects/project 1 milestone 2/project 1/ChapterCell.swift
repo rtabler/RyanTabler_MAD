@@ -11,6 +11,7 @@ import UIKit
 class ChapterCell: UICollectionViewCell {
     
     
+    
     var textLabel : UILabel?
     
     override init(frame: CGRect) {

@@ -12,6 +12,9 @@ class TextViewController: UIViewController {
 
     var chapterNumber: Int?
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    
     @IBOutlet weak var chapterNumberLabel: UILabel!
     
     override func viewDidLoad() {
@@ -19,6 +22,10 @@ class TextViewController: UIViewController {
 
         chapterNumberLabel.text = String(chapterNumber!)
         // Do any additional setup after loading the view.
+        
+        scrollView.contentSize = CGSize(width: CGFloat(1000.0), height: CGFloat(100.0))
+        print(scrollView.isScrollEnabled)
+        print(scrollView.showsVerticalScrollIndicator)
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,128 +8,461 @@ provides-member:
 provides-dynamic-lookup:
 - "chapterNumberLabel"
 - "didReceiveMemoryWarning"
+- "scrollView"
 - "viewDidLoad"
 depends-top-level:
+- "AssignmentPrecedence"
+- !private "CGFloat"
+- !private "CGSize"
 - "Int"
+- !private "String"
 - "TextViewController"
 - "UILabel"
+- "UIScrollView"
 - "UIViewController"
+- !private "print"
 depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["So15CALayerDelegateP", "contentSize"]
+- !private ["So15CALayerDelegateP", "isScrollEnabled"]
+- !private ["So15CALayerDelegateP", "showsVerticalScrollIndicator"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["SC6CGSizeV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "chapterNumber"]
+- !private ["s7CVarArgP", "chapterNumberLabel"]
+- !private ["s7CVarArgP", "contentSize"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isScrollEnabled"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "scrollView"]
+- !private ["s7CVarArgP", "showsVerticalScrollIndicator"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "chapterNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "chapterNumberLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "contentSize"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "chapterNumber"]
+- !private ["s23CustomStringConvertibleP", "chapterNumberLabel"]
+- !private ["s23CustomStringConvertibleP", "contentSize"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isScrollEnabled"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "scrollView"]
+- !private ["s23CustomStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "chapterNumber"]
+- !private ["s9EquatableP", "chapterNumberLabel"]
+- !private ["s9EquatableP", "contentSize"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isScrollEnabled"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "scrollView"]
+- !private ["s9EquatableP", "showsVerticalScrollIndicator"]
+- !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "chapterNumber"]
+- !private ["s8HashableP", "chapterNumberLabel"]
+- !private ["s8HashableP", "contentSize"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isScrollEnabled"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "scrollView"]
+- !private ["s8HashableP", "showsVerticalScrollIndicator"]
+- !private ["s8HashableP", "text"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGFloat"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "chapterNumber"]
+- !private ["So8NSCodingP", "chapterNumberLabel"]
+- !private ["So8NSCodingP", "contentSize"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isScrollEnabled"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "scrollView"]
+- !private ["So8NSCodingP", "showsVerticalScrollIndicator"]
+- !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "CGFloat"]
+- !private ["So26NSExtensionRequestHandlingP", "CGSize"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "chapterNumber"]
+- !private ["So26NSExtensionRequestHandlingP", "chapterNumberLabel"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "scrollView"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGSize"]
 - ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIScrollView"]
 - ["So8NSObjectC", "chapterNumber"]
 - ["So8NSObjectC", "chapterNumberLabel"]
+- !private ["So8NSObjectC", "contentSize"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isScrollEnabled"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "scrollView"]
+- !private ["So8NSObjectC", "showsVerticalScrollIndicator"]
+- !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "chapterNumber"]
+- !private ["So16NSObjectProtocolP", "chapterNumberLabel"]
+- !private ["So16NSObjectProtocolP", "contentSize"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isScrollEnabled"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "scrollView"]
+- !private ["So16NSObjectProtocolP", "showsVerticalScrollIndicator"]
+- !private ["So16NSObjectProtocolP", "text"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["s7NumericP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9project_118TextViewControllerC", "CGFloat"]
+- !private ["9project_118TextViewControllerC", "CGSize"]
 - ["9project_118TextViewControllerC", "Int"]
+- !private ["9project_118TextViewControllerC", "String"]
 - ["9project_118TextViewControllerC", "UILabel"]
+- ["9project_118TextViewControllerC", "UIScrollView"]
 - ["9project_118TextViewControllerC", "chapterNumber"]
 - ["9project_118TextViewControllerC", "chapterNumberLabel"]
 - ["9project_118TextViewControllerC", "deinit"]
 - ["9project_118TextViewControllerC", "didReceiveMemoryWarning"]
 - ["9project_118TextViewControllerC", "init"]
+- !private ["9project_118TextViewControllerC", "print"]
+- ["9project_118TextViewControllerC", "scrollView"]
 - ["9project_118TextViewControllerC", "viewDidLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "contentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "isScrollEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "showsVerticalScrollIndicator"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "contentSize"]
+- !private ["So12UIAppearanceP", "isScrollEnabled"]
+- !private ["So12UIAppearanceP", "showsVerticalScrollIndicator"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "chapterNumber"]
+- !private ["So21UIAppearanceContainerP", "chapterNumberLabel"]
+- !private ["So21UIAppearanceContainerP", "contentSize"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isScrollEnabled"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "scrollView"]
+- !private ["So21UIAppearanceContainerP", "showsVerticalScrollIndicator"]
+- !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "CGFloat"]
+- !private ["So18UIContentContainerP", "CGSize"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "chapterNumber"]
+- !private ["So18UIContentContainerP", "chapterNumberLabel"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "scrollView"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "contentSize"]
+- !private ["So17UICoordinateSpaceP", "isScrollEnabled"]
+- !private ["So17UICoordinateSpaceP", "showsVerticalScrollIndicator"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "contentSize"]
+- !private ["So13UIDynamicItemP", "isScrollEnabled"]
+- !private ["So13UIDynamicItemP", "showsVerticalScrollIndicator"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "CGFloat"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "chapterNumber"]
+- !private ["So18UIFocusEnvironmentP", "chapterNumberLabel"]
+- !private ["So18UIFocusEnvironmentP", "contentSize"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isScrollEnabled"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "scrollView"]
+- !private ["So18UIFocusEnvironmentP", "showsVerticalScrollIndicator"]
+- !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "contentSize"]
+- !private ["So11UIFocusItemP", "isScrollEnabled"]
+- !private ["So11UIFocusItemP", "showsVerticalScrollIndicator"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "chapterNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "chapterNumberLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentSize"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "scrollView"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsVerticalScrollIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "CGSize"]
 - ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIScrollView"]
 - ["So11UIResponderC", "chapterNumber"]
 - ["So11UIResponderC", "chapterNumberLabel"]
+- !private ["So11UIResponderC", "contentSize"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isScrollEnabled"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "scrollView"]
+- !private ["So11UIResponderC", "showsVerticalScrollIndicator"]
+- !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "chapterNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "chapterNumberLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "contentSize"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "scrollView"]
+- !private ["So30UIResponderStandardEditActionsP", "showsVerticalScrollIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "contentSize"]
+- !private ["So12UIScrollViewC", "isScrollEnabled"]
+- !private ["So12UIScrollViewC", "showsVerticalScrollIndicator"]
+- !private ["So16UIStateRestoringP", "CGFloat"]
+- !private ["So16UIStateRestoringP", "CGSize"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "chapterNumber"]
+- !private ["So16UIStateRestoringP", "chapterNumberLabel"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "scrollView"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "chapterNumber"]
+- !private ["So18UITraitEnvironmentP", "chapterNumberLabel"]
+- !private ["So18UITraitEnvironmentP", "contentSize"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isScrollEnabled"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "scrollView"]
+- !private ["So18UITraitEnvironmentP", "showsVerticalScrollIndicator"]
+- !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "contentSize"]
+- !private ["So6UIViewC", "isScrollEnabled"]
+- !private ["So6UIViewC", "showsVerticalScrollIndicator"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "CGSize"]
 - ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIScrollView"]
 - ["So16UIViewControllerC", "chapterNumber"]
 - ["So16UIViewControllerC", "chapterNumberLabel"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "scrollView"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentSize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isScrollEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsVerticalScrollIndicator"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chapterNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "chapterNumberLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsVerticalScrollIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "SC6CGSizeV"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "9project_118TextViewControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -155,4 +488,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "5e4bd429b031fd34e01e004472a63e0f"
+interface-hash: "558de2480821b44114d28522378e551a"

@@ -18,17 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trO-ce-vA7">
-                                <rect key="frame" x="139" y="274" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="68" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trO-ce-vA7">
+                                <rect key="frame" x="16" y="80" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="BbF-aj-XmS"/>
+                                    <constraint firstAttribute="width" constant="80" id="n5j-Yf-PFf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="trO-ce-vA7" firstAttribute="centerY" secondItem="08K-yq-VVK" secondAttribute="centerY" id="L2t-nu-2bj"/>
-                            <constraint firstItem="trO-ce-vA7" firstAttribute="centerX" secondItem="08K-yq-VVK" secondAttribute="centerX" id="SQH-09-FDB"/>
+                            <constraint firstItem="trO-ce-vA7" firstAttribute="top" secondItem="p9m-6N-Gag" secondAttribute="top" constant="16" id="55U-TO-p5F"/>
+                            <constraint firstItem="trO-ce-vA7" firstAttribute="leading" secondItem="p9m-6N-Gag" secondAttribute="leading" constant="16" id="jTe-7s-bhH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p9m-6N-Gag"/>
                     </view>
@@ -38,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeE-sv-QBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2993" y="-181"/>
+            <point key="canvasLocation" x="2992.5" y="-181.69014084507043"/>
         </scene>
         <!--Chapters-->
         <scene sceneID="iRy-3z-lmk">
@@ -61,22 +65,10 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeG-K4-P59">
-                                            <rect key="frame" x="4" y="14.5" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
                                 </view>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="SeG-K4-P59" firstAttribute="centerX" secondItem="JUV-Yh-OAW" secondAttribute="centerX" id="Urk-QT-Zh7"/>
-                                    <constraint firstItem="SeG-K4-P59" firstAttribute="centerY" secondItem="JUV-Yh-OAW" secondAttribute="centerY" id="k1T-C1-J2l"/>
-                                </constraints>
                                 <connections>
-                                    <segue destination="N26-kF-LvB" kind="show" identifier="openChapter" id="58D-UV-XaD"/>
+                                    <segue destination="N26-kF-LvB" kind="show" identifier="openChapter" id="SKP-p1-QE9"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -89,7 +81,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KP6-k5-lnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2239" y="-181"/>
+            <point key="canvasLocation" x="2238.75" y="-181.69014084507043"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OwV-ct-V3h">

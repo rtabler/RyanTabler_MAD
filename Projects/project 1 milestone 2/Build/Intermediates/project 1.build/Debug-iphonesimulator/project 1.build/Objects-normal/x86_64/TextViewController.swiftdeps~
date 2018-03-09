@@ -6,10 +6,13 @@ provides-nominal:
 provides-member:
 - ["9project_118TextViewControllerC", ""]
 provides-dynamic-lookup:
+- "chapterNumberLabel"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
+- "Int"
 - "TextViewController"
+- "UILabel"
 - "UIViewController"
 depends-member:
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
@@ -40,6 +43,10 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "chapterNumber"]
+- ["So8NSObjectC", "chapterNumberLabel"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "viewDidLoad"]
@@ -47,6 +54,10 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
+- ["9project_118TextViewControllerC", "Int"]
+- ["9project_118TextViewControllerC", "UILabel"]
+- ["9project_118TextViewControllerC", "chapterNumber"]
+- ["9project_118TextViewControllerC", "chapterNumberLabel"]
 - ["9project_118TextViewControllerC", "deinit"]
 - ["9project_118TextViewControllerC", "didReceiveMemoryWarning"]
 - ["9project_118TextViewControllerC", "init"]
@@ -67,6 +78,10 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "chapterNumber"]
+- ["So11UIResponderC", "chapterNumberLabel"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
@@ -82,6 +97,10 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "chapterNumber"]
+- ["So16UIViewControllerC", "chapterNumberLabel"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
@@ -136,4 +155,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "f334cd32a8ff9c2301f91568c913cb71"
+interface-hash: "5e4bd429b031fd34e01e004472a63e0f"

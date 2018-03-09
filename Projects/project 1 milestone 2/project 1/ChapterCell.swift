@@ -9,7 +9,9 @@
 import UIKit
 
 class ChapterCell: UICollectionViewCell {
-    private(set) var textLabel : UILabel?
+    
+    
+    var textLabel : UILabel?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,6 +20,7 @@ class ChapterCell: UICollectionViewCell {
         textLabel!.textAlignment = .center
         textLabel!.text = "filler"
         contentView.addSubview(textLabel!)
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

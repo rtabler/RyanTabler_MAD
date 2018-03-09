@@ -10,11 +10,14 @@ import UIKit
 
 class TextViewController: UIViewController {
 
+    var chapterNumber: Int?
+    
     @IBOutlet weak var chapterNumberLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        chapterNumberLabel.text = String(chapterNumber!)
         // Do any additional setup after loading the view.
     }
 

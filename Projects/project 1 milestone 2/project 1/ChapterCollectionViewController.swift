@@ -64,10 +64,14 @@ class ChapterCollectionViewController: UICollectionViewController, UICollectionV
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("prepare() called")
         if segue.identifier == "openChapter" {
-            let indexPath = collectionView?.indexPath(for: sender as! ChapterCell)
-            let detailVC = segue.destination
-            print(type(of:detailVC))
-//            detailVC.chapterNumberLabel.text = "TEST"
+            var senderInt: Int = sender as! Int
+//            var senderCell = sender as! ChapterCell
+//            print(type(of:senderCell))
+//            print(senderCell.textLabel?.text)
+//            let indexPath = collectionView?.indexPath(for: senderCell)
+//            print(indexPath)
+            let detailVC = segue.destination as! TextViewController
+            detailVC.chapterNumber = senderInt
         }
     }
     
@@ -121,9 +125,26 @@ class ChapterCollectionViewController: UICollectionViewController, UICollectionV
 //        let centerXConstraint = NSLayoutConstraint(item: cellLabel, attribute: NSLayoutAttribute.centerX, relatedBy: NSLayoutRelation.equal, toItem: cell, attribute: NSLayoutAttribute.centerX, multiplier: 1, constant: 0)
 //        let stupidHeightConstraint = NSLayoutConstraint(item: cellLabel, attribute: NSLayoutAttribute.height, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.height, multiplier: 1, constant: 400)
 //        cell.addConstraints([centerXConstraint, stupidHeightConstraint])
+        
+//        let img = UIImage(named: "icons8-bookmark-50.png")
+//        cell.imageView.image = img
 
+        cell.backgroundColor = UIColor.cyan
+        
+        
         
         return cell
+    }
+    
+    
+//    public func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
+    public override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        let senderCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ChapterCell
+        print(indexPath.row)
+//        print(senderCell.textLabel?.text)
+//        senderCell.setLabel(text: "more filler")
+//        print(senderCell.textLabel?.text)
+        performSegue(withIdentifier: "openChapter", sender: indexPath.row+1)
     }
 
     // MARK: UICollectionViewDelegate

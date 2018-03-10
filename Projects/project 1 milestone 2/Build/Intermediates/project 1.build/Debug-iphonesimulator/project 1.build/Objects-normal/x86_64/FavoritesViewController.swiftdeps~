@@ -1,0 +1,845 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FavoritesViewController"
+provides-nominal:
+- "9project_123FavoritesViewControllerC"
+provides-member:
+- ["9project_123FavoritesViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "numberOfSections"
+- "prepare"
+- "tableView"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Favorite"
+- "FavoritesViewController"
+- "IndexPath"
+- "Int"
+- "Realm"
+- "Results"
+- !private "String"
+- "StringLiteralType"
+- "UIStoryboardSegue"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+- !private "print"
+depends-member:
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "count"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "item"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "indexPath"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- !private ["s7CVarArgP", "Favorite"]
+- !private ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "favorites"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "indexPath"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "item"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "realm"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "reuseIdentifier"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "item"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "Favorite"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "favorites"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPath"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "realm"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s23CustomStringConvertibleP", "Favorite"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "favorites"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "indexPath"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "realm"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EquatableP", "Favorite"]
+- !private ["s9EquatableP", "Realm"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "favorites"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "indexPath"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "item"]
+- !private ["s9EquatableP", "objects"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "realm"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "reuseIdentifier"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "textLabel"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "viewWillAppear"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["9project_18FavoriteC", "deinit"]
+- !private ["9project_18FavoriteC", "item"]
+- ["9project_123FavoritesViewControllerC", "Bool"]
+- ["9project_123FavoritesViewControllerC", "Favorite"]
+- ["9project_123FavoritesViewControllerC", "IndexPath"]
+- ["9project_123FavoritesViewControllerC", "Int"]
+- ["9project_123FavoritesViewControllerC", "Realm"]
+- ["9project_123FavoritesViewControllerC", "Results"]
+- !private ["9project_123FavoritesViewControllerC", "String"]
+- ["9project_123FavoritesViewControllerC", "UIStoryboardSegue"]
+- ["9project_123FavoritesViewControllerC", "UITableView"]
+- ["9project_123FavoritesViewControllerC", "UITableViewCell"]
+- ["9project_123FavoritesViewControllerC", "deinit"]
+- ["9project_123FavoritesViewControllerC", "didReceiveMemoryWarning"]
+- ["9project_123FavoritesViewControllerC", "favorites"]
+- ["9project_123FavoritesViewControllerC", "init"]
+- ["9project_123FavoritesViewControllerC", "numberOfSections"]
+- ["9project_123FavoritesViewControllerC", "prepare"]
+- !private ["9project_123FavoritesViewControllerC", "print"]
+- ["9project_123FavoritesViewControllerC", "realm"]
+- ["9project_123FavoritesViewControllerC", "reuseIdentifier"]
+- ["9project_123FavoritesViewControllerC", "tableView"]
+- ["9project_123FavoritesViewControllerC", "viewDidLoad"]
+- ["9project_123FavoritesViewControllerC", "viewWillAppear"]
+- !private ["s8HashableP", "Favorite"]
+- !private ["s8HashableP", "Realm"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "favorites"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "indexPath"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "item"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "realm"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "reuseIdentifier"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "textLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "viewWillAppear"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["s22LazyCollectionProtocolP", "count"]
+- !private ["s22LazyCollectionProtocolP", "subscript"]
+- !private ["s20LazySequenceProtocolP", "count"]
+- !private ["s20LazySequenceProtocolP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["So8NSCodingP", "Favorite"]
+- !private ["So8NSCodingP", "Realm"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "favorites"]
+- !private ["So8NSCodingP", "indexPath"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "realm"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "reuseIdentifier"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Favorite"]
+- !private ["So26NSExtensionRequestHandlingP", "Realm"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "favorites"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "realm"]
+- !private ["So26NSExtensionRequestHandlingP", "reuseIdentifier"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So17NSFastEnumerationP", "count"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Favorite"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Realm"]
+- ["So8NSObjectC", "Results"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "favorites"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "indexPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "item"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "realm"]
+- !private ["So8NSObjectC", "reloadData"]
+- ["So8NSObjectC", "reuseIdentifier"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So16NSObjectProtocolP", "Favorite"]
+- !private ["So16NSObjectProtocolP", "Realm"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "favorites"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "indexPath"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "item"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "realm"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "reuseIdentifier"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "textLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "viewWillAppear"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["10RealmSwift6ObjectC", "item"]
+- !private ["So13RLMObjectBaseC", "item"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "item"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s17RandomAccessSliceV", "item"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "objects"]
+- !private ["10RealmSwift0A10CollectionP", "count"]
+- !private ["10RealmSwift0A10CollectionP", "subscript"]
+- !private ["10RealmSwift0A14CollectionBaseP", "count"]
+- !private ["10RealmSwift0A14CollectionBaseP", "subscript"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "item"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10RealmSwift7ResultsC", "count"]
+- !private ["10RealmSwift7ResultsC", "subscript"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "item"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "count"]
+- !private ["10RealmSwift14ThreadConfinedP", "item"]
+- !private ["10RealmSwift14ThreadConfinedP", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "indexPath"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "indexPath"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "Favorite"]
+- !private ["So21UIAppearanceContainerP", "Realm"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "favorites"]
+- !private ["So21UIAppearanceContainerP", "indexPath"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "realm"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "reuseIdentifier"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Favorite"]
+- !private ["So18UIContentContainerP", "Realm"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "favorites"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "realm"]
+- !private ["So18UIContentContainerP", "reuseIdentifier"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "indexPath"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "indexPath"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "indexPath"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "Favorite"]
+- !private ["So18UIFocusEnvironmentP", "Realm"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "favorites"]
+- !private ["So18UIFocusEnvironmentP", "indexPath"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "realm"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "reuseIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "indexPath"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Favorite"]
+- !private ["So30UIPasteConfigurationSupportingP", "Realm"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "favorites"]
+- !private ["So30UIPasteConfigurationSupportingP", "indexPath"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "realm"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "reuseIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Favorite"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "Realm"]
+- ["So11UIResponderC", "Results"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "favorites"]
+- !private ["So11UIResponderC", "indexPath"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberOfSections"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "realm"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "reuseIdentifier"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "Favorite"]
+- !private ["So30UIResponderStandardEditActionsP", "Realm"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "favorites"]
+- !private ["So30UIResponderStandardEditActionsP", "indexPath"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "realm"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "reuseIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "indexPath"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So20UIScrollViewDelegateP", "Favorite"]
+- !private ["So20UIScrollViewDelegateP", "Realm"]
+- !private ["So20UIScrollViewDelegateP", "String"]
+- !private ["So20UIScrollViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So20UIScrollViewDelegateP", "favorites"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "realm"]
+- !private ["So20UIScrollViewDelegateP", "reuseIdentifier"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "viewWillAppear"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "indexPath"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So16UIStateRestoringP", "Favorite"]
+- !private ["So16UIStateRestoringP", "Realm"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "favorites"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "realm"]
+- !private ["So16UIStateRestoringP", "reuseIdentifier"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "indexPath"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- ["So21UITableViewControllerC", "Bool"]
+- ["So21UITableViewControllerC", "Favorite"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "Realm"]
+- ["So21UITableViewControllerC", "Results"]
+- !private ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", "UIStoryboardSegue"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", "didReceiveMemoryWarning"]
+- ["So21UITableViewControllerC", "favorites"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "prepare"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "realm"]
+- ["So21UITableViewControllerC", "reuseIdentifier"]
+- ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", "viewWillAppear"]
+- ["So21UITableViewControllerC", ""]
+- !private ["So21UITableViewDataSourceP", "Favorite"]
+- !private ["So21UITableViewDataSourceP", "Realm"]
+- !private ["So21UITableViewDataSourceP", "String"]
+- !private ["So21UITableViewDataSourceP", "didReceiveMemoryWarning"]
+- !private ["So21UITableViewDataSourceP", "favorites"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "realm"]
+- !private ["So21UITableViewDataSourceP", "reuseIdentifier"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- !private ["So21UITableViewDataSourceP", "viewWillAppear"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "Favorite"]
+- !private ["So19UITableViewDelegateP", "Realm"]
+- !private ["So19UITableViewDelegateP", "String"]
+- !private ["So19UITableViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So19UITableViewDelegateP", "favorites"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "realm"]
+- !private ["So19UITableViewDelegateP", "reuseIdentifier"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- !private ["So19UITableViewDelegateP", "viewWillAppear"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "Favorite"]
+- !private ["So18UITraitEnvironmentP", "Realm"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "favorites"]
+- !private ["So18UITraitEnvironmentP", "indexPath"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "realm"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "reuseIdentifier"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "indexPath"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textLabel"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "Favorite"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "Realm"]
+- ["So16UIViewControllerC", "Results"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "favorites"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "realm"]
+- ["So16UIViewControllerC", "reuseIdentifier"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "item"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPath"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "item"]
+- !private ["s10_IndexableP", "row"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "item"]
+- !private ["s14_IndexableBaseP", "row"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Favorite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favorites"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "item"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "9project_18FavoriteC"
+- "9project_123FavoritesViewControllerC"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "10RealmSwift6ObjectC"
+- !private "So13RLMObjectBaseC"
+- !private "s22RandomAccessCollectionP"
+- !private "s17RandomAccessSliceV"
+- "s26RangeReplaceableCollectionP"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A10CollectionP"
+- !private "10RealmSwift0A14CollectionBaseP"
+- "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10RealmSwift7ResultsC"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "6e4c4ee0d6b8f5755b722be7867f8784"

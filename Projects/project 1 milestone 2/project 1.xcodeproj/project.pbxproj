@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616BF8A8C98B83C2E8F5B1C1 /* Pods_project_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21ACBD1E5D1E0C5C8D836D8 /* Pods_project_1.framework */; };
 		9B6EB9772045B4100060365B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EB9762045B4100060365B /* AppDelegate.swift */; };
 		9B6EB9792045B4100060365B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EB9782045B4100060365B /* ViewController.swift */; };
 		9B6EB97C2045B4100060365B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EB97A2045B4100060365B /* Main.storyboard */; };
@@ -93,12 +94,17 @@
 		9BC6F24320525B4500B8BD83 /* Mitchell-61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */; };
 		9BC6F24420525B4500B8BD83 /* Mitchell-30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */; };
 		9BC6F24520525B4500B8BD83 /* Mitchell-9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */; };
+		9BC6F2472053616500B8BD83 /* favorites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2462053616500B8BD83 /* favorites.plist */; };
+		9BC6F2492053735900B8BD83 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2482053735900B8BD83 /* MyData.swift */; };
+		9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24A20537B9D00B8BD83 /* Favorite.swift */; };
+		9BC6F24D2053856000B8BD83 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */; };
 		9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */; };
 		9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8932051CDDA00792AEA /* ChapterCell.swift */; };
 		9BEFF89620520FDD00792AEA /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF89520520FDD00792AEA /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6744C6B3969AA5E948E4905B /* Pods-project 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project 1.release.xcconfig"; path = "Pods/Target Support Files/Pods-project 1/Pods-project 1.release.xcconfig"; sourceTree = "<group>"; };
 		9B6EB9732045B4100060365B /* project 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6EB9762045B4100060365B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6EB9782045B4100060365B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,9 +193,15 @@
 		9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-61.txt"; sourceTree = "<group>"; };
 		9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-30.txt"; sourceTree = "<group>"; };
 		9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-9.txt"; sourceTree = "<group>"; };
+		9BC6F2462053616500B8BD83 /* favorites.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = favorites.plist; sourceTree = "<group>"; };
+		9BC6F2482053735900B8BD83 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		9BC6F24A20537B9D00B8BD83 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewController.swift; sourceTree = "<group>"; };
 		9BEFF8932051CDDA00792AEA /* ChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
 		9BEFF89520520FDD00792AEA /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		D21ACBD1E5D1E0C5C8D836D8 /* Pods_project_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_project_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3909622172C1BC2FCFACF60 /* Pods-project 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project 1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-project 1/Pods-project 1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,17 +209,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616BF8A8C98B83C2E8F5B1C1 /* Pods_project_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5293264F533B52E54225DE2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3909622172C1BC2FCFACF60 /* Pods-project 1.debug.xcconfig */,
+				6744C6B3969AA5E948E4905B /* Pods-project 1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B6EB96A2045B4100060365B = {
 			isa = PBXGroup;
 			children = (
 				9B6EB9752045B4100060365B /* project 1 */,
 				9B6EB9742045B4100060365B /* Products */,
+				5293264F533B52E54225DE2A /* Pods */,
+				BF3C4CCDDA0D9312DD048F29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,10 +248,14 @@
 			children = (
 				9BC6EFC2205257B700B8BD83 /* TTC-Texts */,
 				9B6EB9762045B4100060365B /* AppDelegate.swift */,
+				9BC6F2482053735900B8BD83 /* MyData.swift */,
 				9B6EB9782045B4100060365B /* ViewController.swift */,
 				9B6EB97A2045B4100060365B /* Main.storyboard */,
 				9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */,
+				9BC6F24A20537B9D00B8BD83 /* Favorite.swift */,
+				9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */,
 				9BEFF89520520FDD00792AEA /* TextViewController.swift */,
+				9BC6F2462053616500B8BD83 /* favorites.plist */,
 				9BEFF8932051CDDA00792AEA /* ChapterCell.swift */,
 				9B6EB97D2045B4100060365B /* Assets.xcassets */,
 				9B6EB97F2045B4100060365B /* LaunchScreen.storyboard */,
@@ -332,6 +360,14 @@
 			path = Mitchell;
 			sourceTree = "<group>";
 		};
+		BF3C4CCDDA0D9312DD048F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21ACBD1E5D1E0C5C8D836D8 /* Pods_project_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B6EB9852045B4100060365B /* Build configuration list for PBXNativeTarget "project 1" */;
 			buildPhases = (
+				ABBB7D2C3BEA4712C8B417B2 /* [CP] Check Pods Manifest.lock */,
 				9B6EB96F2045B4100060365B /* Sources */,
 				9B6EB9702045B4100060365B /* Frameworks */,
 				9B6EB9712045B4100060365B /* Resources */,
+				394D89A43744DA832812A88F /* [CP] Embed Pods Frameworks */,
+				4980A80CBE316FD80A0E0F70 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -442,6 +481,7 @@
 				9BC6F20920525B4500B8BD83 /* Mitchell-20.txt in Resources */,
 				9BC6F20320525B4500B8BD83 /* Mitchell-56.txt in Resources */,
 				9BC6F21820525B4500B8BD83 /* Mitchell-65.txt in Resources */,
+				9BC6F2472053616500B8BD83 /* favorites.plist in Resources */,
 				9BC6F23120525B4500B8BD83 /* Mitchell-54.txt in Resources */,
 				9BC6F22620525B4500B8BD83 /* Mitchell-26.txt in Resources */,
 				9BC6F21C20525B4500B8BD83 /* Mitchell-60.txt in Resources */,
@@ -480,6 +520,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		394D89A43744DA832812A88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-project 1/Pods-project 1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-project 1/Pods-project 1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4980A80CBE316FD80A0E0F70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-project 1/Pods-project 1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBB7D2C3BEA4712C8B417B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-project 1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B6EB96F2045B4100060365B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -487,7 +583,10 @@
 			files = (
 				9BEFF89620520FDD00792AEA /* TextViewController.swift in Sources */,
 				9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */,
+				9BC6F24D2053856000B8BD83 /* FavoritesViewController.swift in Sources */,
 				9B6EB9792045B4100060365B /* ViewController.swift in Sources */,
+				9BC6F2492053735900B8BD83 /* MyData.swift in Sources */,
+				9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */,
 				9B6EB9772045B4100060365B /* AppDelegate.swift in Sources */,
 				9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */,
 			);
@@ -624,6 +723,7 @@
 		};
 		9B6EB9862045B4100060365B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3909622172C1BC2FCFACF60 /* Pods-project 1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -639,6 +739,7 @@
 		};
 		9B6EB9872045B4100060365B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6744C6B3969AA5E948E4905B /* Pods-project 1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

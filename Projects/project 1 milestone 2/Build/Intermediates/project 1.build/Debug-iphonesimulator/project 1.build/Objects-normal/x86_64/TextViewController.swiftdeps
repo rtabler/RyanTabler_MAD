@@ -9,17 +9,27 @@ provides-dynamic-lookup:
 - "bodyText"
 - "chapterNumberLabel"
 - "didReceiveMemoryWarning"
+- "favoriteButtonAction"
+- "favoriteButtonOutlet"
 - "scrollView"
+- "shareButtonAction"
 - "viewDidLoad"
 depends-top-level:
+- !private "=="
 - "AssignmentPrecedence"
 - !private "Bundle"
 - !private "CGFloat"
 - !private "CGSize"
+- "Favorite"
 - "Int"
+- "Realm"
+- "Results"
 - !private "String"
 - !private "StringLiteralType"
 - "TextViewController"
+- "UIButton"
+- !private "UIControlState"
+- !private "UIImage"
 - "UILabel"
 - "UIScrollView"
 - "UITextView"
@@ -28,14 +38,18 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["Sa", "joined"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "item"]
 - !private ["s23BidirectionalCollectionP", "components"]
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "joined"]
 - !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So6BundleC", "main"]
 - !private ["So6BundleC", "path"]
 - !private ["So15CALayerDelegateP", "contentSize"]
 - !private ["So15CALayerDelegateP", "isScrollEnabled"]
+- !private ["So15CALayerDelegateP", "setImage"]
 - !private ["So15CALayerDelegateP", "showsVerticalScrollIndicator"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["12CoreGraphics7CGFloatV", "init"]
@@ -43,22 +57,33 @@ depends-member:
 - !private ["s7CVarArgP", "Bundle"]
 - !private ["s7CVarArgP", "CGFloat"]
 - !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "Favorite"]
+- !private ["s7CVarArgP", "Realm"]
 - !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIControlState"]
+- !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "bodyText"]
 - !private ["s7CVarArgP", "chapterNumber"]
 - !private ["s7CVarArgP", "chapterNumberLabel"]
 - !private ["s7CVarArgP", "components"]
 - !private ["s7CVarArgP", "contentSize"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "favoriteButtonOutlet"]
+- !private ["s7CVarArgP", "favorites"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isScrollEnabled"]
+- !private ["s7CVarArgP", "item"]
 - !private ["s7CVarArgP", "joined"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "path"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "realm"]
 - !private ["s7CVarArgP", "scrollView"]
+- !private ["s7CVarArgP", "setImage"]
 - !private ["s7CVarArgP", "showsVerticalScrollIndicator"]
 - !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "thisIsFavorite"]
+- !private ["s7CVarArgP", "updateFavoriteButton"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
 - !private ["10Foundation12CharacterSetV", "newlines"]
@@ -70,57 +95,84 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "Bundle"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
 - !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "Favorite"]
+- !private ["s28CustomDebugStringConvertibleP", "Realm"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIControlState"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "bodyText"]
 - !private ["s28CustomDebugStringConvertibleP", "chapterNumber"]
 - !private ["s28CustomDebugStringConvertibleP", "chapterNumberLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "components"]
 - !private ["s28CustomDebugStringConvertibleP", "contentSize"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "favoriteButtonOutlet"]
+- !private ["s28CustomDebugStringConvertibleP", "favorites"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
 - !private ["s28CustomDebugStringConvertibleP", "joined"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "newlines"]
 - !private ["s28CustomDebugStringConvertibleP", "path"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "realm"]
 - !private ["s28CustomDebugStringConvertibleP", "scrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
 - !private ["s28CustomDebugStringConvertibleP", "showsVerticalScrollIndicator"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "thisIsFavorite"]
+- !private ["s28CustomDebugStringConvertibleP", "updateFavoriteButton"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "components"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "components"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "joined"]
 - !private ["s23CustomStringConvertibleP", "Bundle"]
 - !private ["s23CustomStringConvertibleP", "CGFloat"]
 - !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "Favorite"]
+- !private ["s23CustomStringConvertibleP", "Realm"]
 - !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIControlState"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "bodyText"]
 - !private ["s23CustomStringConvertibleP", "chapterNumber"]
 - !private ["s23CustomStringConvertibleP", "chapterNumberLabel"]
 - !private ["s23CustomStringConvertibleP", "components"]
 - !private ["s23CustomStringConvertibleP", "contentSize"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "favoriteButtonOutlet"]
+- !private ["s23CustomStringConvertibleP", "favorites"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isScrollEnabled"]
+- !private ["s23CustomStringConvertibleP", "item"]
 - !private ["s23CustomStringConvertibleP", "joined"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "newlines"]
 - !private ["s23CustomStringConvertibleP", "path"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "realm"]
 - !private ["s23CustomStringConvertibleP", "scrollView"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
 - !private ["s23CustomStringConvertibleP", "showsVerticalScrollIndicator"]
 - !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "thisIsFavorite"]
+- !private ["s23CustomStringConvertibleP", "updateFavoriteButton"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "components"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "joined"]
 - !private ["s9DecodableP", "newlines"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "components"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "joined"]
@@ -129,27 +181,47 @@ depends-member:
 - !private ["s9EquatableP", "Bundle"]
 - !private ["s9EquatableP", "CGFloat"]
 - !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "Favorite"]
+- !private ["s9EquatableP", "Realm"]
 - !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIControlState"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "add"]
 - !private ["s9EquatableP", "bodyText"]
 - !private ["s9EquatableP", "chapterNumber"]
 - !private ["s9EquatableP", "chapterNumberLabel"]
 - !private ["s9EquatableP", "components"]
 - !private ["s9EquatableP", "contentSize"]
+- !private ["s9EquatableP", "delete"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "favoriteButtonOutlet"]
+- !private ["s9EquatableP", "favorites"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isScrollEnabled"]
+- !private ["s9EquatableP", "item"]
 - !private ["s9EquatableP", "main"]
 - !private ["s9EquatableP", "newlines"]
+- !private ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "objects"]
 - !private ["s9EquatableP", "path"]
 - !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "realm"]
 - !private ["s9EquatableP", "scrollView"]
+- !private ["s9EquatableP", "setImage"]
 - !private ["s9EquatableP", "showsVerticalScrollIndicator"]
 - !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "thisIsFavorite"]
+- !private ["s9EquatableP", "updateFavoriteButton"]
 - !private ["s9EquatableP", "utf8"]
 - !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "write"]
 - ["s9EquatableP", ""]
+- !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "joined"]
 - !private ["s25ExpressibleByArrayLiteralP", "newlines"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
@@ -158,29 +230,45 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["9project_18FavoriteC", "deinit"]
+- !private ["9project_18FavoriteC", "init"]
+- !private ["9project_18FavoriteC", "item"]
 - !private ["s13FloatingPointP", "init"]
 - !private ["s8HashableP", "Bundle"]
 - !private ["s8HashableP", "CGFloat"]
 - !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "Favorite"]
+- !private ["s8HashableP", "Realm"]
 - !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIControlState"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "bodyText"]
 - !private ["s8HashableP", "chapterNumber"]
 - !private ["s8HashableP", "chapterNumberLabel"]
 - !private ["s8HashableP", "components"]
 - !private ["s8HashableP", "contentSize"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "favoriteButtonOutlet"]
+- !private ["s8HashableP", "favorites"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "isScrollEnabled"]
+- !private ["s8HashableP", "item"]
 - !private ["s8HashableP", "main"]
 - !private ["s8HashableP", "newlines"]
 - !private ["s8HashableP", "path"]
 - !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "realm"]
 - !private ["s8HashableP", "scrollView"]
+- !private ["s8HashableP", "setImage"]
 - !private ["s8HashableP", "showsVerticalScrollIndicator"]
 - !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "thisIsFavorite"]
+- !private ["s8HashableP", "updateFavoriteButton"]
 - !private ["s8HashableP", "utf8"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "components"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "components"]
@@ -189,19 +277,29 @@ depends-member:
 - !private ["So8NSCodingP", "Bundle"]
 - !private ["So8NSCodingP", "CGFloat"]
 - !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "Favorite"]
+- !private ["So8NSCodingP", "Realm"]
 - !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIControlState"]
+- !private ["So8NSCodingP", "UIImage"]
 - !private ["So8NSCodingP", "bodyText"]
 - !private ["So8NSCodingP", "chapterNumber"]
 - !private ["So8NSCodingP", "chapterNumberLabel"]
 - !private ["So8NSCodingP", "components"]
 - !private ["So8NSCodingP", "contentSize"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "favoriteButtonOutlet"]
+- !private ["So8NSCodingP", "favorites"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isScrollEnabled"]
 - !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "realm"]
 - !private ["So8NSCodingP", "scrollView"]
+- !private ["So8NSCodingP", "setImage"]
 - !private ["So8NSCodingP", "showsVerticalScrollIndicator"]
 - !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "thisIsFavorite"]
+- !private ["So8NSCodingP", "updateFavoriteButton"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "components"]
@@ -209,14 +307,23 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "Bundle"]
 - !private ["So26NSExtensionRequestHandlingP", "CGFloat"]
 - !private ["So26NSExtensionRequestHandlingP", "CGSize"]
+- !private ["So26NSExtensionRequestHandlingP", "Favorite"]
+- !private ["So26NSExtensionRequestHandlingP", "Realm"]
 - !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIControlState"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
 - !private ["So26NSExtensionRequestHandlingP", "bodyText"]
 - !private ["So26NSExtensionRequestHandlingP", "chapterNumber"]
 - !private ["So26NSExtensionRequestHandlingP", "chapterNumberLabel"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "favoriteButtonOutlet"]
+- !private ["So26NSExtensionRequestHandlingP", "favorites"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "realm"]
 - !private ["So26NSExtensionRequestHandlingP", "scrollView"]
+- !private ["So26NSExtensionRequestHandlingP", "thisIsFavorite"]
+- !private ["So26NSExtensionRequestHandlingP", "updateFavoriteButton"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "components"]
@@ -228,8 +335,14 @@ depends-member:
 - !private ["So8NSObjectC", "Bundle"]
 - !private ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "Favorite"]
 - ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Realm"]
+- ["So8NSObjectC", "Results"]
 - !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- !private ["So8NSObjectC", "UIControlState"]
+- !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UIScrollView"]
 - ["So8NSObjectC", "UITextView"]
@@ -239,33 +352,53 @@ depends-member:
 - !private ["So8NSObjectC", "components"]
 - !private ["So8NSObjectC", "contentSize"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "favoriteButtonAction"]
+- ["So8NSObjectC", "favoriteButtonOutlet"]
+- ["So8NSObjectC", "favorites"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isScrollEnabled"]
+- !private ["So8NSObjectC", "item"]
 - !private ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "path"]
 - !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "realm"]
 - ["So8NSObjectC", "scrollView"]
+- !private ["So8NSObjectC", "setImage"]
+- ["So8NSObjectC", "shareButtonAction"]
 - !private ["So8NSObjectC", "showsVerticalScrollIndicator"]
 - !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "thisIsFavorite"]
+- ["So8NSObjectC", "updateFavoriteButton"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "Bundle"]
 - !private ["So16NSObjectProtocolP", "CGFloat"]
 - !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "Favorite"]
+- !private ["So16NSObjectProtocolP", "Realm"]
 - !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIControlState"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
 - !private ["So16NSObjectProtocolP", "bodyText"]
 - !private ["So16NSObjectProtocolP", "chapterNumber"]
 - !private ["So16NSObjectProtocolP", "chapterNumberLabel"]
 - !private ["So16NSObjectProtocolP", "components"]
 - !private ["So16NSObjectProtocolP", "contentSize"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "favoriteButtonOutlet"]
+- !private ["So16NSObjectProtocolP", "favorites"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "isScrollEnabled"]
+- !private ["So16NSObjectProtocolP", "item"]
 - !private ["So16NSObjectProtocolP", "main"]
 - !private ["So16NSObjectProtocolP", "path"]
 - !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "realm"]
 - !private ["So16NSObjectProtocolP", "scrollView"]
+- !private ["So16NSObjectProtocolP", "setImage"]
 - !private ["So16NSObjectProtocolP", "showsVerticalScrollIndicator"]
 - !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "thisIsFavorite"]
+- !private ["So16NSObjectProtocolP", "updateFavoriteButton"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "components"]
@@ -273,16 +406,33 @@ depends-member:
 - !private ["So8NSStringC", "components"]
 - !private ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "item"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "item"]
 - !private ["s22RandomAccessCollectionP", "joined"]
 - !private ["s26RangeReplaceableCollectionP", "components"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s16RawRepresentableP", "normal"]
 - !private ["s16RawRepresentableP", "utf8"]
+- !private ["10RealmSwift0A0C", "add"]
+- !private ["10RealmSwift0A0C", "delete"]
+- !private ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "objects"]
+- !private ["10RealmSwift0A0C", "write"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "components"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "item"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
 - !private ["10Foundation20ReferenceConvertibleP", "newlines"]
 - !private ["s8SequenceP", "components"]
 - !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "joined"]
 - !private ["s10SetAlgebraP", "newlines"]
+- !private ["s10SetAlgebraP", "normal"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s10StrideableP", "init"]
 - !private ["SS", "components"]
@@ -296,8 +446,14 @@ depends-member:
 - !private ["9project_118TextViewControllerC", "Bundle"]
 - !private ["9project_118TextViewControllerC", "CGFloat"]
 - !private ["9project_118TextViewControllerC", "CGSize"]
+- ["9project_118TextViewControllerC", "Favorite"]
 - ["9project_118TextViewControllerC", "Int"]
+- ["9project_118TextViewControllerC", "Realm"]
+- ["9project_118TextViewControllerC", "Results"]
 - !private ["9project_118TextViewControllerC", "String"]
+- ["9project_118TextViewControllerC", "UIButton"]
+- !private ["9project_118TextViewControllerC", "UIControlState"]
+- !private ["9project_118TextViewControllerC", "UIImage"]
 - ["9project_118TextViewControllerC", "UILabel"]
 - ["9project_118TextViewControllerC", "UIScrollView"]
 - ["9project_118TextViewControllerC", "UITextView"]
@@ -306,102 +462,168 @@ depends-member:
 - ["9project_118TextViewControllerC", "chapterNumberLabel"]
 - ["9project_118TextViewControllerC", "deinit"]
 - ["9project_118TextViewControllerC", "didReceiveMemoryWarning"]
+- ["9project_118TextViewControllerC", "favoriteButtonAction"]
+- ["9project_118TextViewControllerC", "favoriteButtonOutlet"]
+- ["9project_118TextViewControllerC", "favorites"]
 - ["9project_118TextViewControllerC", "init"]
 - !private ["9project_118TextViewControllerC", "print"]
+- ["9project_118TextViewControllerC", "realm"]
 - ["9project_118TextViewControllerC", "scrollView"]
+- ["9project_118TextViewControllerC", "shareButtonAction"]
+- ["9project_118TextViewControllerC", "thisIsFavorite"]
+- ["9project_118TextViewControllerC", "updateFavoriteButton"]
 - ["9project_118TextViewControllerC", "viewDidLoad"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "item"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "contentSize"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "isScrollEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "showsVerticalScrollIndicator"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So12UIAppearanceP", "contentSize"]
 - !private ["So12UIAppearanceP", "isScrollEnabled"]
+- !private ["So12UIAppearanceP", "setImage"]
 - !private ["So12UIAppearanceP", "showsVerticalScrollIndicator"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So21UIAppearanceContainerP", "Bundle"]
 - !private ["So21UIAppearanceContainerP", "CGFloat"]
 - !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "Favorite"]
+- !private ["So21UIAppearanceContainerP", "Realm"]
 - !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIControlState"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
 - !private ["So21UIAppearanceContainerP", "bodyText"]
 - !private ["So21UIAppearanceContainerP", "chapterNumber"]
 - !private ["So21UIAppearanceContainerP", "chapterNumberLabel"]
 - !private ["So21UIAppearanceContainerP", "contentSize"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "favoriteButtonOutlet"]
+- !private ["So21UIAppearanceContainerP", "favorites"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "isScrollEnabled"]
 - !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "realm"]
 - !private ["So21UIAppearanceContainerP", "scrollView"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
 - !private ["So21UIAppearanceContainerP", "showsVerticalScrollIndicator"]
 - !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "thisIsFavorite"]
+- !private ["So21UIAppearanceContainerP", "updateFavoriteButton"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "setImage"]
 - !private ["So18UIContentContainerP", "Bundle"]
 - !private ["So18UIContentContainerP", "CGFloat"]
 - !private ["So18UIContentContainerP", "CGSize"]
+- !private ["So18UIContentContainerP", "Favorite"]
+- !private ["So18UIContentContainerP", "Realm"]
 - !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIControlState"]
+- !private ["So18UIContentContainerP", "UIImage"]
 - !private ["So18UIContentContainerP", "bodyText"]
 - !private ["So18UIContentContainerP", "chapterNumber"]
 - !private ["So18UIContentContainerP", "chapterNumberLabel"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "favoriteButtonOutlet"]
+- !private ["So18UIContentContainerP", "favorites"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "realm"]
 - !private ["So18UIContentContainerP", "scrollView"]
+- !private ["So18UIContentContainerP", "thisIsFavorite"]
+- !private ["So18UIContentContainerP", "updateFavoriteButton"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "setImage"]
+- !private ["SC14UIControlStateV", "normal"]
 - !private ["So17UICoordinateSpaceP", "contentSize"]
 - !private ["So17UICoordinateSpaceP", "isScrollEnabled"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
 - !private ["So17UICoordinateSpaceP", "showsVerticalScrollIndicator"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So13UIDynamicItemP", "contentSize"]
 - !private ["So13UIDynamicItemP", "isScrollEnabled"]
+- !private ["So13UIDynamicItemP", "setImage"]
 - !private ["So13UIDynamicItemP", "showsVerticalScrollIndicator"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So18UIFocusEnvironmentP", "Bundle"]
 - !private ["So18UIFocusEnvironmentP", "CGFloat"]
 - !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "Favorite"]
+- !private ["So18UIFocusEnvironmentP", "Realm"]
 - !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIControlState"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
 - !private ["So18UIFocusEnvironmentP", "bodyText"]
 - !private ["So18UIFocusEnvironmentP", "chapterNumber"]
 - !private ["So18UIFocusEnvironmentP", "chapterNumberLabel"]
 - !private ["So18UIFocusEnvironmentP", "contentSize"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "favoriteButtonOutlet"]
+- !private ["So18UIFocusEnvironmentP", "favorites"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "isScrollEnabled"]
 - !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "realm"]
 - !private ["So18UIFocusEnvironmentP", "scrollView"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
 - !private ["So18UIFocusEnvironmentP", "showsVerticalScrollIndicator"]
 - !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "thisIsFavorite"]
+- !private ["So18UIFocusEnvironmentP", "updateFavoriteButton"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "contentSize"]
 - !private ["So11UIFocusItemP", "isScrollEnabled"]
+- !private ["So11UIFocusItemP", "setImage"]
 - !private ["So11UIFocusItemP", "showsVerticalScrollIndicator"]
 - !private ["So11UIFocusItemP", "text"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So7UILabelC", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGFloat"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "Favorite"]
+- !private ["So30UIPasteConfigurationSupportingP", "Realm"]
 - !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIControlState"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "bodyText"]
 - !private ["So30UIPasteConfigurationSupportingP", "chapterNumber"]
 - !private ["So30UIPasteConfigurationSupportingP", "chapterNumberLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "contentSize"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "favoriteButtonOutlet"]
+- !private ["So30UIPasteConfigurationSupportingP", "favorites"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "realm"]
 - !private ["So30UIPasteConfigurationSupportingP", "scrollView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "showsVerticalScrollIndicator"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "thisIsFavorite"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateFavoriteButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "Bundle"]
 - !private ["So11UIResponderC", "CGFloat"]
 - !private ["So11UIResponderC", "CGSize"]
+- ["So11UIResponderC", "Favorite"]
 - ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "Realm"]
+- ["So11UIResponderC", "Results"]
 - !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- !private ["So11UIResponderC", "UIControlState"]
+- !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "UIScrollView"]
 - ["So11UIResponderC", "UITextView"]
@@ -410,45 +632,73 @@ depends-member:
 - ["So11UIResponderC", "chapterNumberLabel"]
 - !private ["So11UIResponderC", "contentSize"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "favoriteButtonAction"]
+- ["So11UIResponderC", "favoriteButtonOutlet"]
+- ["So11UIResponderC", "favorites"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isScrollEnabled"]
 - !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "realm"]
 - ["So11UIResponderC", "scrollView"]
+- !private ["So11UIResponderC", "setImage"]
+- ["So11UIResponderC", "shareButtonAction"]
 - !private ["So11UIResponderC", "showsVerticalScrollIndicator"]
 - !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "thisIsFavorite"]
+- ["So11UIResponderC", "updateFavoriteButton"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Bundle"]
 - !private ["So30UIResponderStandardEditActionsP", "CGFloat"]
 - !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "Favorite"]
+- !private ["So30UIResponderStandardEditActionsP", "Realm"]
 - !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIControlState"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "bodyText"]
 - !private ["So30UIResponderStandardEditActionsP", "chapterNumber"]
 - !private ["So30UIResponderStandardEditActionsP", "chapterNumberLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "contentSize"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "favoriteButtonOutlet"]
+- !private ["So30UIResponderStandardEditActionsP", "favorites"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "realm"]
 - !private ["So30UIResponderStandardEditActionsP", "scrollView"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
 - !private ["So30UIResponderStandardEditActionsP", "showsVerticalScrollIndicator"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "thisIsFavorite"]
+- !private ["So30UIResponderStandardEditActionsP", "updateFavoriteButton"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So12UIScrollViewC", "contentSize"]
 - !private ["So12UIScrollViewC", "isScrollEnabled"]
 - !private ["So12UIScrollViewC", "showsVerticalScrollIndicator"]
 - !private ["So12UIScrollViewC", "text"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
 - !private ["So16UIStateRestoringP", "Bundle"]
 - !private ["So16UIStateRestoringP", "CGFloat"]
 - !private ["So16UIStateRestoringP", "CGSize"]
+- !private ["So16UIStateRestoringP", "Favorite"]
+- !private ["So16UIStateRestoringP", "Realm"]
 - !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIControlState"]
+- !private ["So16UIStateRestoringP", "UIImage"]
 - !private ["So16UIStateRestoringP", "bodyText"]
 - !private ["So16UIStateRestoringP", "chapterNumber"]
 - !private ["So16UIStateRestoringP", "chapterNumberLabel"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "favoriteButtonOutlet"]
+- !private ["So16UIStateRestoringP", "favorites"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "realm"]
 - !private ["So16UIStateRestoringP", "scrollView"]
+- !private ["So16UIStateRestoringP", "thisIsFavorite"]
+- !private ["So16UIStateRestoringP", "updateFavoriteButton"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So15UITextDraggableP", "text"]
@@ -460,29 +710,46 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "Bundle"]
 - !private ["So18UITraitEnvironmentP", "CGFloat"]
 - !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "Favorite"]
+- !private ["So18UITraitEnvironmentP", "Realm"]
 - !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIControlState"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
 - !private ["So18UITraitEnvironmentP", "bodyText"]
 - !private ["So18UITraitEnvironmentP", "chapterNumber"]
 - !private ["So18UITraitEnvironmentP", "chapterNumberLabel"]
 - !private ["So18UITraitEnvironmentP", "contentSize"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "favoriteButtonOutlet"]
+- !private ["So18UITraitEnvironmentP", "favorites"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "isScrollEnabled"]
 - !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "realm"]
 - !private ["So18UITraitEnvironmentP", "scrollView"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
 - !private ["So18UITraitEnvironmentP", "showsVerticalScrollIndicator"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "thisIsFavorite"]
+- !private ["So18UITraitEnvironmentP", "updateFavoriteButton"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "contentSize"]
 - !private ["So6UIViewC", "isScrollEnabled"]
+- !private ["So6UIViewC", "setImage"]
 - !private ["So6UIViewC", "showsVerticalScrollIndicator"]
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Bundle"]
 - !private ["So16UIViewControllerC", "CGFloat"]
 - !private ["So16UIViewControllerC", "CGSize"]
+- ["So16UIViewControllerC", "Favorite"]
 - ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "Realm"]
+- ["So16UIViewControllerC", "Results"]
 - !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- !private ["So16UIViewControllerC", "UIControlState"]
+- !private ["So16UIViewControllerC", "UIImage"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "UIScrollView"]
 - ["So16UIViewControllerC", "UITextView"]
@@ -490,9 +757,16 @@ depends-member:
 - ["So16UIViewControllerC", "chapterNumber"]
 - ["So16UIViewControllerC", "chapterNumberLabel"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "favoriteButtonAction"]
+- ["So16UIViewControllerC", "favoriteButtonOutlet"]
+- ["So16UIViewControllerC", "favorites"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "realm"]
 - ["So16UIViewControllerC", "scrollView"]
+- ["So16UIViewControllerC", "shareButtonAction"]
+- ["So16UIViewControllerC", "thisIsFavorite"]
+- ["So16UIViewControllerC", "updateFavoriteButton"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
 - !private ["s14_ArrayProtocolP", "joined"]
@@ -503,9 +777,11 @@ depends-member:
 - !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentSize"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isScrollEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsVerticalScrollIndicator"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
@@ -514,6 +790,7 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "components"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
@@ -527,24 +804,36 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Favorite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControlState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bodyText"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "chapterNumber"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "chapterNumberLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentSize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favoriteButtonOutlet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favorites"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showsVerticalScrollIndicator"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "thisIsFavorite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateFavoriteButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s17_MutableIndexableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "components"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "joined"]
@@ -558,8 +847,10 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
 - !private "s23BidirectionalCollectionP"
 - !private "s19BinaryFloatingPointP"
+- !private "Sb"
 - !private "So6BundleC"
 - !private "So15CALayerDelegateP"
 - !private "12CoreGraphics7CGFloatV"
@@ -576,12 +867,15 @@ depends-nominal:
 - !private "s9EncodableP"
 - !private "SS10FoundationE8EncodingV"
 - "s9EquatableP"
+- !private "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9project_18FavoriteC"
 - !private "s13FloatingPointP"
 - "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
@@ -598,9 +892,15 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "s7NumericP"
+- !private "10RealmSwift6ObjectC"
+- !private "s9OptionSetP"
+- !private "So13RLMObjectBaseC"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
+- !private "10RealmSwift0A0C"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"
 - !private "s10SetAlgebraP"
@@ -611,21 +911,29 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - "9project_118TextViewControllerC"
+- !private "10RealmSwift14ThreadConfinedP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
 - "So18UIContentContainerP"
 - !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "SC14UIControlStateV"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "So10UIKeyInputP"
 - !private "So7UILabelC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
@@ -642,10 +950,12 @@ depends-nominal:
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s10_IndexableP"
@@ -660,6 +970,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -672,14 +983,51 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "bfdcd4c8f376070776cadc363b0cbf6c"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "04aa8e8fcee883902e028cefffda8994"

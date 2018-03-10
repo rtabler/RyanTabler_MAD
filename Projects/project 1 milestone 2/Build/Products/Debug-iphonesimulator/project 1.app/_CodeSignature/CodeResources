@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2hJ6cl078FZMYTPWqtiJbDf1fPc=
+		gqA/cfrBrVi4uJFcxcYFUWLtZ98=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -26,27 +26,51 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/N26-kF-LvB-view-08K-yq-VVK.nib</key>
 		<data>
-		aTW7RnY1yQJIwexGt9PhmyU8AqQ=
+		aEojWpu5V0uJm3FbBT9MoqfTo9o=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-lYl-xz-vda.nib</key>
 		<data>
-		dyyqmWw9WAp7CMzntqLPaPDAMb0=
+		EttXB09v/+jbQ4vTA045HGXR3xo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-N26-kF-LvB.nib</key>
 		<data>
-		BeU1wm8/xH+GH8iNQky8czJ0xak=
+		gCdzaTxGghxfLSdPcAGkYJzsTUo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aBf-ku-cGP-view-IE1-yG-8Qm.nib</key>
 		<data>
-		VMp2FQ63sXn3U3oEvVfn6nESpvQ=
+		5g8qAScWWNE+gwQrl8VlD4BJ3Nc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/gSf-qX-hG9-view-xf9-AX-JB2.nib</key>
 		<data>
-		t+I//ofH5AgkiIWwxHoLReSIyl0=
+		mgitJX1eyIiuWCJSgyZyxAhv9S0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/rPs-k0-wSy-view-VUh-EK-kej.nib</key>
 		<data>
-		9yMp3m3b0yQBSxb6tJpAv2CdLR8=
+		EmR1IZ8QKadf6FCKYGMCsiHORHU=
+		</data>
+		<key>Frameworks/Realm.framework/Info.plist</key>
+		<data>
+		WEC7cjPUvyjl2UUKrHdhLt+1EiE=
+		</data>
+		<key>Frameworks/Realm.framework/Realm</key>
+		<data>
+		kk0SC3hB49cSW6v8wcXbXKoqbyM=
+		</data>
+		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
+		<data>
+		VIznnmHhb/jPqXbrxOULKM81RLk=
+		</data>
+		<key>Frameworks/RealmSwift.framework/Info.plist</key>
+		<data>
+		9cAvDOKGlVI7kC5tOl9QjUfl+2M=
+		</data>
+		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
+		<data>
+		y0FjcxUbxHT4re5ZJ+RAT9EJa+8=
+		</data>
+		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Wkpvy0DiabTHIdMwlQq+c+fsPGI=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -432,6 +456,10 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>favorites.plist</key>
+		<data>
+		3dm6bF/n6KmLberXS3fSjEr5HNQ=
+		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		RcicIP0lKALIvOAuOlDdMvzAUTU=
@@ -443,11 +471,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2hJ6cl078FZMYTPWqtiJbDf1fPc=
+			gqA/cfrBrVi4uJFcxcYFUWLtZ98=
 			</data>
 			<key>hash2</key>
 			<data>
-			n2uaPSMGS32Ih5lCL2g9GyYSyFP+e4CRATRhA6YDtf0=
+			YRQWod3JAMDnpbqT4Y3b4jNKE4MOU/eFeOB4ppiF++A=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -498,66 +526,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aTW7RnY1yQJIwexGt9PhmyU8AqQ=
+			aEojWpu5V0uJm3FbBT9MoqfTo9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			uxn4UgcTuBa4t/a+fXrBKzgakVBnnc6m3pYgBustZDc=
+			SPmAEQDNsLEfLvIhH00sv0FLhUwd4AofFDbWRX9N5zQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-lYl-xz-vda.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dyyqmWw9WAp7CMzntqLPaPDAMb0=
+			EttXB09v/+jbQ4vTA045HGXR3xo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xx7GY6y7aBtjYR91XclYi/nnq6CDszAXZzxG2YAuoEc=
+			8PsYgXOBFVSyNanTopSHTuq84hLlVhJoJ505OwbJ6cc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-N26-kF-LvB.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BeU1wm8/xH+GH8iNQky8czJ0xak=
+			gCdzaTxGghxfLSdPcAGkYJzsTUo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dbavV4UUsJ47THmVP+38MPgVgKSPzIR91mYWs9C0yjg=
+			kwcHfpynzdrrc7bBPSrKXDlW2DGRwiLTqYzHYVJDTOc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/aBf-ku-cGP-view-IE1-yG-8Qm.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VMp2FQ63sXn3U3oEvVfn6nESpvQ=
+			5g8qAScWWNE+gwQrl8VlD4BJ3Nc=
 			</data>
 			<key>hash2</key>
 			<data>
-			JlMuFSXZ/9gM5tK34306PxWaCZ9FEHYhKDWrkN4zrW8=
+			VBAqkFHtBli4Qo/oMvOqIN6uQ7ybZTcsTTdZtngXrJ8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/gSf-qX-hG9-view-xf9-AX-JB2.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t+I//ofH5AgkiIWwxHoLReSIyl0=
+			mgitJX1eyIiuWCJSgyZyxAhv9S0=
 			</data>
 			<key>hash2</key>
 			<data>
-			H7usVdX+HJ+/BWa8gIBf/9WlVYOlwat7CAwRG6ZeqWA=
+			z+5sWE83ifk9Cp9y8JDF14h2gTKnShh1pQc3Pg5nejk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/rPs-k0-wSy-view-VUh-EK-kej.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9yMp3m3b0yQBSxb6tJpAv2CdLR8=
+			EmR1IZ8QKadf6FCKYGMCsiHORHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0C3I2oEbez9MAz6MUobdf0CYfDmHuk76VPFRElcFplc=
+			fqOIY2i0VwAlu6ZXu6+n40vtkTV7zDcNcvdHb7D4Zbo=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WEC7cjPUvyjl2UUKrHdhLt+1EiE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tEaOWaRgyvY1dl7aUdTD4Rzev58c0OWZ6LPOvLmPcgw=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/Realm</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kk0SC3hB49cSW6v8wcXbXKoqbyM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nc4uEBqh5BUt9imvrU93qdUqchQxuS5f40qY2NVF/qg=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VIznnmHhb/jPqXbrxOULKM81RLk=
+			</data>
+			<key>hash2</key>
+			<data>
+			9DyqTSgbKB0tum0f1Z47oTx409mSRlWzN9I7EXMe/lU=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9cAvDOKGlVI7kC5tOl9QjUfl+2M=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q6VKOD1n7jK4UzZ7WaCqekHaCVg/V9rLh5M43EMvnOE=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y0FjcxUbxHT4re5ZJ+RAT9EJa+8=
+			</data>
+			<key>hash2</key>
+			<data>
+			EMoYmH9J+BiAJNx/xi1HSQIxu/PS75UI9wst5U6F5u8=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wkpvy0DiabTHIdMwlQq+c+fsPGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			/Ao9NgIQl+EB9q08zo2Ei4rLHFKBLcf152e1u78mgxg=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -1592,6 +1686,17 @@
 			<key>hash2</key>
 			<data>
 			pSGOFLvnQnREuuik4eee7WOocqX8ehA472VLeArb4AI=
+			</data>
+		</dict>
+		<key>favorites.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3dm6bF/n6KmLberXS3fSjEr5HNQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			JvNm4V0EoS2LcwHsjj1k/J0qA/iBWjXX6Asni76gzKY=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

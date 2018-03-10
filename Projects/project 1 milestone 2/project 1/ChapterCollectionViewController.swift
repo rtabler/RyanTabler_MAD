@@ -64,7 +64,7 @@ class ChapterCollectionViewController: UICollectionViewController, UICollectionV
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("prepare() called")
         if segue.identifier == "openChapter" {
-            var senderInt: Int = sender as! Int
+            let senderInt: Int = sender as! Int
 //            var senderCell = sender as! ChapterCell
 //            print(type(of:senderCell))
 //            print(senderCell.textLabel?.text)

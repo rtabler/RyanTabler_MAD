@@ -1,9 +1,12 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "482f7f30007b8529b78b400154dbdaee"
-build_time: [1520575487, 723282000]
+options: "a6b7c8cf290ee8f33eae49613704e5b7"
+build_time: [1520652946, 220997000]
 inputs:
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520575484, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520570281, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520651915, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520652757, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/FavoritesViewController.swift": [1520652944, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ViewController.swift": [1519746192, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/AppDelegate.swift": [1520552201, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/MyData.swift": [1520648199, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/Favorite.swift": [1520649290, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/AppDelegate.swift": [1520646955, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCell.swift": [1520565717, 0]

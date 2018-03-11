@@ -275,6 +275,16 @@ SWIFT_CLASS("_TtC9project_16MyData")
 - (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC9project_18Settings")
+@interface Settings : RealmSwiftObject
+@property (nonatomic, copy) NSString * _Nonnull currentTranslator;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIBarButtonItem;
 @class UIScrollView;
 @class UILabel;
 @class UIButton;
@@ -282,6 +292,8 @@ SWIFT_CLASS("_TtC9project_16MyData")
 
 SWIFT_CLASS("_TtC9project_118TextViewController")
 @interface TextViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified translationButtonOutlet;
+- (IBAction)TranslationButtonAction:(UIBarButtonItem * _Nonnull)sender;
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified chapterNumberLabel;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified favoriteButtonOutlet;

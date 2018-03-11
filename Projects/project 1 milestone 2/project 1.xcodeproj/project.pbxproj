@@ -98,6 +98,88 @@
 		9BC6F2492053735900B8BD83 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2482053735900B8BD83 /* MyData.swift */; };
 		9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24A20537B9D00B8BD83 /* Favorite.swift */; };
 		9BC6F24D2053856000B8BD83 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */; };
+		9BC6F2A12053C3C500B8BD83 /* FengEnglish-75.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2502053C3BC00B8BD83 /* FengEnglish-75.txt */; };
+		9BC6F2A22053C3C500B8BD83 /* FengEnglish-46.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2512053C3BC00B8BD83 /* FengEnglish-46.txt */; };
+		9BC6F2A32053C3C500B8BD83 /* FengEnglish-62.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2522053C3BC00B8BD83 /* FengEnglish-62.txt */; };
+		9BC6F2A42053C3C500B8BD83 /* FengEnglish-35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2532053C3BC00B8BD83 /* FengEnglish-35.txt */; };
+		9BC6F2A52053C3C500B8BD83 /* FengEnglish-57.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2542053C3BC00B8BD83 /* FengEnglish-57.txt */; };
+		9BC6F2A62053C3C500B8BD83 /* FengEnglish-15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2552053C3BC00B8BD83 /* FengEnglish-15.txt */; };
+		9BC6F2A72053C3C500B8BD83 /* FengEnglish-79.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2562053C3BD00B8BD83 /* FengEnglish-79.txt */; };
+		9BC6F2A82053C3C500B8BD83 /* FengEnglish-50.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2572053C3BD00B8BD83 /* FengEnglish-50.txt */; };
+		9BC6F2A92053C3C500B8BD83 /* FengEnglish-40.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2582053C3BD00B8BD83 /* FengEnglish-40.txt */; };
+		9BC6F2AA2053C3C500B8BD83 /* FengEnglish-76.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2592053C3BD00B8BD83 /* FengEnglish-76.txt */; };
+		9BC6F2AB2053C3C500B8BD83 /* FengEnglish-54.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25A2053C3BD00B8BD83 /* FengEnglish-54.txt */; };
+		9BC6F2AC2053C3C500B8BD83 /* FengEnglish-63.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25B2053C3BD00B8BD83 /* FengEnglish-63.txt */; };
+		9BC6F2AD2053C3C500B8BD83 /* FengEnglish-45.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25C2053C3BD00B8BD83 /* FengEnglish-45.txt */; };
+		9BC6F2AE2053C3C500B8BD83 /* FengEnglish-69.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25D2053C3BD00B8BD83 /* FengEnglish-69.txt */; };
+		9BC6F2AF2053C3C500B8BD83 /* FengEnglish-14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25E2053C3BD00B8BD83 /* FengEnglish-14.txt */; };
+		9BC6F2B02053C3C500B8BD83 /* FengEnglish-43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F25F2053C3BD00B8BD83 /* FengEnglish-43.txt */; };
+		9BC6F2B12053C3C500B8BD83 /* FengEnglish-72.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2602053C3BD00B8BD83 /* FengEnglish-72.txt */; };
+		9BC6F2B22053C3C500B8BD83 /* FengEnglish-42.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2612053C3BD00B8BD83 /* FengEnglish-42.txt */; };
+		9BC6F2B32053C3C500B8BD83 /* FengEnglish-20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2622053C3BE00B8BD83 /* FengEnglish-20.txt */; };
+		9BC6F2B42053C3C500B8BD83 /* FengEnglish-59.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2632053C3BE00B8BD83 /* FengEnglish-59.txt */; };
+		9BC6F2B52053C3C500B8BD83 /* FengEnglish-73.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2642053C3BE00B8BD83 /* FengEnglish-73.txt */; };
+		9BC6F2B62053C3C500B8BD83 /* FengEnglish-17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2652053C3BE00B8BD83 /* FengEnglish-17.txt */; };
+		9BC6F2B72053C3C500B8BD83 /* FengEnglish-38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2662053C3BE00B8BD83 /* FengEnglish-38.txt */; };
+		9BC6F2B82053C3C500B8BD83 /* FengEnglish-61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2672053C3BE00B8BD83 /* FengEnglish-61.txt */; };
+		9BC6F2B92053C3C500B8BD83 /* FengEnglish-67.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2682053C3BE00B8BD83 /* FengEnglish-67.txt */; };
+		9BC6F2BA2053C3C500B8BD83 /* FengEnglish-6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2692053C3BE00B8BD83 /* FengEnglish-6.txt */; };
+		9BC6F2BB2053C3C500B8BD83 /* FengEnglish-80.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26A2053C3BE00B8BD83 /* FengEnglish-80.txt */; };
+		9BC6F2BC2053C3C500B8BD83 /* FengEnglish-7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26B2053C3BE00B8BD83 /* FengEnglish-7.txt */; };
+		9BC6F2BD2053C3C500B8BD83 /* FengEnglish-36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26C2053C3BE00B8BD83 /* FengEnglish-36.txt */; };
+		9BC6F2BE2053C3C500B8BD83 /* FengEnglish-32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26D2053C3BF00B8BD83 /* FengEnglish-32.txt */; };
+		9BC6F2BF2053C3C500B8BD83 /* FengEnglish-71.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26E2053C3BF00B8BD83 /* FengEnglish-71.txt */; };
+		9BC6F2C02053C3C500B8BD83 /* FengEnglish-41.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F26F2053C3BF00B8BD83 /* FengEnglish-41.txt */; };
+		9BC6F2C12053C3C500B8BD83 /* FengEnglish-65.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2702053C3BF00B8BD83 /* FengEnglish-65.txt */; };
+		9BC6F2C22053C3C500B8BD83 /* FengEnglish-19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2712053C3BF00B8BD83 /* FengEnglish-19.txt */; };
+		9BC6F2C32053C3C500B8BD83 /* FengEnglish-31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2722053C3BF00B8BD83 /* FengEnglish-31.txt */; };
+		9BC6F2C42053C3C500B8BD83 /* FengEnglish-5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2732053C3BF00B8BD83 /* FengEnglish-5.txt */; };
+		9BC6F2C52053C3C500B8BD83 /* FengEnglish-24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2742053C3BF00B8BD83 /* FengEnglish-24.txt */; };
+		9BC6F2C62053C3C500B8BD83 /* FengEnglish-3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2752053C3BF00B8BD83 /* FengEnglish-3.txt */; };
+		9BC6F2C72053C3C500B8BD83 /* FengEnglish-26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2762053C3C000B8BD83 /* FengEnglish-26.txt */; };
+		9BC6F2C82053C3C500B8BD83 /* FengEnglish-48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2772053C3C000B8BD83 /* FengEnglish-48.txt */; };
+		9BC6F2C92053C3C500B8BD83 /* FengEnglish-9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2782053C3C000B8BD83 /* FengEnglish-9.txt */; };
+		9BC6F2CA2053C3C500B8BD83 /* FengEnglish-12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2792053C3C000B8BD83 /* FengEnglish-12.txt */; };
+		9BC6F2CB2053C3C500B8BD83 /* FengEnglish-30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27A2053C3C000B8BD83 /* FengEnglish-30.txt */; };
+		9BC6F2CC2053C3C500B8BD83 /* FengEnglish-49.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27B2053C3C000B8BD83 /* FengEnglish-49.txt */; };
+		9BC6F2CD2053C3C500B8BD83 /* FengEnglish-18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27C2053C3C000B8BD83 /* FengEnglish-18.txt */; };
+		9BC6F2CE2053C3C500B8BD83 /* FengEnglish-39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27D2053C3C000B8BD83 /* FengEnglish-39.txt */; };
+		9BC6F2CF2053C3C500B8BD83 /* FengEnglish-68.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27E2053C3C100B8BD83 /* FengEnglish-68.txt */; };
+		9BC6F2D02053C3C500B8BD83 /* FengEnglish-70.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F27F2053C3C100B8BD83 /* FengEnglish-70.txt */; };
+		9BC6F2D12053C3C500B8BD83 /* FengEnglish-44.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2802053C3C100B8BD83 /* FengEnglish-44.txt */; };
+		9BC6F2D22053C3C500B8BD83 /* FengEnglish-55.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2812053C3C100B8BD83 /* FengEnglish-55.txt */; };
+		9BC6F2D32053C3C500B8BD83 /* FengEnglish-4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2822053C3C100B8BD83 /* FengEnglish-4.txt */; };
+		9BC6F2D42053C3C500B8BD83 /* FengEnglish-13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2832053C3C100B8BD83 /* FengEnglish-13.txt */; };
+		9BC6F2D52053C3C500B8BD83 /* FengEnglish-25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2842053C3C100B8BD83 /* FengEnglish-25.txt */; };
+		9BC6F2D62053C3C500B8BD83 /* FengEnglish-29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2852053C3C100B8BD83 /* FengEnglish-29.txt */; };
+		9BC6F2D72053C3C500B8BD83 /* FengEnglish-56.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2862053C3C100B8BD83 /* FengEnglish-56.txt */; };
+		9BC6F2D82053C3C500B8BD83 /* FengEnglish-51.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2872053C3C200B8BD83 /* FengEnglish-51.txt */; };
+		9BC6F2D92053C3C500B8BD83 /* FengEnglish-8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2882053C3C200B8BD83 /* FengEnglish-8.txt */; };
+		9BC6F2DA2053C3C500B8BD83 /* FengEnglish-47.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2892053C3C200B8BD83 /* FengEnglish-47.txt */; };
+		9BC6F2DB2053C3C500B8BD83 /* FengEnglish-66.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28A2053C3C200B8BD83 /* FengEnglish-66.txt */; };
+		9BC6F2DC2053C3C500B8BD83 /* FengEnglish-74.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28B2053C3C200B8BD83 /* FengEnglish-74.txt */; };
+		9BC6F2DD2053C3C500B8BD83 /* FengEnglish-77.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28C2053C3C200B8BD83 /* FengEnglish-77.txt */; };
+		9BC6F2DE2053C3C500B8BD83 /* FengEnglish-78.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28D2053C3C200B8BD83 /* FengEnglish-78.txt */; };
+		9BC6F2DF2053C3C500B8BD83 /* FengEnglish-81.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28E2053C3C200B8BD83 /* FengEnglish-81.txt */; };
+		9BC6F2E02053C3C500B8BD83 /* FengEnglish-1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F28F2053C3C200B8BD83 /* FengEnglish-1.txt */; };
+		9BC6F2E12053C3C500B8BD83 /* FengEnglish-53.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2902053C3C300B8BD83 /* FengEnglish-53.txt */; };
+		9BC6F2E22053C3C500B8BD83 /* FengEnglish-22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2912053C3C300B8BD83 /* FengEnglish-22.txt */; };
+		9BC6F2E32053C3C500B8BD83 /* FengEnglish-23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2922053C3C300B8BD83 /* FengEnglish-23.txt */; };
+		9BC6F2E42053C3C500B8BD83 /* FengEnglish-21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2932053C3C300B8BD83 /* FengEnglish-21.txt */; };
+		9BC6F2E52053C3C500B8BD83 /* FengEnglish-58.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2942053C3C300B8BD83 /* FengEnglish-58.txt */; };
+		9BC6F2E62053C3C500B8BD83 /* FengEnglish-10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2952053C3C300B8BD83 /* FengEnglish-10.txt */; };
+		9BC6F2E72053C3C500B8BD83 /* FengEnglish-60.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2962053C3C300B8BD83 /* FengEnglish-60.txt */; };
+		9BC6F2E82053C3C500B8BD83 /* FengEnglish-27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2972053C3C300B8BD83 /* FengEnglish-27.txt */; };
+		9BC6F2E92053C3C500B8BD83 /* FengEnglish-52.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2982053C3C400B8BD83 /* FengEnglish-52.txt */; };
+		9BC6F2EA2053C3C500B8BD83 /* FengEnglish-16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2992053C3C400B8BD83 /* FengEnglish-16.txt */; };
+		9BC6F2EB2053C3C500B8BD83 /* FengEnglish-37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29A2053C3C400B8BD83 /* FengEnglish-37.txt */; };
+		9BC6F2EC2053C3C500B8BD83 /* FengEnglish-2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29B2053C3C400B8BD83 /* FengEnglish-2.txt */; };
+		9BC6F2ED2053C3C500B8BD83 /* FengEnglish-28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29C2053C3C400B8BD83 /* FengEnglish-28.txt */; };
+		9BC6F2EE2053C3C500B8BD83 /* FengEnglish-33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29D2053C3C400B8BD83 /* FengEnglish-33.txt */; };
+		9BC6F2EF2053C3C500B8BD83 /* FengEnglish-34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29E2053C3C400B8BD83 /* FengEnglish-34.txt */; };
+		9BC6F2F02053C3C500B8BD83 /* FengEnglish-64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29F2053C3C400B8BD83 /* FengEnglish-64.txt */; };
+		9BC6F2F12053C3C500B8BD83 /* FengEnglish-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2A02053C3C400B8BD83 /* FengEnglish-11.txt */; };
+		9BC6F2F32053C5AD00B8BD83 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2F22053C5AD00B8BD83 /* Settings.swift */; };
 		9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */; };
 		9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8932051CDDA00792AEA /* ChapterCell.swift */; };
 		9BEFF89620520FDD00792AEA /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF89520520FDD00792AEA /* TextViewController.swift */; };
@@ -197,6 +279,88 @@
 		9BC6F2482053735900B8BD83 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
 		9BC6F24A20537B9D00B8BD83 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9BC6F2502053C3BC00B8BD83 /* FengEnglish-75.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-75.txt"; sourceTree = "<group>"; };
+		9BC6F2512053C3BC00B8BD83 /* FengEnglish-46.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-46.txt"; sourceTree = "<group>"; };
+		9BC6F2522053C3BC00B8BD83 /* FengEnglish-62.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-62.txt"; sourceTree = "<group>"; };
+		9BC6F2532053C3BC00B8BD83 /* FengEnglish-35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-35.txt"; sourceTree = "<group>"; };
+		9BC6F2542053C3BC00B8BD83 /* FengEnglish-57.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-57.txt"; sourceTree = "<group>"; };
+		9BC6F2552053C3BC00B8BD83 /* FengEnglish-15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-15.txt"; sourceTree = "<group>"; };
+		9BC6F2562053C3BD00B8BD83 /* FengEnglish-79.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-79.txt"; sourceTree = "<group>"; };
+		9BC6F2572053C3BD00B8BD83 /* FengEnglish-50.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-50.txt"; sourceTree = "<group>"; };
+		9BC6F2582053C3BD00B8BD83 /* FengEnglish-40.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-40.txt"; sourceTree = "<group>"; };
+		9BC6F2592053C3BD00B8BD83 /* FengEnglish-76.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-76.txt"; sourceTree = "<group>"; };
+		9BC6F25A2053C3BD00B8BD83 /* FengEnglish-54.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-54.txt"; sourceTree = "<group>"; };
+		9BC6F25B2053C3BD00B8BD83 /* FengEnglish-63.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-63.txt"; sourceTree = "<group>"; };
+		9BC6F25C2053C3BD00B8BD83 /* FengEnglish-45.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-45.txt"; sourceTree = "<group>"; };
+		9BC6F25D2053C3BD00B8BD83 /* FengEnglish-69.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-69.txt"; sourceTree = "<group>"; };
+		9BC6F25E2053C3BD00B8BD83 /* FengEnglish-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-14.txt"; sourceTree = "<group>"; };
+		9BC6F25F2053C3BD00B8BD83 /* FengEnglish-43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-43.txt"; sourceTree = "<group>"; };
+		9BC6F2602053C3BD00B8BD83 /* FengEnglish-72.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-72.txt"; sourceTree = "<group>"; };
+		9BC6F2612053C3BD00B8BD83 /* FengEnglish-42.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-42.txt"; sourceTree = "<group>"; };
+		9BC6F2622053C3BE00B8BD83 /* FengEnglish-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-20.txt"; sourceTree = "<group>"; };
+		9BC6F2632053C3BE00B8BD83 /* FengEnglish-59.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-59.txt"; sourceTree = "<group>"; };
+		9BC6F2642053C3BE00B8BD83 /* FengEnglish-73.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-73.txt"; sourceTree = "<group>"; };
+		9BC6F2652053C3BE00B8BD83 /* FengEnglish-17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-17.txt"; sourceTree = "<group>"; };
+		9BC6F2662053C3BE00B8BD83 /* FengEnglish-38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-38.txt"; sourceTree = "<group>"; };
+		9BC6F2672053C3BE00B8BD83 /* FengEnglish-61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-61.txt"; sourceTree = "<group>"; };
+		9BC6F2682053C3BE00B8BD83 /* FengEnglish-67.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-67.txt"; sourceTree = "<group>"; };
+		9BC6F2692053C3BE00B8BD83 /* FengEnglish-6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-6.txt"; sourceTree = "<group>"; };
+		9BC6F26A2053C3BE00B8BD83 /* FengEnglish-80.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-80.txt"; sourceTree = "<group>"; };
+		9BC6F26B2053C3BE00B8BD83 /* FengEnglish-7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-7.txt"; sourceTree = "<group>"; };
+		9BC6F26C2053C3BE00B8BD83 /* FengEnglish-36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-36.txt"; sourceTree = "<group>"; };
+		9BC6F26D2053C3BF00B8BD83 /* FengEnglish-32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-32.txt"; sourceTree = "<group>"; };
+		9BC6F26E2053C3BF00B8BD83 /* FengEnglish-71.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-71.txt"; sourceTree = "<group>"; };
+		9BC6F26F2053C3BF00B8BD83 /* FengEnglish-41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-41.txt"; sourceTree = "<group>"; };
+		9BC6F2702053C3BF00B8BD83 /* FengEnglish-65.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-65.txt"; sourceTree = "<group>"; };
+		9BC6F2712053C3BF00B8BD83 /* FengEnglish-19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-19.txt"; sourceTree = "<group>"; };
+		9BC6F2722053C3BF00B8BD83 /* FengEnglish-31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-31.txt"; sourceTree = "<group>"; };
+		9BC6F2732053C3BF00B8BD83 /* FengEnglish-5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-5.txt"; sourceTree = "<group>"; };
+		9BC6F2742053C3BF00B8BD83 /* FengEnglish-24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-24.txt"; sourceTree = "<group>"; };
+		9BC6F2752053C3BF00B8BD83 /* FengEnglish-3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-3.txt"; sourceTree = "<group>"; };
+		9BC6F2762053C3C000B8BD83 /* FengEnglish-26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-26.txt"; sourceTree = "<group>"; };
+		9BC6F2772053C3C000B8BD83 /* FengEnglish-48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-48.txt"; sourceTree = "<group>"; };
+		9BC6F2782053C3C000B8BD83 /* FengEnglish-9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-9.txt"; sourceTree = "<group>"; };
+		9BC6F2792053C3C000B8BD83 /* FengEnglish-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-12.txt"; sourceTree = "<group>"; };
+		9BC6F27A2053C3C000B8BD83 /* FengEnglish-30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-30.txt"; sourceTree = "<group>"; };
+		9BC6F27B2053C3C000B8BD83 /* FengEnglish-49.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-49.txt"; sourceTree = "<group>"; };
+		9BC6F27C2053C3C000B8BD83 /* FengEnglish-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-18.txt"; sourceTree = "<group>"; };
+		9BC6F27D2053C3C000B8BD83 /* FengEnglish-39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-39.txt"; sourceTree = "<group>"; };
+		9BC6F27E2053C3C100B8BD83 /* FengEnglish-68.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-68.txt"; sourceTree = "<group>"; };
+		9BC6F27F2053C3C100B8BD83 /* FengEnglish-70.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-70.txt"; sourceTree = "<group>"; };
+		9BC6F2802053C3C100B8BD83 /* FengEnglish-44.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-44.txt"; sourceTree = "<group>"; };
+		9BC6F2812053C3C100B8BD83 /* FengEnglish-55.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-55.txt"; sourceTree = "<group>"; };
+		9BC6F2822053C3C100B8BD83 /* FengEnglish-4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-4.txt"; sourceTree = "<group>"; };
+		9BC6F2832053C3C100B8BD83 /* FengEnglish-13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-13.txt"; sourceTree = "<group>"; };
+		9BC6F2842053C3C100B8BD83 /* FengEnglish-25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-25.txt"; sourceTree = "<group>"; };
+		9BC6F2852053C3C100B8BD83 /* FengEnglish-29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-29.txt"; sourceTree = "<group>"; };
+		9BC6F2862053C3C100B8BD83 /* FengEnglish-56.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-56.txt"; sourceTree = "<group>"; };
+		9BC6F2872053C3C200B8BD83 /* FengEnglish-51.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-51.txt"; sourceTree = "<group>"; };
+		9BC6F2882053C3C200B8BD83 /* FengEnglish-8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-8.txt"; sourceTree = "<group>"; };
+		9BC6F2892053C3C200B8BD83 /* FengEnglish-47.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-47.txt"; sourceTree = "<group>"; };
+		9BC6F28A2053C3C200B8BD83 /* FengEnglish-66.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-66.txt"; sourceTree = "<group>"; };
+		9BC6F28B2053C3C200B8BD83 /* FengEnglish-74.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-74.txt"; sourceTree = "<group>"; };
+		9BC6F28C2053C3C200B8BD83 /* FengEnglish-77.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-77.txt"; sourceTree = "<group>"; };
+		9BC6F28D2053C3C200B8BD83 /* FengEnglish-78.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-78.txt"; sourceTree = "<group>"; };
+		9BC6F28E2053C3C200B8BD83 /* FengEnglish-81.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-81.txt"; sourceTree = "<group>"; };
+		9BC6F28F2053C3C200B8BD83 /* FengEnglish-1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-1.txt"; sourceTree = "<group>"; };
+		9BC6F2902053C3C300B8BD83 /* FengEnglish-53.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-53.txt"; sourceTree = "<group>"; };
+		9BC6F2912053C3C300B8BD83 /* FengEnglish-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-22.txt"; sourceTree = "<group>"; };
+		9BC6F2922053C3C300B8BD83 /* FengEnglish-23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-23.txt"; sourceTree = "<group>"; };
+		9BC6F2932053C3C300B8BD83 /* FengEnglish-21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-21.txt"; sourceTree = "<group>"; };
+		9BC6F2942053C3C300B8BD83 /* FengEnglish-58.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-58.txt"; sourceTree = "<group>"; };
+		9BC6F2952053C3C300B8BD83 /* FengEnglish-10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-10.txt"; sourceTree = "<group>"; };
+		9BC6F2962053C3C300B8BD83 /* FengEnglish-60.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-60.txt"; sourceTree = "<group>"; };
+		9BC6F2972053C3C300B8BD83 /* FengEnglish-27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-27.txt"; sourceTree = "<group>"; };
+		9BC6F2982053C3C400B8BD83 /* FengEnglish-52.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-52.txt"; sourceTree = "<group>"; };
+		9BC6F2992053C3C400B8BD83 /* FengEnglish-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-16.txt"; sourceTree = "<group>"; };
+		9BC6F29A2053C3C400B8BD83 /* FengEnglish-37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-37.txt"; sourceTree = "<group>"; };
+		9BC6F29B2053C3C400B8BD83 /* FengEnglish-2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-2.txt"; sourceTree = "<group>"; };
+		9BC6F29C2053C3C400B8BD83 /* FengEnglish-28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-28.txt"; sourceTree = "<group>"; };
+		9BC6F29D2053C3C400B8BD83 /* FengEnglish-33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-33.txt"; sourceTree = "<group>"; };
+		9BC6F29E2053C3C400B8BD83 /* FengEnglish-34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-34.txt"; sourceTree = "<group>"; };
+		9BC6F29F2053C3C400B8BD83 /* FengEnglish-64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-64.txt"; sourceTree = "<group>"; };
+		9BC6F2A02053C3C400B8BD83 /* FengEnglish-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-11.txt"; sourceTree = "<group>"; };
+		9BC6F2F22053C5AD00B8BD83 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewController.swift; sourceTree = "<group>"; };
 		9BEFF8932051CDDA00792AEA /* ChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
 		9BEFF89520520FDD00792AEA /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +415,7 @@
 				9BC6F2482053735900B8BD83 /* MyData.swift */,
 				9B6EB9782045B4100060365B /* ViewController.swift */,
 				9B6EB97A2045B4100060365B /* Main.storyboard */,
+				9BC6F2F22053C5AD00B8BD83 /* Settings.swift */,
 				9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */,
 				9BC6F24A20537B9D00B8BD83 /* Favorite.swift */,
 				9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */,
@@ -267,6 +432,7 @@
 		9BC6EFC2205257B700B8BD83 /* TTC-Texts */ = {
 			isa = PBXGroup;
 			children = (
+				9BC6F24F2053C3A100B8BD83 /* FengEnglish */,
 				9BC6EFC3205257D200B8BD83 /* Mitchell */,
 			);
 			path = "TTC-Texts";
@@ -360,6 +526,94 @@
 			path = Mitchell;
 			sourceTree = "<group>";
 		};
+		9BC6F24F2053C3A100B8BD83 /* FengEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				9BC6F28F2053C3C200B8BD83 /* FengEnglish-1.txt */,
+				9BC6F29B2053C3C400B8BD83 /* FengEnglish-2.txt */,
+				9BC6F2752053C3BF00B8BD83 /* FengEnglish-3.txt */,
+				9BC6F2822053C3C100B8BD83 /* FengEnglish-4.txt */,
+				9BC6F2732053C3BF00B8BD83 /* FengEnglish-5.txt */,
+				9BC6F2692053C3BE00B8BD83 /* FengEnglish-6.txt */,
+				9BC6F26B2053C3BE00B8BD83 /* FengEnglish-7.txt */,
+				9BC6F2882053C3C200B8BD83 /* FengEnglish-8.txt */,
+				9BC6F2782053C3C000B8BD83 /* FengEnglish-9.txt */,
+				9BC6F2952053C3C300B8BD83 /* FengEnglish-10.txt */,
+				9BC6F2A02053C3C400B8BD83 /* FengEnglish-11.txt */,
+				9BC6F2792053C3C000B8BD83 /* FengEnglish-12.txt */,
+				9BC6F2832053C3C100B8BD83 /* FengEnglish-13.txt */,
+				9BC6F25E2053C3BD00B8BD83 /* FengEnglish-14.txt */,
+				9BC6F2552053C3BC00B8BD83 /* FengEnglish-15.txt */,
+				9BC6F2992053C3C400B8BD83 /* FengEnglish-16.txt */,
+				9BC6F2652053C3BE00B8BD83 /* FengEnglish-17.txt */,
+				9BC6F27C2053C3C000B8BD83 /* FengEnglish-18.txt */,
+				9BC6F2712053C3BF00B8BD83 /* FengEnglish-19.txt */,
+				9BC6F2622053C3BE00B8BD83 /* FengEnglish-20.txt */,
+				9BC6F2932053C3C300B8BD83 /* FengEnglish-21.txt */,
+				9BC6F2912053C3C300B8BD83 /* FengEnglish-22.txt */,
+				9BC6F2922053C3C300B8BD83 /* FengEnglish-23.txt */,
+				9BC6F2742053C3BF00B8BD83 /* FengEnglish-24.txt */,
+				9BC6F2842053C3C100B8BD83 /* FengEnglish-25.txt */,
+				9BC6F2762053C3C000B8BD83 /* FengEnglish-26.txt */,
+				9BC6F2972053C3C300B8BD83 /* FengEnglish-27.txt */,
+				9BC6F29C2053C3C400B8BD83 /* FengEnglish-28.txt */,
+				9BC6F2852053C3C100B8BD83 /* FengEnglish-29.txt */,
+				9BC6F27A2053C3C000B8BD83 /* FengEnglish-30.txt */,
+				9BC6F2722053C3BF00B8BD83 /* FengEnglish-31.txt */,
+				9BC6F26D2053C3BF00B8BD83 /* FengEnglish-32.txt */,
+				9BC6F29D2053C3C400B8BD83 /* FengEnglish-33.txt */,
+				9BC6F29E2053C3C400B8BD83 /* FengEnglish-34.txt */,
+				9BC6F2532053C3BC00B8BD83 /* FengEnglish-35.txt */,
+				9BC6F26C2053C3BE00B8BD83 /* FengEnglish-36.txt */,
+				9BC6F29A2053C3C400B8BD83 /* FengEnglish-37.txt */,
+				9BC6F2662053C3BE00B8BD83 /* FengEnglish-38.txt */,
+				9BC6F27D2053C3C000B8BD83 /* FengEnglish-39.txt */,
+				9BC6F2582053C3BD00B8BD83 /* FengEnglish-40.txt */,
+				9BC6F26F2053C3BF00B8BD83 /* FengEnglish-41.txt */,
+				9BC6F2612053C3BD00B8BD83 /* FengEnglish-42.txt */,
+				9BC6F25F2053C3BD00B8BD83 /* FengEnglish-43.txt */,
+				9BC6F2802053C3C100B8BD83 /* FengEnglish-44.txt */,
+				9BC6F25C2053C3BD00B8BD83 /* FengEnglish-45.txt */,
+				9BC6F2512053C3BC00B8BD83 /* FengEnglish-46.txt */,
+				9BC6F2892053C3C200B8BD83 /* FengEnglish-47.txt */,
+				9BC6F2772053C3C000B8BD83 /* FengEnglish-48.txt */,
+				9BC6F27B2053C3C000B8BD83 /* FengEnglish-49.txt */,
+				9BC6F2572053C3BD00B8BD83 /* FengEnglish-50.txt */,
+				9BC6F2872053C3C200B8BD83 /* FengEnglish-51.txt */,
+				9BC6F2982053C3C400B8BD83 /* FengEnglish-52.txt */,
+				9BC6F2902053C3C300B8BD83 /* FengEnglish-53.txt */,
+				9BC6F25A2053C3BD00B8BD83 /* FengEnglish-54.txt */,
+				9BC6F2812053C3C100B8BD83 /* FengEnglish-55.txt */,
+				9BC6F2862053C3C100B8BD83 /* FengEnglish-56.txt */,
+				9BC6F2542053C3BC00B8BD83 /* FengEnglish-57.txt */,
+				9BC6F2942053C3C300B8BD83 /* FengEnglish-58.txt */,
+				9BC6F2632053C3BE00B8BD83 /* FengEnglish-59.txt */,
+				9BC6F2962053C3C300B8BD83 /* FengEnglish-60.txt */,
+				9BC6F2672053C3BE00B8BD83 /* FengEnglish-61.txt */,
+				9BC6F2522053C3BC00B8BD83 /* FengEnglish-62.txt */,
+				9BC6F25B2053C3BD00B8BD83 /* FengEnglish-63.txt */,
+				9BC6F29F2053C3C400B8BD83 /* FengEnglish-64.txt */,
+				9BC6F2702053C3BF00B8BD83 /* FengEnglish-65.txt */,
+				9BC6F28A2053C3C200B8BD83 /* FengEnglish-66.txt */,
+				9BC6F2682053C3BE00B8BD83 /* FengEnglish-67.txt */,
+				9BC6F27E2053C3C100B8BD83 /* FengEnglish-68.txt */,
+				9BC6F25D2053C3BD00B8BD83 /* FengEnglish-69.txt */,
+				9BC6F27F2053C3C100B8BD83 /* FengEnglish-70.txt */,
+				9BC6F26E2053C3BF00B8BD83 /* FengEnglish-71.txt */,
+				9BC6F2602053C3BD00B8BD83 /* FengEnglish-72.txt */,
+				9BC6F2642053C3BE00B8BD83 /* FengEnglish-73.txt */,
+				9BC6F28B2053C3C200B8BD83 /* FengEnglish-74.txt */,
+				9BC6F2502053C3BC00B8BD83 /* FengEnglish-75.txt */,
+				9BC6F2592053C3BD00B8BD83 /* FengEnglish-76.txt */,
+				9BC6F28C2053C3C200B8BD83 /* FengEnglish-77.txt */,
+				9BC6F28D2053C3C200B8BD83 /* FengEnglish-78.txt */,
+				9BC6F2562053C3BD00B8BD83 /* FengEnglish-79.txt */,
+				9BC6F26A2053C3BE00B8BD83 /* FengEnglish-80.txt */,
+				9BC6F28E2053C3C200B8BD83 /* FengEnglish-81.txt */,
+			);
+			path = FengEnglish;
+			sourceTree = "<group>";
+		};
 		BF3C4CCDDA0D9312DD048F29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,88 +687,169 @@
 				9BC6F20D20525B4500B8BD83 /* Mitchell-71.txt in Resources */,
 				9BC6F23E20525B4500B8BD83 /* Mitchell-39.txt in Resources */,
 				9BC6F1FF20525B4500B8BD83 /* Mitchell-66.txt in Resources */,
+				9BC6F2CE2053C3C500B8BD83 /* FengEnglish-39.txt in Resources */,
 				9BC6F23720525B4500B8BD83 /* Mitchell-46.txt in Resources */,
 				9BC6F22C20525B4500B8BD83 /* Mitchell-59.txt in Resources */,
 				9BC6F21E20525B4500B8BD83 /* Mitchell-67.txt in Resources */,
+				9BC6F2CA2053C3C500B8BD83 /* FengEnglish-12.txt in Resources */,
 				9BC6F20720525B4500B8BD83 /* Mitchell-14.txt in Resources */,
 				9BC6F23B20525B4500B8BD83 /* Mitchell-35.txt in Resources */,
+				9BC6F2B92053C3C500B8BD83 /* FengEnglish-67.txt in Resources */,
 				9BC6F1FD20525B4500B8BD83 /* Mitchell-5.txt in Resources */,
+				9BC6F2B52053C3C500B8BD83 /* FengEnglish-73.txt in Resources */,
 				9BC6F20820525B4500B8BD83 /* Mitchell-18.txt in Resources */,
 				9BC6F23420525B4500B8BD83 /* Mitchell-76.txt in Resources */,
 				9BC6F22220525B4500B8BD83 /* Mitchell-81.txt in Resources */,
 				9BC6F23C20525B4500B8BD83 /* Mitchell-63.txt in Resources */,
 				9BC6F21F20525B4500B8BD83 /* Mitchell-73.txt in Resources */,
+				9BC6F2D72053C3C500B8BD83 /* FengEnglish-56.txt in Resources */,
 				9BC6F22A20525B4500B8BD83 /* Mitchell-74.txt in Resources */,
 				9BC6F20A20525B4500B8BD83 /* Mitchell-23.txt in Resources */,
+				9BC6F2D02053C3C500B8BD83 /* FengEnglish-70.txt in Resources */,
+				9BC6F2C12053C3C500B8BD83 /* FengEnglish-65.txt in Resources */,
+				9BC6F2BE2053C3C500B8BD83 /* FengEnglish-32.txt in Resources */,
 				9BC6F21020525B4500B8BD83 /* Mitchell-4.txt in Resources */,
+				9BC6F2B02053C3C500B8BD83 /* FengEnglish-43.txt in Resources */,
 				9BC6F23220525B4500B8BD83 /* Mitchell-41.txt in Resources */,
 				9BC6F21D20525B4500B8BD83 /* Mitchell-8.txt in Resources */,
 				9BC6F1F520525B4500B8BD83 /* Mitchell-1.txt in Resources */,
 				9BC6F21720525B4500B8BD83 /* Mitchell-55.txt in Resources */,
+				9BC6F2E22053C3C500B8BD83 /* FengEnglish-22.txt in Resources */,
+				9BC6F2AE2053C3C500B8BD83 /* FengEnglish-69.txt in Resources */,
+				9BC6F2B42053C3C500B8BD83 /* FengEnglish-59.txt in Resources */,
+				9BC6F2ED2053C3C500B8BD83 /* FengEnglish-28.txt in Resources */,
+				9BC6F2EB2053C3C500B8BD83 /* FengEnglish-37.txt in Resources */,
+				9BC6F2E72053C3C500B8BD83 /* FengEnglish-60.txt in Resources */,
+				9BC6F2D42053C3C500B8BD83 /* FengEnglish-13.txt in Resources */,
+				9BC6F2DA2053C3C500B8BD83 /* FengEnglish-47.txt in Resources */,
+				9BC6F2F02053C3C500B8BD83 /* FengEnglish-64.txt in Resources */,
+				9BC6F2E92053C3C500B8BD83 /* FengEnglish-52.txt in Resources */,
 				9BC6F21120525B4500B8BD83 /* Mitchell-57.txt in Resources */,
+				9BC6F2AD2053C3C500B8BD83 /* FengEnglish-45.txt in Resources */,
+				9BC6F2D12053C3C500B8BD83 /* FengEnglish-44.txt in Resources */,
 				9BC6F1FC20525B4500B8BD83 /* Mitchell-79.txt in Resources */,
 				9BC6F21A20525B4500B8BD83 /* Mitchell-7.txt in Resources */,
+				9BC6F2C62053C3C500B8BD83 /* FengEnglish-3.txt in Resources */,
+				9BC6F2BD2053C3C500B8BD83 /* FengEnglish-36.txt in Resources */,
 				9BC6F23820525B4500B8BD83 /* Mitchell-47.txt in Resources */,
 				9B6EB9812045B4100060365B /* LaunchScreen.storyboard in Resources */,
 				9BC6F23F20525B4500B8BD83 /* Mitchell-42.txt in Resources */,
 				9BC6F20620525B4500B8BD83 /* Mitchell-21.txt in Resources */,
 				9BC6F20220525B4500B8BD83 /* Mitchell-33.txt in Resources */,
 				9BC6F21420525B4500B8BD83 /* Mitchell-40.txt in Resources */,
+				9BC6F2E62053C3C500B8BD83 /* FengEnglish-10.txt in Resources */,
+				9BC6F2B32053C3C500B8BD83 /* FengEnglish-20.txt in Resources */,
+				9BC6F2E42053C3C500B8BD83 /* FengEnglish-21.txt in Resources */,
 				9BC6F23320525B4500B8BD83 /* Mitchell-50.txt in Resources */,
+				9BC6F2BA2053C3C500B8BD83 /* FengEnglish-6.txt in Resources */,
 				9BC6F22420525B4500B8BD83 /* Mitchell-64.txt in Resources */,
+				9BC6F2DB2053C3C500B8BD83 /* FengEnglish-66.txt in Resources */,
+				9BC6F2D22053C3C500B8BD83 /* FengEnglish-55.txt in Resources */,
+				9BC6F2E12053C3C500B8BD83 /* FengEnglish-53.txt in Resources */,
+				9BC6F2DD2053C3C500B8BD83 /* FengEnglish-77.txt in Resources */,
 				9BC6F20120525B4500B8BD83 /* Mitchell-72.txt in Resources */,
 				9BC6F23920525B4500B8BD83 /* Mitchell-36.txt in Resources */,
 				9BC6F24020525B4500B8BD83 /* Mitchell-43.txt in Resources */,
 				9BC6F22520525B4500B8BD83 /* Mitchell-51.txt in Resources */,
+				9BC6F2EF2053C3C500B8BD83 /* FengEnglish-34.txt in Resources */,
+				9BC6F2EA2053C3C500B8BD83 /* FengEnglish-16.txt in Resources */,
 				9BC6F22120525B4500B8BD83 /* Mitchell-80.txt in Resources */,
+				9BC6F2BF2053C3C500B8BD83 /* FengEnglish-71.txt in Resources */,
 				9BC6F22F20525B4500B8BD83 /* Mitchell-17.txt in Resources */,
+				9BC6F2C72053C3C500B8BD83 /* FengEnglish-26.txt in Resources */,
 				9BC6F24120525B4500B8BD83 /* Mitchell-37.txt in Resources */,
+				9BC6F2D32053C3C500B8BD83 /* FengEnglish-4.txt in Resources */,
+				9BC6F2BB2053C3C500B8BD83 /* FengEnglish-80.txt in Resources */,
 				9BC6F1F920525B4500B8BD83 /* Mitchell-68.txt in Resources */,
 				9BC6F1FE20525B4500B8BD83 /* Mitchell-34.txt in Resources */,
+				9BC6F2B62053C3C500B8BD83 /* FengEnglish-17.txt in Resources */,
 				9BC6F23020525B4500B8BD83 /* Mitchell-44.txt in Resources */,
 				9BC6F20B20525B4500B8BD83 /* Mitchell-16.txt in Resources */,
 				9BC6F1F820525B4500B8BD83 /* Mitchell-58.txt in Resources */,
 				9BC6F23620525B4500B8BD83 /* Mitchell-53.txt in Resources */,
 				9BC6F22020525B4500B8BD83 /* Mitchell-70.txt in Resources */,
+				9BC6F2A62053C3C500B8BD83 /* FengEnglish-15.txt in Resources */,
+				9BC6F2A22053C3C500B8BD83 /* FengEnglish-46.txt in Resources */,
+				9BC6F2EC2053C3C500B8BD83 /* FengEnglish-2.txt in Resources */,
+				9BC6F2A32053C3C500B8BD83 /* FengEnglish-62.txt in Resources */,
+				9BC6F2C42053C3C500B8BD83 /* FengEnglish-5.txt in Resources */,
 				9B6EB97E2045B4100060365B /* Assets.xcassets in Resources */,
 				9BC6F23D20525B4500B8BD83 /* Mitchell-25.txt in Resources */,
+				9BC6F2E52053C3C500B8BD83 /* FengEnglish-58.txt in Resources */,
 				9BC6F20920525B4500B8BD83 /* Mitchell-20.txt in Resources */,
+				9BC6F2DE2053C3C500B8BD83 /* FengEnglish-78.txt in Resources */,
 				9BC6F20320525B4500B8BD83 /* Mitchell-56.txt in Resources */,
+				9BC6F2E82053C3C500B8BD83 /* FengEnglish-27.txt in Resources */,
 				9BC6F21820525B4500B8BD83 /* Mitchell-65.txt in Resources */,
+				9BC6F2A42053C3C500B8BD83 /* FengEnglish-35.txt in Resources */,
+				9BC6F2DF2053C3C500B8BD83 /* FengEnglish-81.txt in Resources */,
+				9BC6F2A12053C3C500B8BD83 /* FengEnglish-75.txt in Resources */,
 				9BC6F2472053616500B8BD83 /* favorites.plist in Resources */,
 				9BC6F23120525B4500B8BD83 /* Mitchell-54.txt in Resources */,
+				9BC6F2B22053C3C500B8BD83 /* FengEnglish-42.txt in Resources */,
 				9BC6F22620525B4500B8BD83 /* Mitchell-26.txt in Resources */,
+				9BC6F2B12053C3C500B8BD83 /* FengEnglish-72.txt in Resources */,
+				9BC6F2D62053C3C500B8BD83 /* FengEnglish-29.txt in Resources */,
 				9BC6F21C20525B4500B8BD83 /* Mitchell-60.txt in Resources */,
 				9BC6F20520525B4500B8BD83 /* Mitchell-75.txt in Resources */,
 				9BC6F1FB20525B4500B8BD83 /* Mitchell-69.txt in Resources */,
 				9BC6F21220525B4500B8BD83 /* Mitchell-13.txt in Resources */,
+				9BC6F2A92053C3C500B8BD83 /* FengEnglish-40.txt in Resources */,
+				9BC6F2AC2053C3C500B8BD83 /* FengEnglish-63.txt in Resources */,
+				9BC6F2AB2053C3C500B8BD83 /* FengEnglish-54.txt in Resources */,
 				9BC6F22320525B4500B8BD83 /* Mitchell-6.txt in Resources */,
+				9BC6F2C32053C3C500B8BD83 /* FengEnglish-31.txt in Resources */,
+				9BC6F2DC2053C3C500B8BD83 /* FengEnglish-74.txt in Resources */,
 				9BC6F21620525B4500B8BD83 /* Mitchell-15.txt in Resources */,
+				9BC6F2C82053C3C500B8BD83 /* FengEnglish-48.txt in Resources */,
+				9BC6F2E02053C3C500B8BD83 /* FengEnglish-1.txt in Resources */,
 				9BC6F22E20525B4500B8BD83 /* Mitchell-52.txt in Resources */,
 				9BC6F20C20525B4500B8BD83 /* Mitchell-62.txt in Resources */,
+				9BC6F2D82053C3C500B8BD83 /* FengEnglish-51.txt in Resources */,
 				9BC6F20E20525B4500B8BD83 /* Mitchell-77.txt in Resources */,
 				9BC6F24420525B4500B8BD83 /* Mitchell-30.txt in Resources */,
 				9BC6F22D20525B4500B8BD83 /* Mitchell-31.txt in Resources */,
+				9BC6F2B72053C3C500B8BD83 /* FengEnglish-38.txt in Resources */,
+				9BC6F2CF2053C3C500B8BD83 /* FengEnglish-68.txt in Resources */,
 				9BC6F21920525B4500B8BD83 /* Mitchell-19.txt in Resources */,
 				9BC6F1F620525B4500B8BD83 /* Mitchell-11.txt in Resources */,
+				9BC6F2CD2053C3C500B8BD83 /* FengEnglish-18.txt in Resources */,
+				9BC6F2AA2053C3C500B8BD83 /* FengEnglish-76.txt in Resources */,
 				9B6EB97C2045B4100060365B /* Main.storyboard in Resources */,
 				9BC6F23520525B4500B8BD83 /* Mitchell-12.txt in Resources */,
+				9BC6F2A52053C3C500B8BD83 /* FengEnglish-57.txt in Resources */,
+				9BC6F2BC2053C3C500B8BD83 /* FengEnglish-7.txt in Resources */,
 				9BC6F22820525B4500B8BD83 /* Mitchell-27.txt in Resources */,
 				9BC6F21520525B4500B8BD83 /* Mitchell-49.txt in Resources */,
+				9BC6F2F12053C3C500B8BD83 /* FengEnglish-11.txt in Resources */,
+				9BC6F2D92053C3C500B8BD83 /* FengEnglish-8.txt in Resources */,
 				9BC6F1F720525B4500B8BD83 /* Mitchell-45.txt in Resources */,
+				9BC6F2D52053C3C500B8BD83 /* FengEnglish-25.txt in Resources */,
 				9BC6F22B20525B4500B8BD83 /* Mitchell-38.txt in Resources */,
+				9BC6F2B82053C3C500B8BD83 /* FengEnglish-61.txt in Resources */,
 				9BC6F22720525B4500B8BD83 /* Mitchell-32.txt in Resources */,
+				9BC6F2A82053C3C500B8BD83 /* FengEnglish-50.txt in Resources */,
+				9BC6F2C22053C3C500B8BD83 /* FengEnglish-19.txt in Resources */,
 				9BC6F1FA20525B4500B8BD83 /* Mitchell-3.txt in Resources */,
+				9BC6F2AF2053C3C500B8BD83 /* FengEnglish-14.txt in Resources */,
 				9BC6F24320525B4500B8BD83 /* Mitchell-61.txt in Resources */,
 				9BC6F20020525B4500B8BD83 /* Mitchell-10.txt in Resources */,
+				9BC6F2C52053C3C500B8BD83 /* FengEnglish-24.txt in Resources */,
 				9BC6F24220525B4500B8BD83 /* Mitchell-24.txt in Resources */,
 				9BC6F21B20525B4500B8BD83 /* Mitchell-48.txt in Resources */,
+				9BC6F2E32053C3C500B8BD83 /* FengEnglish-23.txt in Resources */,
 				9BC6F20420525B4500B8BD83 /* Mitchell-22.txt in Resources */,
+				9BC6F2EE2053C3C500B8BD83 /* FengEnglish-33.txt in Resources */,
 				9BC6F20F20525B4500B8BD83 /* Mitchell-78.txt in Resources */,
+				9BC6F2C02053C3C500B8BD83 /* FengEnglish-41.txt in Resources */,
+				9BC6F2A72053C3C500B8BD83 /* FengEnglish-79.txt in Resources */,
+				9BC6F2CB2053C3C500B8BD83 /* FengEnglish-30.txt in Resources */,
 				9BC6F24520525B4500B8BD83 /* Mitchell-9.txt in Resources */,
 				9BC6F22920525B4500B8BD83 /* Mitchell-28.txt in Resources */,
 				9BC6F21320525B4500B8BD83 /* Mitchell-29.txt in Resources */,
 				9BC6F23A20525B4500B8BD83 /* Mitchell-2.txt in Resources */,
+				9BC6F2CC2053C3C500B8BD83 /* FengEnglish-49.txt in Resources */,
+				9BC6F2C92053C3C500B8BD83 /* FengEnglish-9.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +922,7 @@
 				9B6EB9792045B4100060365B /* ViewController.swift in Sources */,
 				9BC6F2492053735900B8BD83 /* MyData.swift in Sources */,
 				9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */,
+				9BC6F2F32053C5AD00B8BD83 /* Settings.swift in Sources */,
 				9B6EB9772045B4100060365B /* AppDelegate.swift in Sources */,
 				9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */,
 			);

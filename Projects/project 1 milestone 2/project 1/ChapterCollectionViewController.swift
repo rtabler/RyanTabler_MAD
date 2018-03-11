@@ -7,10 +7,19 @@
 //
 
 import UIKit
+import RealmSwift
 
 private let reuseIdentifier = "ChapterCell"
 
 class ChapterCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+    
+    // app-wide database
+    var realm: Realm!
+    var settingses: Results<Settings> {
+        get {
+            return realm.objects(Settings.self)
+        }
+    }
     
     let numChapters: Int = 81 // "Tao Te Ching" always has 81 chapters
     let cellsPerVerticalRow: Int = 4
@@ -44,6 +53,22 @@ class ChapterCollectionViewController: UICollectionViewController, UICollectionV
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //initialize the realm variable
+        do {
+            realm = try Realm()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        if settingses.count < 1 {
+            do {
+                try realm.write {
+                    realm.add(Settings())
+                }
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

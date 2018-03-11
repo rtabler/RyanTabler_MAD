@@ -13,15 +13,51 @@ class TextViewController: UIViewController {
 
     // app-wide database
     var realm: Realm!
-
-    // data from other views
-    var chapterNumber: Int?
-    
+    var settingses: Results<Settings> {
+        get {
+            return realm.objects(Settings.self)
+        }
+    }
     var favorites: Results<Favorite> {
         get {
             return realm.objects(Favorite.self)
         }
     }
+    
+    // data from other views
+    var chapterNumber: Int?
+    
+    
+    @IBOutlet weak var translationButtonOutlet: UIBarButtonItem!
+    @IBAction func TranslationButtonAction(_ sender: UIBarButtonItem) {
+        let currentTranslator = settingses[0].currentTranslator
+        var nextTranslator = ""
+        if currentTranslator == "Mitchell" {
+            nextTranslator = "FengEnglish"
+        } else if currentTranslator == "FengEnglish" {
+            nextTranslator = "Mitchell"
+        }
+        do {
+            try self.realm.write {
+                settingses[0].currentTranslator = nextTranslator
+            }
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        updateTranslationButton()
+        setText()
+    }
+    func updateTranslationButton() {
+        let currentTranslator = settingses[0].currentTranslator
+        var currentTranslatorDisp = ""
+        if currentTranslator == "Mitchell" {
+            currentTranslatorDisp = "Mitchell"
+        } else if currentTranslator == "FengEnglish" {
+            currentTranslatorDisp = "Feng/English"
+        }
+        translationButtonOutlet.title = "Transl: \(currentTranslatorDisp)"
+    }
+    
     
     @IBOutlet weak var scrollView: UIScrollView!
     
@@ -112,6 +148,7 @@ class TextViewController: UIViewController {
 //        }
 //        print(favorites.count)
         
+        updateTranslationButton()
         // check if this chapter is a favorite
         updateFavoriteButton()
         
@@ -149,19 +186,7 @@ class TextViewController: UIViewController {
 //            print("Could not find favorites.plist")
 //        }
         
-        
-        if let path = Bundle.main.path(forResource: "Mitchell-\(chapterNumber!)", ofType: "txt") {
-            do {
-                let data = try String(contentsOfFile: path, encoding: .utf8)
-                let myStrings = data.components(separatedBy: .newlines)
-//                print()
-                bodyText.text = myStrings.joined(separator: "\n")
-            } catch {
-                print(error)
-            }
-        } else {
-            print("Couldn't find that")
-        }
+        setText()
     }
 
     override func didReceiveMemoryWarning() {
@@ -169,6 +194,23 @@ class TextViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setText() {
+        let currentTranslator = settingses[0].currentTranslator
+        print(currentTranslator)
+        
+        if let path = Bundle.main.path(forResource: "\(currentTranslator)-\(chapterNumber!)", ofType: "txt") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                //                print()
+                bodyText.text = myStrings.joined(separator: "\n")
+            } catch {
+                print(error)
+            }
+        } else {
+            print("Couldn't find \(currentTranslator) text")
+        }
+    }
 
     /*
     // MARK: - Navigation

@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "27e5c9d9a8ef9d913a5ee86d90a39a40"
+build_time: [1521137992, 770391000]
+inputs:
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/midterm/Restaurant.swift": [1521137964, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/midterm/DetailViewController.swift": [1521136402, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/midterm/MasterTableViewController.swift": !dirty [1521137989, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/midterm/AppDelegate.swift": [1521133762, 0]

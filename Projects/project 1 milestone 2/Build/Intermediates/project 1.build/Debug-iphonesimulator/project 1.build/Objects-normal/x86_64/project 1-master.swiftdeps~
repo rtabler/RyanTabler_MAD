@@ -1,13 +1,14 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "a6b7c8cf290ee8f33eae49613704e5b7"
-build_time: [1520672472, 36701000]
+options: "789739387d9a2bc91c0b71e63b5d86c2"
+build_time: [1520957700, 410747000]
 inputs:
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520672465, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520668979, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TextViewController.swift": [1520949966, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCollectionViewController.swift": [1520956815, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/FavoritesViewController.swift": [1520668663, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ViewController.swift": [1519746192, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/MyData.swift": [1520648199, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/SettingsController.swift": [1520954420, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/Favorite.swift": [1520667669, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/TTCCommon.swift": [1520949360, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/Settings.swift": [1520669119, 0]
   "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/AppDelegate.swift": [1520646955, 0]
-  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCell.swift": [1520565717, 0]
+  "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/Projects/project 1 milestone 2/project 1/ChapterCell.swift": [1520957698, 0]

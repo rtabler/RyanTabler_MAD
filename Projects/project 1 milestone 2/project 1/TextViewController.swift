@@ -31,12 +31,12 @@ class TextViewController: UIViewController {
     @IBOutlet weak var translationButtonOutlet: UIBarButtonItem!
     @IBAction func TranslationButtonAction(_ sender: UIBarButtonItem) {
         let currentTranslator = settingses[0].currentTranslator
-        var nextTranslator = ""
-        if currentTranslator == "Mitchell" {
-            nextTranslator = "FengEnglish"
-        } else if currentTranslator == "FengEnglish" {
-            nextTranslator = "Mitchell"
-        }
+        let nextTranslator = TTCCommon().translatorCodeToShortname(translator: currentTranslator)
+//        if currentTranslator == "Mitchell" {
+//            nextTranslator = "FengEnglish"
+//        } else if currentTranslator == "FengEnglish" {
+//            nextTranslator = "Mitchell"
+//        }
         do {
             try self.realm.write {
                 settingses[0].currentTranslator = nextTranslator
@@ -49,12 +49,7 @@ class TextViewController: UIViewController {
     }
     func updateTranslationButton() {
         let currentTranslator = settingses[0].currentTranslator
-        var currentTranslatorDisp = ""
-        if currentTranslator == "Mitchell" {
-            currentTranslatorDisp = "Mitchell"
-        } else if currentTranslator == "FengEnglish" {
-            currentTranslatorDisp = "Feng/English"
-        }
+        let currentTranslatorDisp = TTCCommon().translatorCodeToShortname(translator: currentTranslator)
         translationButtonOutlet.title = "Transl: \(currentTranslatorDisp)"
     }
     
@@ -121,6 +116,23 @@ class TextViewController: UIViewController {
     }
 
     @IBAction func shareButtonAction(_ sender: UIButton) {
+        // stretch goal: make the string attributed, so "Tao Te Ching" is italicized for example
+        
+        // Assemble the string to be shared
+        var usefulString = ""
+        usefulString.append(String("\"Tao Te Ching\" — Chapter \(chapterNumber!)\n"))
+        print(settingses[0].currentTranslator)
+        print(TTCCommon().translatorCodeToLongName(translator: settingses[0].currentTranslator))
+        usefulString.append("translation by \(TTCCommon().translatorCodeToLongName(translator: settingses[0].currentTranslator))\n")
+        usefulString.append("\n")
+        usefulString.append(bodyText.text)
+        
+        // share it
+        let excerptText = [usefulString]
+        let shareScreen = UIActivityViewController(activityItems: excerptText, applicationActivities: nil)
+        shareScreen.modalPresentationStyle = .popover
+//        shareScreen.popoverPresentationController?.button = sender
+        present(shareScreen, animated: true, completion: nil)
     }
     
     

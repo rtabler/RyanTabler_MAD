@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+class TTCCommon {
+    func translatorCodeToShortname(translator: String) -> String {
+        if translator == "Mitchell" {
+            return "Mitchell"
+        } else if translator == "FengEnglish" {
+            return "Feng/English"
+        } else {
+            return ""
+        }
+    }
+    func translatorCodeToLongName(translator: String) -> String {
+        if translator == "Mitchell" {
+            return "Stephen Mitchell"
+        } else if translator == "FengEnglish" {
+            return "Gia-Fu Feng and Jane English"
+        } else {
+            return ""
+        }
+    }
+}

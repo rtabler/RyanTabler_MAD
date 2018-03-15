@@ -82,7 +82,8 @@ class TableViewController: UITableViewController {
          if let indexPath = self.tableView.indexPathForSelectedRow {
             let title = alltitles[indexPath.row]
             let url = allurls[indexPath.row]
-            let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
+            let controller = segue.destination as! DetailViewController
+//            let controller = (segue.destination as! Detail).topViewController as! DetailViewController
             controller.detailItem = url
             controller.title = title
             // I need to understand this better to fix my broken navigation...

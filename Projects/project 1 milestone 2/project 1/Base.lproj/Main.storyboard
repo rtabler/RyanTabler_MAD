@@ -141,7 +141,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </view>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="N26-kF-LvB" kind="show" identifier="openChapter" id="SKP-p1-QE9"/>
                                 </connections>
@@ -187,12 +186,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoriteCell" id="YDB-ux-wh0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoriteCell" textLabel="LiC-MG-sXn" detailTextLabel="ffP-cl-sh8" style="IBUITableViewCellStyleSubtitle" id="YDB-ux-wh0">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YDB-ux-wh0" id="fk5-d1-bKl">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LiC-MG-sXn">
+                                            <rect key="frame" x="16" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ffP-cl-sh8">
+                                            <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="N26-kF-LvB" kind="show" identifier="openChapter" id="wre-xY-uJB"/>
@@ -213,13 +228,13 @@
         <!--Settings-->
         <scene sceneID="cCM-cL-K0e">
             <objects>
-                <tableViewController title="Settings" id="aBf-ku-cGP" sceneMemberID="viewController">
+                <tableViewController title="Settings" id="aBf-ku-cGP" customClass="SettingsController" customModule="project_1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IE1-yG-8Qm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="MUO-wb-3cD" style="IBUITableViewCellStyleDefault" id="Ecg-b6-pEs">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellIdentifier" textLabel="MUO-wb-3cD" style="IBUITableViewCellStyleDefault" id="Ecg-b6-pEs">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ecg-b6-pEs" id="snT-8w-DwK">
@@ -235,32 +250,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="ZvB-vm-aWX" kind="show" id="Bgc-tz-AzU"/>
-                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="SKf-Kc-VvD" style="IBUITableViewCellStyleDefault" id="C1X-p3-dJC">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="OptionCellIdentifier" textLabel="Ecj-0p-ePI" detailTextLabel="dAr-aa-5Dk" style="IBUITableViewCellStyleValue1" id="PsR-US-T1p">
                                 <rect key="frame" x="0.0" y="72" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C1X-p3-dJC" id="sWS-fh-Ym3">
-                                    <rect key="frame" x="0.0" y="0.0" width="286" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Translations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SKf-Kc-VvD">
-                                            <rect key="frame" x="16" y="0.0" width="269" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="cpy-L4-glj" kind="show" id="xZS-X6-uCV"/>
-                                </connections>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Ecj-0p-ePI" detailTextLabel="dAr-aa-5Dk" style="IBUITableViewCellStyleValue1" id="PsR-US-T1p">
-                                <rect key="frame" x="0.0" y="116" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PsR-US-T1p" id="v7l-ne-U1a">
                                     <rect key="frame" x="0.0" y="0.0" width="286" height="43.5"/>
@@ -282,9 +274,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="SSV-Md-zTV" kind="show" id="uZy-UP-yXb"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -301,13 +290,13 @@
         <!--About-->
         <scene sceneID="gc7-yX-O9a">
             <objects>
-                <viewController title="About" id="ZvB-vm-aWX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsAbout" title="About" id="ZvB-vm-aWX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WhW-MQ-RuW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MeY-9e-8md">
-                                <rect key="frame" x="16" y="80" width="288" height="423"/>
+                                <rect key="frame" x="16" y="36" width="288" height="516"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment content="The ">
@@ -319,7 +308,7 @@
                                     </fragment>
                                     <fragment content="Tao Te Ching">
                                         <attributes>
-                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Italic"/>
                                             <font key="NSOriginalFont" size="11" name="HelveticaNeue-Italic"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -354,53 +343,104 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gdM-jb-Aba" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3518" y="878"/>
+            <point key="canvasLocation" x="3098" y="953"/>
         </scene>
         <!--Translations-->
         <scene sceneID="vaZ-OC-Uw0">
             <objects>
-                <viewController title="Translations" id="cpy-L4-glj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingsTranslations" title="Translations" id="cpy-L4-glj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sca-JA-d6g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are currently two translations available:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLx-Av-PWS">
-                                <rect key="frame" x="16" y="80" width="288" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="There are currently two translations available:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgg-Ym-6Wu">
-                                <rect key="frame" x="16" y="115" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="There are currently two translations available:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgg-Ym-6Wu">
+                                <rect key="frame" x="16" y="36" width="288" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="28v-F0-pRC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5J4-xz-IYK">
+                                <rect key="frame" x="16" y="105" width="288" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Z61-sq-sZV"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="A translation by Stephen Mitchell from ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://thetaoteching.com/">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Italic"/>
+                                            <string key="NSLink">http://thetaoteching.com/</string>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gkY-3q-03T">
+                                <rect key="frame" x="16" y="169" width="288" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="CXl-wE-GJt"/>
+                                    <constraint firstAttribute="height" constant="69" id="s17-JQ-MFk"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="A translation by Gia-Fu Feng and Jane English from ">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="https://terebess.hu/english/tao/gia.html">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Italic"/>
+                                            <string key="NSLink">http://thetaoteching.com/</string>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ily-Pd-Mwb" firstAttribute="trailing" secondItem="HLx-Av-PWS" secondAttribute="trailing" constant="16" id="Rs8-GK-iv5"/>
-                            <constraint firstItem="HLx-Av-PWS" firstAttribute="top" secondItem="Ily-Pd-Mwb" secondAttribute="top" constant="16" id="khr-jb-S1l"/>
-                            <constraint firstItem="HLx-Av-PWS" firstAttribute="leading" secondItem="Ily-Pd-Mwb" secondAttribute="leading" constant="16" id="v6E-4h-hR6"/>
+                            <constraint firstItem="Ily-Pd-Mwb" firstAttribute="trailing" secondItem="dgg-Ym-6Wu" secondAttribute="trailing" constant="16" id="0T9-tD-kNx"/>
+                            <constraint firstItem="dgg-Ym-6Wu" firstAttribute="leading" secondItem="Ily-Pd-Mwb" secondAttribute="leading" constant="16" id="6fD-uw-3lP"/>
+                            <constraint firstItem="Ily-Pd-Mwb" firstAttribute="trailing" secondItem="5J4-xz-IYK" secondAttribute="trailing" constant="16" id="ER7-fU-DHm"/>
+                            <constraint firstItem="dgg-Ym-6Wu" firstAttribute="top" secondItem="Ily-Pd-Mwb" secondAttribute="top" constant="16" id="KRA-VJ-sjW"/>
+                            <constraint firstItem="Ily-Pd-Mwb" firstAttribute="trailing" secondItem="gkY-3q-03T" secondAttribute="trailing" constant="16" id="Lya-pA-lK9"/>
+                            <constraint firstItem="5J4-xz-IYK" firstAttribute="leading" secondItem="Ily-Pd-Mwb" secondAttribute="leading" constant="16" id="SiD-xy-mko"/>
+                            <constraint firstItem="gkY-3q-03T" firstAttribute="top" secondItem="5J4-xz-IYK" secondAttribute="bottom" constant="16" id="ngT-4N-PNw"/>
+                            <constraint firstItem="5J4-xz-IYK" firstAttribute="top" secondItem="dgg-Ym-6Wu" secondAttribute="bottom" constant="16" id="ozt-b8-Px8"/>
+                            <constraint firstItem="gkY-3q-03T" firstAttribute="leading" secondItem="Ily-Pd-Mwb" secondAttribute="leading" constant="16" id="tKh-Uu-n9i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ily-Pd-Mwb"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1P8-Vx-8LX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3518" y="1587"/>
+            <point key="canvasLocation" x="3803" y="1337"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="bje-6G-Zrw">
             <objects>
-                <tableViewController id="SSV-Md-zTV" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SettingsTheme" id="SSV-Md-zTV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OQS-nK-0GN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Hfn-qd-t0u">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ThemeCellIdentifier" id="Hfn-qd-t0u">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hfn-qd-t0u" id="FPb-8o-VV8">
@@ -417,13 +457,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GcC-GS-HBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3518" y="2288"/>
+            <point key="canvasLocation" x="3098" y="1708"/>
         </scene>
-        <!--Full Text-->
+        <!--Tao Te Ching-->
         <scene sceneID="ryc-MR-T9j">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="Tq6-V2-7K4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Full Text" image="icons8-literature-filled-30" id="BbR-nq-ycm"/>
+                    <tabBarItem key="tabBarItem" title="Tao Te Ching" image="icons8-literature-filled-30" id="BbR-nq-ycm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hrO-zt-drT">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
@@ -457,11 +497,11 @@
             </objects>
             <point key="canvasLocation" x="1488.75" y="591.54929577464793"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="8z0-1W-jPQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U1h-HB-AZr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="icons8-settings-filled-30" id="Yd8-mb-dlm"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-settings-filled-30" id="Yd8-mb-dlm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ybt-fv-OhP">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>

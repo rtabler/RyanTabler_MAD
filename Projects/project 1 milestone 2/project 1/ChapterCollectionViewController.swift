@@ -154,8 +154,7 @@ class ChapterCollectionViewController: UICollectionViewController, UICollectionV
 //        let img = UIImage(named: "icons8-bookmark-50.png")
 //        cell.imageView.image = img
 
-        cell.backgroundColor = UIColor.cyan
-        
+        cell.backgroundColor = UIColor(displayP3Red: 0.9, green: 0.9, blue: 0.9, alpha: 1.0)
         
         
         return cell

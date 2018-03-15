@@ -29,13 +29,8 @@ class ChapterCell: UICollectionViewCell {
     }
     
     func setLabel(text: String) {
-//        if self.textLabel == nil {
-//            let textFrame = CGRect(x: 0, y: 0, width: 100, height: 100)
-//            self.textLabel = UILabel(frame: textFrame)
-//            textLabel!.font = UIFont(name:"Helvetica-Light", size: 14.0)
-            textLabel!.textAlignment = .center
-//            textLabel!.textColor = UIColor.whiteColor
-//        }
+        textLabel!.font = UIFont(name:"Helvetica", size: 34.0)?.withSize(34.0)
+        textLabel!.textAlignment = .center
         textLabel!.text = text
     }
     func setLabelFrame(width: Float, height: Float) {

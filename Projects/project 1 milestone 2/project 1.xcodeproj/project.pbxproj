@@ -94,8 +94,6 @@
 		9BC6F24320525B4500B8BD83 /* Mitchell-61.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */; };
 		9BC6F24420525B4500B8BD83 /* Mitchell-30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */; };
 		9BC6F24520525B4500B8BD83 /* Mitchell-9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */; };
-		9BC6F2472053616500B8BD83 /* favorites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2462053616500B8BD83 /* favorites.plist */; };
-		9BC6F2492053735900B8BD83 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2482053735900B8BD83 /* MyData.swift */; };
 		9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24A20537B9D00B8BD83 /* Favorite.swift */; };
 		9BC6F24D2053856000B8BD83 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */; };
 		9BC6F2A12053C3C500B8BD83 /* FengEnglish-75.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2502053C3BC00B8BD83 /* FengEnglish-75.txt */; };
@@ -180,6 +178,8 @@
 		9BC6F2F02053C3C500B8BD83 /* FengEnglish-64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F29F2053C3C400B8BD83 /* FengEnglish-64.txt */; };
 		9BC6F2F12053C3C500B8BD83 /* FengEnglish-11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6F2A02053C3C400B8BD83 /* FengEnglish-11.txt */; };
 		9BC6F2F32053C5AD00B8BD83 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2F22053C5AD00B8BD83 /* Settings.swift */; };
+		9BC6F2F920580D7900B8BD83 /* TTCCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2F820580D7900B8BD83 /* TTCCommon.swift */; };
+		9BC6F2FB20581BF600B8BD83 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6F2FA20581BF600B8BD83 /* SettingsController.swift */; };
 		9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */; };
 		9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF8932051CDDA00792AEA /* ChapterCell.swift */; };
 		9BEFF89620520FDD00792AEA /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFF89520520FDD00792AEA /* TextViewController.swift */; };
@@ -275,8 +275,6 @@
 		9BC6F1F220525B4500B8BD83 /* Mitchell-61.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-61.txt"; sourceTree = "<group>"; };
 		9BC6F1F320525B4500B8BD83 /* Mitchell-30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-30.txt"; sourceTree = "<group>"; };
 		9BC6F1F420525B4500B8BD83 /* Mitchell-9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mitchell-9.txt"; sourceTree = "<group>"; };
-		9BC6F2462053616500B8BD83 /* favorites.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = favorites.plist; sourceTree = "<group>"; };
-		9BC6F2482053735900B8BD83 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
 		9BC6F24A20537B9D00B8BD83 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9BC6F2502053C3BC00B8BD83 /* FengEnglish-75.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-75.txt"; sourceTree = "<group>"; };
@@ -361,6 +359,8 @@
 		9BC6F29F2053C3C400B8BD83 /* FengEnglish-64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-64.txt"; sourceTree = "<group>"; };
 		9BC6F2A02053C3C400B8BD83 /* FengEnglish-11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FengEnglish-11.txt"; sourceTree = "<group>"; };
 		9BC6F2F22053C5AD00B8BD83 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9BC6F2F820580D7900B8BD83 /* TTCCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTCCommon.swift; sourceTree = "<group>"; };
+		9BC6F2FA20581BF600B8BD83 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewController.swift; sourceTree = "<group>"; };
 		9BEFF8932051CDDA00792AEA /* ChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
 		9BEFF89520520FDD00792AEA /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -410,21 +410,21 @@
 		9B6EB9752045B4100060365B /* project 1 */ = {
 			isa = PBXGroup;
 			children = (
-				9BC6EFC2205257B700B8BD83 /* TTC-Texts */,
-				9B6EB9762045B4100060365B /* AppDelegate.swift */,
-				9BC6F2482053735900B8BD83 /* MyData.swift */,
-				9B6EB9782045B4100060365B /* ViewController.swift */,
-				9B6EB97A2045B4100060365B /* Main.storyboard */,
-				9BC6F2F22053C5AD00B8BD83 /* Settings.swift */,
-				9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */,
-				9BC6F24A20537B9D00B8BD83 /* Favorite.swift */,
-				9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */,
-				9BEFF89520520FDD00792AEA /* TextViewController.swift */,
-				9BC6F2462053616500B8BD83 /* favorites.plist */,
-				9BEFF8932051CDDA00792AEA /* ChapterCell.swift */,
-				9B6EB97D2045B4100060365B /* Assets.xcassets */,
 				9B6EB97F2045B4100060365B /* LaunchScreen.storyboard */,
+				9B6EB97A2045B4100060365B /* Main.storyboard */,
+				9B6EB9762045B4100060365B /* AppDelegate.swift */,
+				9BC6F2F22053C5AD00B8BD83 /* Settings.swift */,
+				9BC6F2F820580D7900B8BD83 /* TTCCommon.swift */,
 				9B6EB9822045B4100060365B /* Info.plist */,
+				9B6EB9782045B4100060365B /* ViewController.swift */,
+				9BEFF8912051BC9500792AEA /* ChapterCollectionViewController.swift */,
+				9BEFF8932051CDDA00792AEA /* ChapterCell.swift */,
+				9BEFF89520520FDD00792AEA /* TextViewController.swift */,
+				9BC6F24C2053856000B8BD83 /* FavoritesViewController.swift */,
+				9BC6F24A20537B9D00B8BD83 /* Favorite.swift */,
+				9BC6F2FA20581BF600B8BD83 /* SettingsController.swift */,
+				9B6EB97D2045B4100060365B /* Assets.xcassets */,
+				9BC6EFC2205257B700B8BD83 /* TTC-Texts */,
 			);
 			path = "project 1";
 			sourceTree = "<group>";
@@ -784,7 +784,6 @@
 				9BC6F2A42053C3C500B8BD83 /* FengEnglish-35.txt in Resources */,
 				9BC6F2DF2053C3C500B8BD83 /* FengEnglish-81.txt in Resources */,
 				9BC6F2A12053C3C500B8BD83 /* FengEnglish-75.txt in Resources */,
-				9BC6F2472053616500B8BD83 /* favorites.plist in Resources */,
 				9BC6F23120525B4500B8BD83 /* Mitchell-54.txt in Resources */,
 				9BC6F2B22053C3C500B8BD83 /* FengEnglish-42.txt in Resources */,
 				9BC6F22620525B4500B8BD83 /* Mitchell-26.txt in Resources */,
@@ -920,8 +919,9 @@
 				9BEFF8922051BC9500792AEA /* ChapterCollectionViewController.swift in Sources */,
 				9BC6F24D2053856000B8BD83 /* FavoritesViewController.swift in Sources */,
 				9B6EB9792045B4100060365B /* ViewController.swift in Sources */,
-				9BC6F2492053735900B8BD83 /* MyData.swift in Sources */,
+				9BC6F2FB20581BF600B8BD83 /* SettingsController.swift in Sources */,
 				9BC6F24B20537B9D00B8BD83 /* Favorite.swift in Sources */,
+				9BC6F2F920580D7900B8BD83 /* TTCCommon.swift in Sources */,
 				9BC6F2F32053C5AD00B8BD83 /* Settings.swift in Sources */,
 				9B6EB9772045B4100060365B /* AppDelegate.swift in Sources */,
 				9BEFF8942051CDDA00792AEA /* ChapterCell.swift in Sources */,
@@ -1063,8 +1063,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9VN7FCURZX;
 				INFOPLIST_FILE = "project 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryantabler.project-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1079,8 +1080,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9VN7FCURZX;
 				INFOPLIST_FILE = "project 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ryantabler.project-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";

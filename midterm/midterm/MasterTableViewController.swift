@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import RealmSwift
 
 class MasterTableViewController: UITableViewController {
 
     var cellIdentifier = "MasterCell"
     
-    var restaurants = [[String: String]]()
+    // app-wide database
+    var realm: Realm!
+    var restaurants: Results<Restaurant> {
+        get {
+            return realm.objects(Restaurant.self)
+        }
+    }
+    
+//    var restaurants = [[String: String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,26 +32,58 @@ class MasterTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        // URL for our plist
-        if let pathURL = Bundle.main.url(forResource: "restaurants", withExtension: "plist"){
-            //creates a property list decoder object
-            let plistdecoder = PropertyListDecoder()
+        //initialize the realm variable
+        do {
+            realm = try Realm()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        
+
+        // Uncomment to force the database to start from zero
+//        do {
+//            try self.realm.write {
+//                realm.deleteAll()
+//            }
+//        } catch let error {
+//            print(error.localizedDescription)
+//        }
+        if restaurants.count == 0 {
             do {
-                let data = try Data(contentsOf: pathURL)
-                //decodes the property list
-                restaurants = try plistdecoder.decode([[String:String]].self, from: data)
-            } catch {
-                // handle error
-                print(error)
+                // URL for our plist
+                var restaurantsFromPlist = [[String: String]]()
+                if let pathURL = Bundle.main.url(forResource: "restaurants", withExtension: "plist"){
+                    //creates a property list decoder object
+                    let plistdecoder = PropertyListDecoder()
+                    do {
+                        let data = try Data(contentsOf: pathURL)
+                        //decodes the property list
+                        restaurantsFromPlist = try plistdecoder.decode([[String:String]].self, from: data)
+                    } catch {
+                        // handle error
+                        print(error)
+                    }
+                }
+                for i in 0...3 {
+                    let newRestaurant = Restaurant()
+                    newRestaurant.name = restaurantsFromPlist[i]["name"]!
+                    newRestaurant.url = restaurantsFromPlist[i]["url"]!
+                    try realm.write {
+                        realm.add(newRestaurant)
+                    }
+                }
+            } catch let error {
+                print(error.localizedDescription)
             }
         }
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "visitSite" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let webVC = segue.destination as! DetailViewController
-                webVC.title = restaurants[indexPath.row]["name"]
-                webVC.url = restaurants[indexPath.row]["url"]
+                webVC.title = restaurants[indexPath.row].name
+                webVC.url = restaurants[indexPath.row].url
             }
         }
     }
@@ -68,15 +109,22 @@ class MasterTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = restaurants[indexPath.row]["name"]
+        cell.textLabel?.text = restaurants[indexPath.row].name
         
         return cell
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            restaurants.remove(at: indexPath.row)
-            tableView.deleteRows(at: [indexPath], with: .automatic)
+//            tableView.deleteRows(at: [indexPath], with: .automatic)
+            do {
+                try self.realm.write {
+                    let restaurantToDelete = restaurants[indexPath.row]
+                    realm.delete(restaurantToDelete)
+                }
+            } catch let error {
+                print(error.localizedDescription)
+            }
         }
         tableView.reloadData()
     }

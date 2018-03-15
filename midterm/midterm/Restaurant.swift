@@ -10,6 +10,6 @@ import Foundation
 import RealmSwift
 
 class Restaurant: Object {
-    var name: String = ""
-    var url: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var url: String = ""
 }

@@ -59,6 +59,7 @@ class DetailViewController: UIViewController, WKNavigationDelegate {
         //creates a URL object
         let myurl = URL(string: urlString)
         //create a URLRequest object
+        print(myurl)
         let request = URLRequest(url: myurl!)
         //load the URLRequest object in our web view
         webView.load(request)

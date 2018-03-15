@@ -6,6 +6,8 @@ provides-nominal:
 provides-member:
 - ["7midterm10RestaurantC", ""]
 provides-dynamic-lookup:
+- "name"
+- "url"
 depends-top-level:
 - "Object"
 - "Restaurant"
@@ -202,4 +204,4 @@ depends-external:
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
-interface-hash: "419bd8ad2eca0839910ce125acd1601d"
+interface-hash: "c29cae6e0e2081316e7b39580d5ae2bf"

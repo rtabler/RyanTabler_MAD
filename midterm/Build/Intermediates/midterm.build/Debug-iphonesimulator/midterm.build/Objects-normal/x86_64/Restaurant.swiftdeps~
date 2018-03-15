@@ -12,21 +12,28 @@ depends-top-level:
 - "String"
 - "StringLiteralType"
 depends-member:
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
 - ["s23BidirectionalCollectionP", "init"]
 - ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
 - ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", "init"]
+- ["s8HashableP", ""]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", "init"]
@@ -34,11 +41,26 @@ depends-member:
 - ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderWritingP", "init"]
 - ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "url"]
 - ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
 - ["So14NSSecureCodingP", "init"]
 - ["So8NSStringC", "init"]
+- ["10RealmSwift6ObjectC", "String"]
+- ["10RealmSwift6ObjectC", "init"]
+- ["10RealmSwift6ObjectC", "name"]
+- ["10RealmSwift6ObjectC", "url"]
+- ["10RealmSwift6ObjectC", ""]
+- ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "init"]
+- ["So13RLMObjectBaseC", "name"]
+- ["So13RLMObjectBaseC", "url"]
 - ["s26RangeReplaceableCollectionP", "init"]
 - ["10RealmSwift0A15CollectionValueP", "init"]
+- ["10RealmSwift0A15CollectionValueP", ""]
 - ["7midterm10RestaurantC", "String"]
 - ["7midterm10RestaurantC", "deinit"]
 - ["7midterm10RestaurantC", "init"]
@@ -49,6 +71,8 @@ depends-member:
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
 - ["s20TextOutputStreamableP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- ["10RealmSwift14ThreadConfinedP", ""]
 - ["s23_BidirectionalIndexableP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -59,10 +83,12 @@ depends-member:
 - ["s10_IndexableP", "init"]
 - ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
 - "s23BidirectionalCollectionP"
 - "s7CVarArgP"
 - "s10CollectionP"
@@ -85,9 +111,12 @@ depends-nominal:
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So16NSMutableCopyingP"
+- "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "So14NSSecureCodingP"
 - "So8NSStringC"
+- "10RealmSwift6ObjectC"
+- "So13RLMObjectBaseC"
 - "s26RangeReplaceableCollectionP"
 - "10RealmSwift0A15CollectionValueP"
 - "7midterm10RestaurantC"
@@ -96,6 +125,7 @@ depends-nominal:
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
 - "s23_BidirectionalIndexableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
@@ -172,4 +202,4 @@ depends-external:
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/ryantabler/Documents/MyDocuments/School/SuperSenior/ATLS4320/RyanTabler_MAD/midterm/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
-interface-hash: "ce88955e52e57fe4afb24fd7051b9202"
+interface-hash: "419bd8ad2eca0839910ce125acd1601d"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>dish</key>
+		<string>Marinara Sauce (slow cooker)</string>
+		<key>imgname</key>
+		<string>IMG_4185.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Minestrone Soup (slow cooker)</string>
+		<key>imgname</key>
+		<string>IMG_4187.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Chili (slow cooker)</string>
+		<key>imgname</key>
+		<string>IMG_4174.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Chicken Noodle Soup (slow cooker)</string>
+		<key>imgname</key>
+		<string>IMG_4175.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Meat Curry</string>
+		<key>imgname</key>
+		<string>IMG_4177.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Beef Tofu Thing?</string>
+		<key>imgname</key>
+		<string>IMG_4189.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Fettuccine Alfredo</string>
+		<key>imgname</key>
+		<string>IMG_4190.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Potatoes + Meatballs</string>
+		<key>imgname</key>
+		<string>IMG_4186.JPG</string>
+	</dict>
+	<dict>
+		<key>dish</key>
+		<string>Macaroni &amp; Cheese</string>
+		<key>imgname</key>
+		<string>IMG_4188.JPG</string>
+	</dict>
+</array>
+</plist>

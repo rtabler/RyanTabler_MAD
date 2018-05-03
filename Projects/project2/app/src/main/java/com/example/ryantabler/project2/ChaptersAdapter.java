@@ -13,6 +13,8 @@ import android.widget.TextView;
  * Created by ryantabler on 5/1/18.
  */
 
+// some code from https://www.raywenderlich.com/127544/android-gridview-getting-started
+
 public class ChaptersAdapter extends BaseAdapter {
     private final Context mContext;
     private final Chapter[] chapters;

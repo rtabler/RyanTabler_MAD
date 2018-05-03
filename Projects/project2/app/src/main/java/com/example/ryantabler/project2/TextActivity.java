@@ -3,6 +3,8 @@ package com.example.ryantabler.project2;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +31,9 @@ public class TextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        toolbar.setTitle(Html.fromHtml("<i>Tao Te Ching</i>"));
+//        setSupportActionBar(toolbar);
 
         // sort out data passed to here
         Intent intent = getIntent();
@@ -95,6 +100,7 @@ public class TextActivity extends AppCompatActivity {
                 bodyText = bodyText.concat("\n");
                 line = reader.readLine();
             }
+            bodyText = bodyText.concat("\n");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(Html.fromHtml("<i>Tao Te Ching</i> Chapters"));
+        toolbar.setTitle(Html.fromHtml("<b><i>Tao Te Ching</i></b> Chapters"));
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -95,9 +95,15 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_bookmark) {
-
         } else if (id == R.id.nav_chapters) {
-
+//            findViewById(R.id.content_frame).getClass();
+//            // set content to chapter grid fragment at beginning
+//            Fragment fragment = new ChapterGridFragment();
+//            if (fragment != null) {
+//                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//                ft.replace(R.id.content_frame, fragment);
+//                ft.commit();
+//            }
         } else if (id == R.id.nav_favorites) {
 
         } else if (id == R.id.nav_settings) {

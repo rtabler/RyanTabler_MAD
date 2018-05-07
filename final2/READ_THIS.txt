@@ -1,0 +1,7 @@
+I attempted to get persistent data with Realm working.
+I didn't really get anywhere, but I uploaded my progress in the
+final-realm-attempt branch. So if you give partial credit,
+go check there. Thanks!
+
+(I really didn't get anywhere with Realm though)
+

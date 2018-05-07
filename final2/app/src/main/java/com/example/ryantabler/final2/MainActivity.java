@@ -10,7 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import io.realm.Realm;
-import io.realm.RealmResults;
 
 public class MainActivity extends Activity {
 
@@ -21,9 +20,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // get realm
-        realm = Realm.getDefaultInstance();
-        RealmResults<Workout> workouts = realm.where(Workout.class).findAll();
 
         ArrayAdapter<WorkoutType> workoutTypeAdapter = new ArrayAdapter<WorkoutType>(this, android.R.layout.simple_list_item_1, WorkoutType.allWorkoutTypes);
 

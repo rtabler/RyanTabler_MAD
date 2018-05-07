@@ -10,8 +10,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import io.realm.Realm;
+import io.realm.RealmResults;
+
 public class WorkoutTypeActivity extends Activity {
 
+    private Realm realm;
     Workout[] workouts;
 
     @Override
@@ -24,26 +28,27 @@ public class WorkoutTypeActivity extends Activity {
         int selectedIndex = intent.getIntExtra("selected",0);
         Log.d("selected", String.valueOf(selectedIndex));
 
-        // realmy adapter
-
+        // realm
+        realm = Realm.getDefaultInstance();
+        RealmResults<Workout> workouts = realm.where(Workout.class).findAll();
 
         //define an array adapter
-        ArrayAdapter<Workout> workoutListAdapter;
-        switch (selectedIndex) {
-            case 0:
-                workouts = Workout.cardioWorkouts;
-                break;
-            case 1:
-                workouts = Workout.strengthWorkouts;
-                break;
-            case 2:
-                workouts = Workout.flexibilityWorkouts;
-                break;
-            default:
-                workouts = Workout.cardioWorkouts;
-                break;
-        }
-        workoutListAdapter = new ArrayAdapter<Workout>(this, android.R.layout.simple_list_item_1, workouts);
+//        ArrayAdapter<Workout> workoutListAdapter;
+//        switch (selectedIndex) {
+//            case 0:
+//                workouts = Workout.cardioWorkouts;
+//                break;
+//            case 1:
+//                workouts = Workout.strengthWorkouts;
+//                break;
+//            case 2:
+//                workouts = Workout.flexibilityWorkouts;
+//                break;
+//            default:
+//                workouts = Workout.cardioWorkouts;
+//                break;
+//        }
+        final WorkoutAdapter workoutListAdapter = new WorkoutAdapter(this, workouts);
 
         // get the listview
         ListView workoutListView = (ListView) findViewById(R.id.workoutList);
@@ -52,10 +57,10 @@ public class WorkoutTypeActivity extends Activity {
         workoutListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Uri uri = Uri.parse(workouts[position].getUrl());
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                Uri uri = Uri.parse(workouts[position].getUrl());
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 //                intent.putExtra("selected",)
-                startActivity(intent);
+//                startActivity(intent);
             }
         });
     }

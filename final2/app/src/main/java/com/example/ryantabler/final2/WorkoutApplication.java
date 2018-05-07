@@ -17,6 +17,8 @@ public class WorkoutApplication extends Application {
         Realm.init(this);
         //define the configuration for realm
         RealmConfiguration realmConfig = new RealmConfiguration.Builder().build();
+        // erase all
+        Realm.deleteRealm(realmConfig);
         //set the default realm configuration
         Realm.setDefaultConfiguration(realmConfig);
     }

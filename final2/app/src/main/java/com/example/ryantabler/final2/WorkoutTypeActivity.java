@@ -24,6 +24,9 @@ public class WorkoutTypeActivity extends Activity {
         int selectedIndex = intent.getIntExtra("selected",0);
         Log.d("selected", String.valueOf(selectedIndex));
 
+        // realmy adapter
+
+
         //define an array adapter
         ArrayAdapter<Workout> workoutListAdapter;
         switch (selectedIndex) {
